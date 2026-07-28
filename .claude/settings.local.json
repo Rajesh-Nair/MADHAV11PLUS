@@ -13,7 +13,10 @@
       "Bash(python -c ' *)",
       "Bash(python *)",
       "Bash(start \"\" \"lessons\\\\0001-decode-your-first-jumbled-word.html\")",
-      "PowerShell(Invoke-Item *)"
+      "PowerShell(Invoke-Item *)",
+      "Bash(node -e \"require\\('./assets/jumble-data.js'\\); console.log\\('OK, batches:', JUMBLE_BATCHES.length\\); let total=0; JUMBLE_BATCHES.forEach\\(b=>{total+=b.words.length; console.log\\(b.id, b.words.length\\)}\\); console.log\\('total words:', total\\);\")",
+      "Bash(node --check assets/jumble-data.js)",
+      "Bash(node -e ' *)"
     ]
   }
 }

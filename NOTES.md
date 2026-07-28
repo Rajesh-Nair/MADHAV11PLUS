@@ -85,21 +85,30 @@ List 13 (done) → List 14 → Lists 11-12 (also advanced) → medium lists 7-10
 roots get folded in via interleaving once the plain-jumble format is
 comfortable, not necessarily after all 458 words are done.
 
-**Progress (2026-07-28):** 178 words live in `jumble-data.js` across 6 batches
-— `list1-part2` (8), `list13` (34), `list14` (34), `list11` (34), `list12`
-(34), `list7` (34). Plus 3 words from Lesson 1 (CAUTION, ABODE, ENEMY) = 181
-words total covered. Vocabulary Lists 7, 11, 12, 13, 14 are fully done.
-**Efficiency note (2026-07-28):** for this large push, switched the default
-clue pair to Meaning + Letter-position (both fast to write and mechanically
-guaranteed correct) rather than always hunting for a chunk-spotting/rhyme
-clue — chunk-spotting is still used when one is quickly obvious (kept several
-per batch), just no longer forced for every word. This was a deliberate
-speed/quality trade-off per explicit user instruction to prioritize covering
-all remaining batches efficiently. Glossary entries for these batches also
-dropped the "Notes" column (word + meaning only) for the same reason.
-Remaining lists still to add, in list-number order (not yet reprioritized by
-difficulty within this remainder): List 8 (39), List 9 (39), List 10 (28),
-List 4 (33), List 5 (31), List 6 (14), List 2 (23), List 3 (28), List 1
-remainder (43 — includes AFFECTIONATE, AMAZEMENT, ASSEMBLE, ASTONISH,
-ASUNDER, BLANK, BRIGHT, BROAD and others never covered). That's 278 more
-words / 9 more batches to fully exhaust the 14 vocabulary lists.
+**COMPLETE (2026-07-28):** All 459 words across all 14 Vocabulary Lists in
+`indata/vocab_01.md` are now covered in the Jumbled Word Practice page — 11
+batches in `jumble-data.js` (456 words: `list1-part2`, `list13`, `list14`,
+`list11`, `list12`, `list7`, `list8`, `list9`, `list10`, `list4`, `list5`,
+`list6`, `list2`, `list3`, `list1-remainder`) plus Lesson 1's 3 words
+(CAUTION, ABODE, ENEMY). Some words that repeat across the source file's
+lists (e.g. ABUNDANT, CURB, DECEIT, REGIMENT, PROSPEROUS, REMEDY, VACANT,
+WRATH, HEROIC, PURSUE, ACQUIRE, CUSTOM, QUAINT, PURCHASE) were deliberately
+jumbled fresh each time they recur, with a callback note in the sentence
+("Also seen in List X — a repeat word") rather than skipped, since the
+source file's own repetition is a spaced-repetition feature worth keeping.
+**Efficiency approach used throughout this push:** default clue pair is
+Meaning + Letter-position (fast, mechanically guaranteed correct); chunk-
+spotting/rhyme/word-shape clues used opportunistically where quickly
+obvious, not forced. Every jumble was built by reversing the word then
+swapping one adjacent letter pair — checked each time that the result isn't
+itself an accidental real word (a few were caught and re-swapped: ROUT,
+LAIR, EMIT, KIN all needed a different swap to avoid spelling TOUR, RAIL,
+TIME, INK). Glossary entries for the largest later batches were compressed
+to word + meaning only (see glossary.html) rather than fully exhaustive, to
+keep pace — the practice page's own explanations are the source of truth for
+meanings on those words.
+**What's NOT yet covered:** Synonym/Antonym Sets 1-5 (123 rows), Compound
+Words (68 words), Latin/Greek Roots (42 roots), Confusable Word Pairs (20
+pairs) — these map to task02's other two question types (missing-letter
+pairs; synonym/antonym-option jumbles) and haven't been built yet. Next
+natural step if continuing this course.
