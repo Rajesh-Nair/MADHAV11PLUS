@@ -1,0 +1,798 @@
+{
+  "test_number": 17,
+  "slots": [
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-434",
+        "category": "word",
+        "word": "levitate",
+        "meaning": "Hover, float, elevate",
+        "source": "Vocabulary List 14"
+      },
+      "anchor_word": "levitate"
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-405",
+        "category": "word",
+        "word": "respite",
+        "meaning": "Pause, hiatus, lull, recess",
+        "source": "Vocabulary List 13"
+      },
+      "clue": {
+        "first_letter": "r",
+        "last_letter": "e",
+        "letters_between": 5,
+        "total_letters": 7
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-419",
+        "category": "word",
+        "word": "capricious",
+        "meaning": "Fickle, changeable, volatile",
+        "source": "Vocabulary List 13"
+      },
+      "clue": {
+        "first_letter": "c",
+        "last_letter": "s",
+        "letters_between": 8,
+        "total_letters": 10
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "GR-1",
+        "category": "greek_root",
+        "root": "auto",
+        "meaning": "Self",
+        "source": "Greek Roots"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-239",
+          "category": "word",
+          "word": "trifle",
+          "meaning": "Dessert or a small, unimportant thing",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-173",
+          "category": "word",
+          "word": "Transparent",
+          "meaning": "Clear",
+          "source": "Vocabulary List 6"
+        },
+        {
+          "id": "W-347",
+          "category": "word",
+          "word": "residue",
+          "meaning": "Remainder, remnant, surplus",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-156",
+          "category": "word",
+          "word": "Fragment",
+          "meaning": "Piece of",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-73",
+          "category": "word",
+          "word": "emit",
+          "meaning": "Give off, discharge, emanate, radiate, release",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-219",
+          "category": "word",
+          "word": "abrupt",
+          "meaning": "Sudden",
+          "source": "Vocabulary List 8"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "W-392",
+        "category": "word",
+        "word": "avaricious",
+        "meaning": "Greedy, covetous, mercenary",
+        "source": "Vocabulary List 13"
+      },
+      "target_word": "avaricious",
+      "jumbled": "aviuarcosi",
+      "distractor_pool": [
+        {
+          "id": "W-14",
+          "category": "word",
+          "word": "Asunder",
+          "meaning": "Apart",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-117",
+          "category": "word",
+          "word": "Marsh",
+          "meaning": "Swamp",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-20",
+          "category": "word",
+          "word": "Coarse",
+          "meaning": "Rough",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-415",
+          "category": "word",
+          "word": "temerity",
+          "meaning": "Audacity, boldness, gall",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-303",
+          "category": "word",
+          "word": "Rank",
+          "meaning": "Position",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-76",
+          "category": "word",
+          "word": "veto",
+          "meaning": "Ban, bar, boycott, forbid, overrule",
+          "source": "Vocabulary List 2"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-44",
+        "category": "compound_pair",
+        "left": "ran",
+        "right": "sack",
+        "combined": "ransack",
+        "source": "Compound Words"
+      },
+      "jumbled": "srkacna"
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "W-390",
+        "category": "word",
+        "word": "compliment",
+        "meaning": "Praise, accolade, commendation",
+        "source": "Vocabulary List 12"
+      },
+      "jumbled": "lotpnmcmie"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-205",
+        "category": "word",
+        "word": "Mercy",
+        "meaning": "Forgiveness or clemency",
+        "source": "Vocabulary List 7"
+      }
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-157",
+        "category": "word",
+        "word": "Regiment",
+        "meaning": "A unit in the army",
+        "source": "Vocabulary List 5"
+      }
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-27",
+        "category": "compound_pair",
+        "left": "rap",
+        "right": "port",
+        "combined": "rapport",
+        "source": "Compound Words"
+      },
+      "jumbled": "atppror"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-362",
+        "category": "word",
+        "word": "panorama",
+        "meaning": "Landscape, prospect, scene, vista",
+        "source": "Vocabulary List 12"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "LR-19",
+        "category": "latin_root",
+        "root": "spec",
+        "meaning": "see",
+        "source": "Latin Roots (Set 2)"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-369",
+          "category": "word",
+          "word": "opulent",
+          "meaning": "Rich, lavish, sumptuous",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-252",
+          "category": "word",
+          "word": "proclaim",
+          "meaning": "To announce publicly",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-52",
+          "category": "word",
+          "word": "Hoax",
+          "meaning": "Trick",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-322",
+          "category": "word",
+          "word": "Suspended",
+          "meaning": "Hung",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-428",
+          "category": "word",
+          "word": "spurious",
+          "meaning": "Fake, artificial, fabricated, sham",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-381",
+          "category": "word",
+          "word": "audacious",
+          "meaning": "Daring, brave, intrepid",
+          "source": "Vocabulary List 12"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "CW-25",
+        "category": "compound_pair",
+        "left": "flag",
+        "right": "rant",
+        "combined": "flagrant",
+        "source": "Compound Words"
+      },
+      "clue": {
+        "first_letter": "f",
+        "last_letter": "t",
+        "letters_between": 6,
+        "total_letters": 8
+      }
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-50",
+        "category": "compound_pair",
+        "left": "spar",
+        "right": "row",
+        "combined": "sparrow",
+        "source": "Compound Words"
+      },
+      "jumbled": "rswopar"
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-402",
+        "category": "word",
+        "word": "elicit",
+        "meaning": "Draw out a response, extract",
+        "source": "Vocabulary List 13"
+      },
+      "anchor_word": "elicit"
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "LR-14",
+        "category": "latin_root",
+        "root": "trib",
+        "meaning": "give",
+        "source": "Latin Roots (Set 2)"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-201",
+          "category": "word",
+          "word": "Invade",
+          "meaning": "Overrun another country/place",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-347",
+          "category": "word",
+          "word": "residue",
+          "meaning": "Remainder, remnant, surplus",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-233",
+          "category": "word",
+          "word": "ventilation",
+          "meaning": "Letting air into",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-50",
+          "category": "word",
+          "word": "Halt",
+          "meaning": "Stop",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-429",
+          "category": "word",
+          "word": "writhe",
+          "meaning": "Squirm, flail, jerk, thresh",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-314",
+          "category": "word",
+          "word": "Slender",
+          "meaning": "Slim",
+          "source": "Vocabulary List 10"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-53",
+        "category": "word",
+        "word": "Imitate",
+        "meaning": "Copy",
+        "source": "Vocabulary List 1"
+      }
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-24",
+        "category": "word",
+        "word": "Constable",
+        "meaning": "Policeman",
+        "source": "Vocabulary List 1"
+      }
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-31",
+        "category": "compound_pair",
+        "left": "para",
+        "right": "mount",
+        "combined": "paramount",
+        "source": "Compound Words"
+      },
+      "jumbled": "munopatar"
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "W-433",
+        "category": "word",
+        "word": "helix",
+        "meaning": "Spiral, coil, twist, whorl",
+        "source": "Vocabulary List 14"
+      },
+      "jumbled": "eihlx"
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-58",
+        "category": "compound_pair",
+        "left": "snip",
+        "right": "pet",
+        "combined": "snippet",
+        "source": "Compound Words"
+      },
+      "jumbled": "ptnispe"
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-249",
+        "category": "word",
+        "word": "resign",
+        "meaning": "To give up work",
+        "source": "Vocabulary List 8"
+      },
+      "anchor_word": "resign"
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-133",
+        "category": "word",
+        "word": "Plume",
+        "meaning": "Feather",
+        "source": "Vocabulary List 4"
+      },
+      "anchor_word": "Plume"
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-312",
+        "category": "word",
+        "word": "Shrine",
+        "meaning": "Tomb",
+        "source": "Vocabulary List 10"
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-113",
+        "category": "word",
+        "word": "Mad",
+        "meaning": "Insane",
+        "source": "Vocabulary List 4"
+      },
+      "clue": {
+        "first_letter": "M",
+        "last_letter": "d",
+        "letters_between": 1,
+        "total_letters": 3
+      }
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "SA-117",
+        "category": "synant_row",
+        "synonyms": [
+          "Innocuous",
+          "harmless",
+          "benign"
+        ],
+        "antonyms": [
+          "Pernicious",
+          "deadly",
+          "toxic"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "target_word": "deadly",
+      "jumbled": "dleyda",
+      "distractor_pool": [
+        {
+          "id": "W-135",
+          "category": "word",
+          "word": "Profit",
+          "meaning": "Gain",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-250",
+          "category": "word",
+          "word": "impudent",
+          "meaning": "Cheeky",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-27",
+          "category": "word",
+          "word": "Cunning",
+          "meaning": "Sly",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-437",
+          "category": "word",
+          "word": "trait",
+          "meaning": "Characteristic, habit, quirk",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-23",
+          "category": "word",
+          "word": "Conceal",
+          "meaning": "Hide",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-285",
+          "category": "word",
+          "word": "twilight",
+          "meaning": "Dusk, early evening",
+          "source": "Vocabulary List 9"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "W-91",
+        "category": "word",
+        "word": "spontaneous",
+        "meaning": "Unplanned, impromptu, voluntary",
+        "source": "Vocabulary List 3"
+      },
+      "jumbled": "sooatnsepun"
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "SA-91",
+        "category": "synant_row",
+        "synonyms": [
+          "Replenish",
+          "refill",
+          "augment",
+          "restore"
+        ],
+        "antonyms": [
+          "Deplete",
+          "reduce",
+          "diminish",
+          "exhaust"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-373",
+          "category": "word",
+          "word": "attire",
+          "meaning": "Clothes, raiment, apparel, garb",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-252",
+          "category": "word",
+          "word": "proclaim",
+          "meaning": "To announce publicly",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-89",
+          "category": "word",
+          "word": "hubbub",
+          "meaning": "Noise, clamour, din, tumult, rumpus",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-405",
+          "category": "word",
+          "word": "respite",
+          "meaning": "Pause, hiatus, lull, recess",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-30",
+          "category": "word",
+          "word": "Deceive",
+          "meaning": "Cheat",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-352",
+          "category": "word",
+          "word": "enigma",
+          "meaning": "Mystery, puzzle",
+          "source": "Vocabulary List 11"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "SA-39",
+        "category": "synant_row",
+        "synonyms": [
+          "Industrious",
+          "diligent",
+          "hard-working",
+          "keen"
+        ],
+        "antonyms": [
+          "Indolent",
+          "lazy",
+          "apathetic",
+          "lethargic"
+        ],
+        "source": "Synonyms & Antonyms 2"
+      },
+      "target_word": "Indolent",
+      "jumbled": "ldnnteoi",
+      "distractor_pool": [
+        {
+          "id": "W-217",
+          "category": "word",
+          "word": "Submit",
+          "meaning": "To give in, to yield",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-100",
+          "category": "word",
+          "word": "grove",
+          "meaning": "Wood, coppice, copse, covert, thicket",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-127",
+          "category": "word",
+          "word": "Noisy",
+          "meaning": "Rowdy",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-448",
+          "category": "word",
+          "word": "feral",
+          "meaning": "Wild, uncontrollable, untamed",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-121",
+          "category": "word",
+          "word": "Moan",
+          "meaning": "Groan",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-109",
+          "category": "word",
+          "word": "Lament",
+          "meaning": "Grieve",
+          "source": "Vocabulary List 4"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-35",
+        "category": "word",
+        "word": "Emperor",
+        "meaning": "King",
+        "source": "Vocabulary List 1"
+      }
+    },
+    {
+      "question_type": "jumbled_pair_missing_letter",
+      "entry": {
+        "id": "W-5",
+        "category": "word",
+        "word": "Acute",
+        "meaning": "Sharp",
+        "source": "Vocabulary List 1"
+      },
+      "paired_entry": {
+        "id": "W-207",
+        "category": "word",
+        "word": "Adopt",
+        "meaning": "To accept as your own",
+        "source": "Vocabulary List 7"
+      },
+      "word_a": {
+        "jumbled_with_blank": "cu_ea",
+        "missing_letter": "t",
+        "answer": "Acute",
+        "meaning": "Sharp"
+      },
+      "word_b": {
+        "jumbled_with_blank": "adpo_",
+        "missing_letter": "t",
+        "answer": "Adopt",
+        "meaning": "To accept as your own"
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-247",
+        "category": "word",
+        "word": "acquire",
+        "meaning": "To obtain, to get",
+        "source": "Vocabulary List 8"
+      },
+      "clue": {
+        "first_letter": "a",
+        "last_letter": "e",
+        "letters_between": 5,
+        "total_letters": 7
+      }
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "W-73",
+        "category": "word",
+        "word": "emit",
+        "meaning": "Give off, discharge, emanate, radiate, release",
+        "source": "Vocabulary List 2"
+      },
+      "jumbled": "tmei"
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-328",
+        "category": "word",
+        "word": "eradicate",
+        "meaning": "Eliminate, annihilate, obliterate, kill",
+        "source": "Vocabulary List 11"
+      },
+      "anchor_word": "eradicate"
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-233",
+        "category": "word",
+        "word": "ventilation",
+        "meaning": "Letting air into",
+        "source": "Vocabulary List 8"
+      },
+      "anchor_word": "ventilation"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-27",
+        "category": "word",
+        "word": "Cunning",
+        "meaning": "Sly",
+        "source": "Vocabulary List 1"
+      }
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "W-49",
+        "category": "word",
+        "word": "Gruff",
+        "meaning": "Harsh",
+        "source": "Vocabulary List 1"
+      },
+      "jumbled": "frugf"
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-316",
+        "category": "word",
+        "word": "Squirming",
+        "meaning": "Wriggling",
+        "source": "Vocabulary List 10"
+      }
+    }
+  ]
+}

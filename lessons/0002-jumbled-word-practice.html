@@ -1,0 +1,75 @@
+<title>Jumbled Word Practice</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/reveal.js"></script>
+<script src="../assets/jumble-data.js"></script>
+
+<nav class="pagenav top">
+  <span class="home"><a href="../index.html">&#127968; Home</a></span>
+  <span class="prev"><a href="0001-decode-your-first-jumbled-word.html">&larr; Lesson 1</a></span>
+  <span class="next"></span>
+</nav>
+
+<div class="eyebrow">Lesson 2 of the 11+ vocabulary course &middot; grows over time</div>
+<h1>Jumbled Word Practice</h1>
+
+<p>
+This one page holds every jumbled-word batch, newest at the bottom. It keeps
+growing as new words are added — no new page needed each time. Vocabulary is
+tackled hardest-first rather than in list order, so the earliest batches are
+already some of the toughest words in the whole list.
+</p>
+
+<p>
+Same rule as always: no peeking. Try C.L.U.E. first — <strong>C</strong>ontext,
+<strong>L</strong>etter chunks, <strong>U</strong>n-jumble by writing,
+<strong>E</strong>rrand-check — and only open a clue if you're stuck. Each clue
+is tagged with the trick it's teaching. Full reminder:
+<a href="../reference/jumbled-word-strategy.html">C.L.U.E. reference card</a>.
+</p>
+
+<div class="callout">
+This page can be long — work through any batch, in any order, across as many
+sittings as you like. Each batch below is collapsed by default; click its
+title to open it.
+</div>
+
+<div id="batches"></div>
+<script>
+JUMBLE_BATCHES.forEach(function (batch, i) {
+  var host = document.getElementById("batches");
+  var details = document.createElement("details");
+  details.open = (i === JUMBLE_BATCHES.length - 1);
+  var summary = document.createElement("summary");
+  summary.innerHTML = "<strong>Batch " + (i + 1) + ":</strong> " + batch.title +
+    " &mdash; " + batch.words.length + " words";
+  details.appendChild(summary);
+  var div = document.createElement("div");
+  div.id = "batch-" + batch.id;
+  div.style.marginTop = "1rem";
+  details.appendChild(div);
+  host.appendChild(details);
+  initJumbleSet(div.id, batch.words);
+});
+</script>
+
+<div class="callout">
+Questions about why an answer is right, or want to go over a word again? Just
+ask your teacher — that's what follow-up questions are for.
+</div>
+
+<p>
+See <a href="../RESOURCES.md">RESOURCES.md</a> for the sources behind these
+lessons, and the <a href="../reference/glossary.html">Glossary</a> for every
+word's meaning once you've had a go.
+</p>
+
+<footer class="lesson-footer">
+  See also: <a href="../reference/jumbled-word-strategy.html">C.L.U.E. reference card</a> &middot;
+  <a href="../reference/glossary.html">Glossary</a>
+</footer>
+
+<nav class="pagenav bottom">
+  <span class="home"><a href="../index.html">&#127968; Home</a></span>
+  <span class="prev"><a href="0001-decode-your-first-jumbled-word.html">&larr; Lesson 1</a></span>
+  <span class="next"></span>
+</nav>

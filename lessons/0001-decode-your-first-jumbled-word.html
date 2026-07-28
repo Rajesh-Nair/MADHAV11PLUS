@@ -1,0 +1,126 @@
+<title>Lesson 1: Decode Your First Jumbled Word</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/reveal.js"></script>
+
+<nav class="pagenav top">
+  <span class="home"><a href="../index.html">&#127968; Home</a></span>
+  <span class="prev"></span>
+  <span class="next"><a href="0002-jumbled-word-practice.html">Next: Practice &rarr;</a></span>
+</nav>
+
+<div class="eyebrow">Lesson 1 of the 11+ vocabulary course</div>
+<h1>Decode Your First Jumbled Word</h1>
+
+<p>
+Hi Madhav — on the 11+ paper, jumbled-word questions hide a real word inside a
+scrambled mess of letters, sitting inside a sentence. Right now, when you hit
+one of these, the plan is usually "try letters until something looks right."
+That works sometimes, but it's slow and it runs out of luck under a timer.
+</p>
+
+<p>
+Today you're learning a strategy instead of a guess: <strong>C.L.U.E.</strong>
+Four steps, same order, every single time.
+</p>
+
+<h2>The C.L.U.E. strategy</h2>
+
+<div class="step">
+  <div class="letter">C</div>
+  <div class="body"><strong>Context first.</strong> Read the whole sentence before you touch the letters. What kind of word is missing?</div>
+</div>
+<div class="step">
+  <div class="letter">L</div>
+  <div class="body"><strong>Letter chunks.</strong> Look for pairs like <code>TH</code>, <code>CH</code>, <code>QU</code>, or endings like <code>-ING</code>, <code>-TION</code>, hiding in the jumble.</div>
+</div>
+<div class="step">
+  <div class="letter">U</div>
+  <div class="body"><strong>Un-jumble by writing.</strong> Write the letters down and move them around on paper — don't just stare at the scrambled order.</div>
+</div>
+<div class="step">
+  <div class="letter">E</div>
+  <div class="body"><strong>Errand-check.</strong> Put your answer back in the sentence. Does it actually make sense?</div>
+</div>
+
+<p>Full cheat sheet, printable: <a href="../reference/jumbled-word-strategy.html">reference/jumbled-word-strategy.html</a></p>
+
+<h2>Watch it done: CAUTION</h2>
+
+<div class="sentence">
+  Cross the busy road with great care and <span class="jumble">NAUTICO</span>, looking both ways twice.
+</div>
+
+<div class="card">
+  <p><strong>C — Context:</strong> the sentence is about crossing a road safely. The missing word is probably a feeling or a way of behaving — like "carefully."</p>
+  <p><strong>L — Letter chunks:</strong> the letters are N, A, U, T, I, C, O. Spot the <code>C</code> and try it at the front: "CAU..." — that's the start of several English words.</p>
+  <p><strong>U — Un-jumble:</strong> writing out "CAU" + the leftover letters T, I, O, N gives "CAUTION."</p>
+  <p><strong>E — Errand-check:</strong> "Cross the busy road with great care and <strong>CAUTION</strong>" — yes, that makes sense. Done.</p>
+</div>
+
+<h2>Your turn</h2>
+<p>Use C.L.U.E. Type a guess whenever you want to check it — or ask for a clue first. No answer is shown until you've had a go.</p>
+
+<div id="practice1"></div>
+<script>
+initJumbleWidget("practice1", {
+  before: "The old cottage deep in the woods had been Grandpa's cosy ",
+  jumbled: "EDABO",
+  after: " for forty years.",
+  answer: "ABODE",
+  clues: [
+    { tag: "Letter position", text: "The 3rd letter of the answer is O." },
+    { tag: "Meaning", text: "It means the same as 'home' or 'dwelling.'" }
+  ],
+  options: ["ABODE", "ADOBE", "ABIDE", "ABOVE"],
+  explanation: "means home or dwelling — like the cottage in the sentence. Watch out for ADOBE: it's a real word too (a sun-dried brick), made from the exact same letters! Only the E step — checking it against the sentence — tells them apart."
+});
+</script>
+
+<details>
+  <summary>Bonus round (optional): one more word</summary>
+  <div id="practice2" style="margin-top:1rem;"></div>
+  <script>
+  initJumbleWidget("practice2", {
+    before: "In the old story, the knight bravely faced his fiercest ",
+    jumbled: "YEEMN",
+    after: " in the final battle.",
+    answer: "ENEMY",
+    clues: [
+      { tag: "Letter position", text: "The last letter of the answer is Y." },
+      { tag: "Meaning", text: "It means the same as 'foe' or 'rival.'" }
+    ],
+    options: ["ENEMY", "ALLY", "STRANGER", "VISITOR"],
+    explanation: "means foe or rival. Notice ALLY is in the options — it's actually the opposite meaning (an antonym), not a synonym. A future lesson will practise exactly this: telling synonym options apart from antonym options."
+  });
+  </script>
+</details>
+
+<h2>Recap</h2>
+<p>
+Next time a jumbled word shows up: <strong>C</strong>ontext, <strong>L</strong>etter
+chunks, <strong>U</strong>n-jumble by writing, <strong>E</strong>rrand-check. Keep
+the <a href="../reference/jumbled-word-strategy.html">reference card</a> nearby
+until it's automatic.
+</p>
+
+<div class="callout">
+  Stuck, or want to know why an answer is right? Just ask — your teacher (that's
+  the agent helping you through these lessons) is there for follow-up questions
+  any time something doesn't click.
+</div>
+
+<p>
+Primary source for this question format:
+<a href="https://www.educationquizzes.com/11-plus/verbal-reasoning/anagrams-3/" target="_blank" rel="noopener">Education Quizzes — 11+ Anagrams (Verbal Reasoning)</a>.
+</p>
+
+<footer class="lesson-footer">
+  See also: <a href="../reference/jumbled-word-strategy.html">C.L.U.E. reference card</a> &middot;
+  <a href="../reference/glossary.html">Glossary</a>
+</footer>
+
+<nav class="pagenav bottom">
+  <span class="home"><a href="../index.html">&#127968; Home</a></span>
+  <span class="prev"></span>
+  <span class="next"><a href="0002-jumbled-word-practice.html">Next: Practice &rarr;</a></span>
+</nav>

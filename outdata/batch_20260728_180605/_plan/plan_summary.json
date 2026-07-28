@@ -1,0 +1,57 @@
+{
+  "seed": 811056921,
+  "vocab_path": "indata/vocab_01.md",
+  "scope": null,
+  "total_entries": 712,
+  "entries_by_category": {
+    "word": 455,
+    "word_dual_meaning": 4,
+    "synant_row": 123,
+    "latin_root": 20,
+    "greek_root": 22,
+    "compound_pair": 68,
+    "confusable_pair": 20
+  },
+  "n_tests": 18,
+  "questions_by_type": {
+    "jumbled_word": 86,
+    "spelling_misspelled": 86,
+    "understanding_synonym_antonym": 86,
+    "jumbled_pair_missing_letter": 43,
+    "spelling_clue": 86,
+    "rhyming_synonym_antonym": 86,
+    "jumbled_word_synonym_antonym": 86,
+    "usage_context": 24,
+    "jumbled_sentence_extra_word": 86
+  },
+  "agent_groups": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      17,
+      18
+    ]
+  ]
+}

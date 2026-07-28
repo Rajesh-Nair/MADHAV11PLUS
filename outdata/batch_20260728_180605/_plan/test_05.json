@@ -1,0 +1,891 @@
+{
+  "test_number": 5,
+  "slots": [
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-11",
+        "category": "compound_pair",
+        "left": "see",
+        "right": "thing",
+        "combined": "seething",
+        "source": "Compound Words"
+      },
+      "jumbled": "ehniestg"
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "W-102",
+        "category": "word",
+        "word": "dour",
+        "meaning": "Sullen, cheerless, dismal, grim, morose",
+        "source": "Vocabulary List 3"
+      },
+      "target_word": "dour",
+      "jumbled": "urdo",
+      "distractor_pool": [
+        {
+          "id": "W-374",
+          "category": "word",
+          "word": "instigate",
+          "meaning": "Start, activate, incite, prompt",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-227",
+          "category": "word",
+          "word": "telegram",
+          "meaning": "Message sent by morse code",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-370",
+          "category": "word",
+          "word": "amalgamate",
+          "meaning": "Combine, blend, consolidate, fuse, merge, unite",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-39",
+          "category": "word",
+          "word": "Exterior",
+          "meaning": "Outside",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-249",
+          "category": "word",
+          "word": "resign",
+          "meaning": "To give up work",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-424",
+          "category": "word",
+          "word": "coerce",
+          "meaning": "Force, compel, pressurise",
+          "source": "Vocabulary List 13"
+        }
+      ]
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "SA-106",
+        "category": "synant_row",
+        "synonyms": [
+          "Ephemeral",
+          "fleeting",
+          "passing",
+          "transient"
+        ],
+        "antonyms": [
+          "Eternal",
+          "abiding",
+          "infinite",
+          "perpetual"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "anchor_word": "passing"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-263",
+        "category": "word",
+        "word": "pursue",
+        "meaning": "To chase",
+        "source": "Vocabulary List 9"
+      }
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-23",
+        "category": "word",
+        "word": "Conceal",
+        "meaning": "Hide",
+        "source": "Vocabulary List 1"
+      }
+    },
+    {
+      "question_type": "jumbled_pair_missing_letter",
+      "entry": {
+        "id": "W-368",
+        "category": "word",
+        "word": "dual",
+        "meaning": "Double, paired",
+        "source": "Vocabulary List 12"
+      },
+      "paired_entry": {
+        "id": "W-58",
+        "category": "word",
+        "word": "tardy",
+        "meaning": "Late, belated, delayed",
+        "source": "Vocabulary List 2"
+      },
+      "word_a": {
+        "jumbled_with_blank": "_dal",
+        "missing_letter": "u",
+        "answer": "dual",
+        "meaning": "Double, paired"
+      },
+      "word_b": {
+        "jumbled_with_blank": "tyd_r",
+        "missing_letter": "a",
+        "answer": "tardy",
+        "meaning": "Late, belated, delayed"
+      }
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-421",
+        "category": "word",
+        "word": "rancid",
+        "meaning": "Putrid, acrid, fetid, foul, rank",
+        "source": "Vocabulary List 13"
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "CW-51",
+        "category": "compound_pair",
+        "left": "beck",
+        "right": "on",
+        "combined": "beckon",
+        "source": "Compound Words"
+      },
+      "clue": {
+        "first_letter": "b",
+        "last_letter": "n",
+        "letters_between": 4,
+        "total_letters": 6
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "W-191",
+        "category": "word",
+        "word": "Common",
+        "meaning": "Occurring often, general",
+        "source": "Vocabulary List 7"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-184",
+          "category": "word",
+          "word": "Supply",
+          "meaning": "To provide",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-281",
+          "category": "word",
+          "word": "excursion",
+          "meaning": "Day trip",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-330",
+          "category": "word",
+          "word": "pageant",
+          "meaning": "Parade, display, spectacle",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-454",
+          "category": "word",
+          "word": "coup",
+          "meaning": "Attack to win power, takeover, revolt",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-222",
+          "category": "word",
+          "word": "prosperous",
+          "meaning": "Rich",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-124",
+          "category": "word",
+          "word": "Mute",
+          "meaning": "Dumb",
+          "source": "Vocabulary List 4"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-386",
+        "category": "word",
+        "word": "yearn",
+        "meaning": "Long, covet, pine, wish",
+        "source": "Vocabulary List 12"
+      }
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-449",
+        "category": "word",
+        "word": "pensive",
+        "meaning": "Reflective, thoughtful, musing",
+        "source": "Vocabulary List 14"
+      },
+      "anchor_word": "pensive"
+    },
+    {
+      "question_type": "jumbled_pair_missing_letter",
+      "entry": {
+        "id": "W-187",
+        "category": "word",
+        "word": "Altitude",
+        "meaning": "Height (of plane, mountain)",
+        "source": "Vocabulary List 7"
+      },
+      "paired_entry": {
+        "id": "W-192",
+        "category": "word",
+        "word": "Portable",
+        "meaning": "Able to be carried",
+        "source": "Vocabulary List 7"
+      },
+      "word_a": {
+        "jumbled_with_blank": "atetdl_u",
+        "missing_letter": "i",
+        "answer": "Altitude",
+        "meaning": "Height (of plane, mountain)"
+      },
+      "word_b": {
+        "jumbled_with_blank": "oatelpr_",
+        "missing_letter": "b",
+        "answer": "Portable",
+        "meaning": "Able to be carried"
+      }
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-266",
+        "category": "word",
+        "word": "torrent",
+        "meaning": "Fast stream (of water or abuse)",
+        "source": "Vocabulary List 9"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "SA-79",
+        "category": "synant_row",
+        "synonyms": [
+          "Amity",
+          "friendship",
+          "concord",
+          "harmony"
+        ],
+        "antonyms": [
+          "Animosity",
+          "hostility",
+          "rancour"
+        ],
+        "source": "Synonyms & Antonyms 4"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-44",
+          "category": "word",
+          "word": "Gap",
+          "meaning": "Hole",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-177",
+          "category": "word",
+          "word": "Vanquish",
+          "meaning": "Defeat",
+          "source": "Vocabulary List 6"
+        },
+        {
+          "id": "W-89",
+          "category": "word",
+          "word": "hubbub",
+          "meaning": "Noise, clamour, din, tumult, rumpus",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-10",
+          "category": "word",
+          "word": "Amazement",
+          "meaning": "Wonder",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-392",
+          "category": "word",
+          "word": "avaricious",
+          "meaning": "Greedy, covetous, mercenary",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-402",
+          "category": "word",
+          "word": "elicit",
+          "meaning": "Draw out a response, extract",
+          "source": "Vocabulary List 13"
+        }
+      ]
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "GR-21",
+        "category": "greek_root",
+        "root": "ortho",
+        "meaning": "straight, right",
+        "source": "Greek Roots (Set 2)"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-167",
+          "category": "word",
+          "word": "Prosperous",
+          "meaning": "Rich",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-273",
+          "category": "word",
+          "word": "spectacle",
+          "meaning": "Sight, something to watch",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-88",
+          "category": "word",
+          "word": "saunter",
+          "meaning": "Stroll, amble, meander, roam",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-113",
+          "category": "word",
+          "word": "Mad",
+          "meaning": "Insane",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-447",
+          "category": "word",
+          "word": "gait",
+          "meaning": "Manner of moving",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-41",
+          "category": "word",
+          "word": "Famous",
+          "meaning": "Noted",
+          "source": "Vocabulary List 1"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-30",
+        "category": "word",
+        "word": "Deceive",
+        "meaning": "Cheat",
+        "source": "Vocabulary List 1"
+      },
+      "clue": {
+        "first_letter": "D",
+        "last_letter": "e",
+        "letters_between": 5,
+        "total_letters": 7
+      }
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-31",
+        "category": "word",
+        "word": "Difficult",
+        "meaning": "Hard",
+        "source": "Vocabulary List 1"
+      },
+      "anchor_word": "Difficult"
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "SA-88",
+        "category": "synant_row",
+        "synonyms": [
+          "Ignite",
+          "light",
+          "kindle"
+        ],
+        "antonyms": [
+          "Extinguish",
+          "quench",
+          "erase"
+        ],
+        "source": "Synonyms & Antonyms 4"
+      },
+      "anchor_word": "quench"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-359",
+        "category": "word",
+        "word": "eerie",
+        "meaning": "Weird, mysterious, frightening",
+        "source": "Vocabulary List 12"
+      }
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-108",
+        "category": "word",
+        "word": "Join",
+        "meaning": "Unite",
+        "source": "Vocabulary List 4"
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-319",
+        "category": "word",
+        "word": "Stubborn",
+        "meaning": "Obstinate",
+        "source": "Vocabulary List 10"
+      },
+      "clue": {
+        "first_letter": "S",
+        "last_letter": "n",
+        "letters_between": 6,
+        "total_letters": 8
+      }
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-54",
+        "category": "compound_pair",
+        "left": "stub",
+        "right": "born",
+        "combined": "stubborn",
+        "source": "Compound Words"
+      },
+      "jumbled": "btornsbu"
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "W-50",
+        "category": "word",
+        "word": "Halt",
+        "meaning": "Stop",
+        "source": "Vocabulary List 1"
+      },
+      "target_word": "Halt",
+      "jumbled": "tlah",
+      "distractor_pool": [
+        {
+          "id": "W-58",
+          "category": "word",
+          "word": "tardy",
+          "meaning": "Late, belated, delayed",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-210",
+          "category": "word",
+          "word": "Scholar",
+          "meaning": "Learned person, someone who studies",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-289",
+          "category": "word",
+          "word": "correspond",
+          "meaning": "To match, to exchange letters",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-427",
+          "category": "word",
+          "word": "resilient",
+          "meaning": "Strong, sturdy, tough",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-56",
+          "category": "word",
+          "word": "architect",
+          "meaning": "A person who designs buildings",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-197",
+          "category": "word",
+          "word": "Purchase",
+          "meaning": "To buy",
+          "source": "Vocabulary List 7"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "SA-24",
+        "category": "synant_row",
+        "synonyms": [
+          "Genuine",
+          "authentic",
+          "bona fide"
+        ],
+        "antonyms": [
+          "Fake",
+          "imitation",
+          "counterfeit",
+          "sham"
+        ],
+        "source": "Synonyms & Antonyms 2"
+      },
+      "target_word": "bona fide",
+      "jumbled": "fnab ideo",
+      "distractor_pool": [
+        {
+          "id": "W-149",
+          "category": "word",
+          "word": "Traitor",
+          "meaning": "Someone who betrays country/friends",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-162",
+          "category": "word",
+          "word": "Grudge",
+          "meaning": "Resentment, keeping up an argument",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-211",
+          "category": "word",
+          "word": "Weariness",
+          "meaning": "Tiredness/drowsiness",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-187",
+          "category": "word",
+          "word": "Altitude",
+          "meaning": "Height (of plane, mountain)",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-422",
+          "category": "word",
+          "word": "inkling",
+          "meaning": "Idea, clue, hunch",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-109",
+          "category": "word",
+          "word": "Lament",
+          "meaning": "Grieve",
+          "source": "Vocabulary List 4"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-89",
+        "category": "word",
+        "word": "hubbub",
+        "meaning": "Noise, clamour, din, tumult, rumpus",
+        "source": "Vocabulary List 3"
+      },
+      "clue": {
+        "first_letter": "h",
+        "last_letter": "b",
+        "letters_between": 4,
+        "total_letters": 6
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-327",
+        "category": "word",
+        "word": "equitable",
+        "meaning": "Fair, just",
+        "source": "Vocabulary List 11"
+      },
+      "clue": {
+        "first_letter": "e",
+        "last_letter": "e",
+        "letters_between": 7,
+        "total_letters": 9
+      }
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-400",
+        "category": "word",
+        "word": "cajole",
+        "meaning": "Persuade, beguile, lure",
+        "source": "Vocabulary List 13"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "SA-103",
+        "category": "synant_row",
+        "synonyms": [
+          "Original",
+          "creative",
+          "innovative",
+          "novel"
+        ],
+        "antonyms": [
+          "Banal",
+          "bland",
+          "mundane",
+          "trite"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-359",
+          "category": "word",
+          "word": "eerie",
+          "meaning": "Weird, mysterious, frightening",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-360",
+          "category": "word",
+          "word": "precipitation",
+          "meaning": "Rain, hail, snow",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-318",
+          "category": "word",
+          "word": "Stern",
+          "meaning": "Strict",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-60",
+          "category": "word",
+          "word": "cyclone",
+          "meaning": "Storm, tempest, typhoon",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-425",
+          "category": "word",
+          "word": "cower",
+          "meaning": "Cringe, flinch, grovel, quail",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-231",
+          "category": "word",
+          "word": "tenant",
+          "meaning": "Someone who rents a room or flat",
+          "source": "Vocabulary List 8"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-234",
+        "category": "word",
+        "word": "extravagant",
+        "meaning": "Spending too much",
+        "source": "Vocabulary List 8"
+      }
+    },
+    {
+      "question_type": "usage_context",
+      "entry": {
+        "id": "CF-1",
+        "category": "confusable_pair",
+        "words": [
+          "weary",
+          "wary"
+        ],
+        "meanings": [
+          "tired",
+          "cautious"
+        ],
+        "source": "Confusable Word Pairs"
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-254",
+        "category": "word",
+        "word": "provoke",
+        "meaning": "To rouse to anger",
+        "source": "Vocabulary List 8"
+      },
+      "clue": {
+        "first_letter": "p",
+        "last_letter": "e",
+        "letters_between": 5,
+        "total_letters": 7
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-422",
+        "category": "word",
+        "word": "inkling",
+        "meaning": "Idea, clue, hunch",
+        "source": "Vocabulary List 13"
+      },
+      "clue": {
+        "first_letter": "i",
+        "last_letter": "g",
+        "letters_between": 5,
+        "total_letters": 7
+      }
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-98",
+        "category": "word",
+        "word": "acquire",
+        "meaning": "Obtain, purchase, secure, win",
+        "source": "Vocabulary List 3"
+      },
+      "clue": {
+        "first_letter": "a",
+        "last_letter": "e",
+        "letters_between": 5,
+        "total_letters": 7
+      }
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "SA-72",
+        "category": "synant_row",
+        "synonyms": [
+          "Taut",
+          "stretched",
+          "rigid"
+        ],
+        "antonyms": [
+          "Slack",
+          "flaccid",
+          "loose"
+        ],
+        "source": "Synonyms & Antonyms 4"
+      },
+      "anchor_word": "rigid"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-203",
+        "category": "word",
+        "word": "Recite",
+        "meaning": "To say from memory",
+        "source": "Vocabulary List 7"
+      }
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "W-86",
+        "category": "word",
+        "word": "sabre",
+        "meaning": "A sword",
+        "source": "Vocabulary List 3"
+      },
+      "target_word": "sabre",
+      "jumbled": "brsea",
+      "distractor_pool": [
+        {
+          "id": "W-128",
+          "category": "word",
+          "word": "Odour",
+          "meaning": "Smell",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-222",
+          "category": "word",
+          "word": "prosperous",
+          "meaning": "Rich",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-365",
+          "category": "word",
+          "word": "bereft",
+          "meaning": "Deprived, lacking",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-135",
+          "category": "word",
+          "word": "Profit",
+          "meaning": "Gain",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-22",
+          "category": "word",
+          "word": "Comprehend",
+          "meaning": "Understand",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-46",
+          "category": "word",
+          "word": "Gravely",
+          "meaning": "Sternly",
+          "source": "Vocabulary List 1"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-166",
+        "category": "word",
+        "word": "Prominent",
+        "meaning": "Sticking out/famous",
+        "source": "Vocabulary List 5"
+      }
+    }
+  ]
+}

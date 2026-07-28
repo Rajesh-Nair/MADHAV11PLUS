@@ -1,0 +1,1263 @@
+{
+  "test_number": 6,
+  "slots": [
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "W-281",
+        "category": "word",
+        "word": "excursion",
+        "meaning": "Day trip",
+        "source": "Vocabulary List 9"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-92",
+          "category": "word",
+          "word": "fleet",
+          "meaning": "Group of ships, armada, flotilla",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-315",
+          "category": "word",
+          "word": "Small",
+          "meaning": "Little",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-299",
+          "category": "word",
+          "word": "Quantity",
+          "meaning": "Amount",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-159",
+          "category": "word",
+          "word": "Enterprise",
+          "meaning": "Business, undertaking",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-413",
+          "category": "word",
+          "word": "crass",
+          "meaning": "Stupid, blundering, witless",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-85",
+          "category": "word",
+          "word": "pursue",
+          "meaning": "Chase, track, trail",
+          "source": "Vocabulary List 3"
+        }
+      ]
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "GR-14",
+        "category": "greek_root",
+        "root": "chron",
+        "meaning": "time",
+        "source": "Greek Roots (Set 2)"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-87",
+          "category": "word",
+          "word": "turret",
+          "meaning": "A small tower on a building",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-81",
+          "category": "word",
+          "word": "sentry",
+          "meaning": "Guard, sentinel",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-435",
+          "category": "word",
+          "word": "impetuous",
+          "meaning": "Rash, hasty, heedless, reckless",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-398",
+          "category": "word",
+          "word": "chasm",
+          "meaning": "Abyss, gorge, ravine, rift",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-440",
+          "category": "word",
+          "word": "queasy",
+          "meaning": "Nauseous, bilious, ill",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-127",
+          "category": "word",
+          "word": "Noisy",
+          "meaning": "Rowdy",
+          "source": "Vocabulary List 4"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-19",
+        "category": "compound_pair",
+        "left": "lace",
+        "right": "rate",
+        "combined": "lacerate",
+        "source": "Compound Words"
+      },
+      "jumbled": "ecaatelr"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-63",
+        "category": "word",
+        "word": "nomad",
+        "meaning": "Wanderer, traveller",
+        "source": "Vocabulary List 2"
+      }
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-158",
+        "category": "word",
+        "word": "Contempt",
+        "meaning": "Dislike, often disrespect",
+        "source": "Vocabulary List 5"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "GR-3",
+        "category": "greek_root",
+        "root": "cycl",
+        "meaning": "Circle",
+        "source": "Greek Roots"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-301",
+          "category": "word",
+          "word": "Raiment",
+          "meaning": "Clothes",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-187",
+          "category": "word",
+          "word": "Altitude",
+          "meaning": "Height (of plane, mountain)",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-457",
+          "category": "word",
+          "word": "empathy",
+          "meaning": "Understanding, compassion, rapport",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-414",
+          "category": "word",
+          "word": "bane",
+          "meaning": "Misery, affliction, burden, curse, woe",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-261",
+          "category": "word",
+          "word": "quaint",
+          "meaning": "Different in an old fashioned way",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-298",
+          "category": "word",
+          "word": "Quaint",
+          "meaning": "Odd",
+          "source": "Vocabulary List 10"
+        }
+      ]
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "LR-1",
+        "category": "latin_root",
+        "root": "act",
+        "meaning": "Do",
+        "source": "Latin Roots"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-114",
+          "category": "word",
+          "word": "Malady",
+          "meaning": "Disease",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-401",
+          "category": "word",
+          "word": "ubiquitous",
+          "meaning": "Widespread, common, prevalent",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-54",
+          "category": "word",
+          "word": "Insolent",
+          "meaning": "Rude",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-296",
+          "category": "word",
+          "word": "Puny",
+          "meaning": "Weak",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-295",
+          "category": "word",
+          "word": "haughty",
+          "meaning": "Proud",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-254",
+          "category": "word",
+          "word": "provoke",
+          "meaning": "To rouse to anger",
+          "source": "Vocabulary List 8"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_clue",
+      "entry": {
+        "id": "W-414",
+        "category": "word",
+        "word": "bane",
+        "meaning": "Misery, affliction, burden, curse, woe",
+        "source": "Vocabulary List 13"
+      },
+      "clue": {
+        "first_letter": "b",
+        "last_letter": "e",
+        "letters_between": 2,
+        "total_letters": 4
+      }
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "SA-30",
+        "category": "synant_row",
+        "synonyms": [
+          "Folly",
+          "foolishness",
+          "lunacy"
+        ],
+        "antonyms": [
+          "Wisdom",
+          "insight",
+          "prudence"
+        ],
+        "source": "Synonyms & Antonyms 2"
+      },
+      "target_word": "Folly",
+      "jumbled": "yllof",
+      "distractor_pool": [
+        {
+          "id": "W-76",
+          "category": "word",
+          "word": "veto",
+          "meaning": "Ban, bar, boycott, forbid, overrule",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-160",
+          "category": "word",
+          "word": "Delicate",
+          "meaning": "Fragile, easily broken",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-425",
+          "category": "word",
+          "word": "cower",
+          "meaning": "Cringe, flinch, grovel, quail",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-287",
+          "category": "word",
+          "word": "sovereign",
+          "meaning": "A ruler, an old coin",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-37",
+          "category": "word",
+          "word": "Enormous",
+          "meaning": "Gigantic",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-230",
+          "category": "word",
+          "word": "heroic",
+          "meaning": "Brave",
+          "source": "Vocabulary List 8"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-372",
+        "category": "word",
+        "word": "contrite",
+        "meaning": "Sorry, apologetic, chastened, penitent, repentant",
+        "source": "Vocabulary List 12"
+      }
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "SA-114",
+        "category": "synant_row",
+        "synonyms": [
+          "Mellifluous",
+          "dulcet",
+          "tuneful"
+        ],
+        "antonyms": [
+          "Cacophonous",
+          "discordant",
+          "tuneless"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "target_word": "dulcet",
+      "jumbled": "ecdtul",
+      "distractor_pool": [
+        {
+          "id": "W-208",
+          "category": "word",
+          "word": "Introduce",
+          "meaning": "To present a person/programme to other people",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-316",
+          "category": "word",
+          "word": "Squirming",
+          "meaning": "Wriggling",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-249",
+          "category": "word",
+          "word": "resign",
+          "meaning": "To give up work",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-105",
+          "category": "word",
+          "word": "mirth",
+          "meaning": "Laughter, cheerfulness, glee, joviality",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-12",
+          "category": "word",
+          "word": "Assemble",
+          "meaning": "Gather",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-222",
+          "category": "word",
+          "word": "prosperous",
+          "meaning": "Rich",
+          "source": "Vocabulary List 8"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_pair_missing_letter",
+      "entry": {
+        "id": "W-371",
+        "category": "word",
+        "word": "vivacious",
+        "meaning": "Lively, animated, ebullient, energetic, exuberant",
+        "source": "Vocabulary List 12"
+      },
+      "paired_entry": {
+        "id": "W-204",
+        "category": "word",
+        "word": "Fertile",
+        "meaning": "Able to reproduce or good for growing crops",
+        "source": "Vocabulary List 7"
+      },
+      "word_a": {
+        "jumbled_with_blank": "_aiovivcs",
+        "missing_letter": "u",
+        "answer": "vivacious",
+        "meaning": "Lively, animated, ebullient, energetic, exuberant"
+      },
+      "word_b": {
+        "jumbled_with_blank": "flreti_",
+        "missing_letter": "e",
+        "answer": "Fertile",
+        "meaning": "Able to reproduce or good for growing crops"
+      }
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-15",
+        "category": "word",
+        "word": "Blank",
+        "meaning": "Empty",
+        "source": "Vocabulary List 1"
+      }
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-154",
+        "category": "word",
+        "word": "Wholesome",
+        "meaning": "Healthy, good for you",
+        "source": "Vocabulary List 5"
+      },
+      "anchor_word": "Wholesome"
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "CW-43",
+        "category": "compound_pair",
+        "left": "red",
+        "right": "raft",
+        "combined": "redraft",
+        "source": "Compound Words"
+      },
+      "jumbled": "frteadr"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-338",
+        "category": "word",
+        "word": "imminent",
+        "meaning": "Near, approaching, impending, looming",
+        "source": "Vocabulary List 11"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "GR-15",
+        "category": "greek_root",
+        "root": "gen",
+        "meaning": "Birth, race",
+        "source": "Greek Roots (Set 2)"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-184",
+          "category": "word",
+          "word": "Supply",
+          "meaning": "To provide",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-268",
+          "category": "word",
+          "word": "emigrate",
+          "meaning": "Go to live permanently in another country",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-307",
+          "category": "word",
+          "word": "Residence",
+          "meaning": "Dwelling",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-415",
+          "category": "word",
+          "word": "temerity",
+          "meaning": "Audacity, boldness, gall",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-349",
+          "category": "word",
+          "word": "flair",
+          "meaning": "Natural ability, gift, panache",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-210",
+          "category": "word",
+          "word": "Scholar",
+          "meaning": "Learned person, someone who studies",
+          "source": "Vocabulary List 7"
+        }
+      ]
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "SA-45",
+        "category": "synant_row",
+        "synonyms": [
+          "Articulate",
+          "clear",
+          "coherent",
+          "eloquent",
+          "lucid"
+        ],
+        "antonyms": [
+          "Speechless",
+          "dumbfounded",
+          "wordless"
+        ],
+        "source": "Synonyms & Antonyms 3"
+      },
+      "anchor_word": "coherent"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-130",
+        "category": "word",
+        "word": "Option",
+        "meaning": "Choice",
+        "source": "Vocabulary List 4"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "LR-13",
+        "category": "latin_root",
+        "root": "rupt",
+        "meaning": "break",
+        "source": "Latin Roots (Set 2)"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-186",
+          "category": "word",
+          "word": "Enclose",
+          "meaning": "To completely surround",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-225",
+          "category": "word",
+          "word": "perceive",
+          "meaning": "To notice",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-431",
+          "category": "word",
+          "word": "renege",
+          "meaning": "Fail to honour, default on, retract",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-183",
+          "category": "word",
+          "word": "Yearly",
+          "meaning": "Annually",
+          "source": "Vocabulary List 6"
+        },
+        {
+          "id": "W-48",
+          "category": "word",
+          "word": "Grope",
+          "meaning": "Feel",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-188",
+          "category": "word",
+          "word": "Reduce",
+          "meaning": "Make less/smaller",
+          "source": "Vocabulary List 7"
+        }
+      ]
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-258",
+        "category": "word",
+        "word": "endeavour",
+        "meaning": "To try hard",
+        "source": "Vocabulary List 9"
+      }
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "SA-111",
+        "category": "synant_row",
+        "synonyms": [
+          "Liable",
+          "responsible",
+          "culpable"
+        ],
+        "antonyms": [
+          "Exempt",
+          "excused"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "anchor_word": "responsible"
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "LR-7",
+        "category": "latin_root",
+        "root": "cam",
+        "meaning": "Field",
+        "source": "Latin Roots"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-349",
+          "category": "word",
+          "word": "flair",
+          "meaning": "Natural ability, gift, panache",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-340",
+          "category": "word",
+          "word": "dexterity",
+          "meaning": "Skill, adroitness, deftness, expertise, proficiency",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-420",
+          "category": "word",
+          "word": "escapade",
+          "meaning": "Antics, caper, feat, jape",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-240",
+          "category": "word",
+          "word": "distribute",
+          "meaning": "Share out",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-36",
+          "category": "word",
+          "word": "Enemy",
+          "meaning": "Foe",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-78",
+          "category": "word",
+          "word": "adjacent",
+          "meaning": "Near or next to",
+          "source": "Vocabulary List 3"
+        }
+      ]
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "GR-5",
+        "category": "greek_root",
+        "root": "graph",
+        "meaning": "Write",
+        "source": "Greek Roots"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-103",
+          "category": "word",
+          "word": "crimson",
+          "meaning": "Red, claret, scarlet, vermilion",
+          "source": "Vocabulary List 3"
+        },
+        {
+          "id": "W-236",
+          "category": "word",
+          "word": "memento",
+          "meaning": "An object which reminds you of a place or person",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-72",
+          "category": "word",
+          "word": "lair",
+          "meaning": "Home, den, haunt, hideaway",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-321",
+          "category": "word",
+          "word": "Surrender",
+          "meaning": "Yield",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-229",
+          "category": "word",
+          "word": "fatal",
+          "meaning": "Causing death",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-401",
+          "category": "word",
+          "word": "ubiquitous",
+          "meaning": "Widespread, common, prevalent",
+          "source": "Vocabulary List 13"
+        }
+      ]
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "SA-90",
+        "category": "synant_row",
+        "synonyms": [
+          "Asset",
+          "advantage",
+          "strength"
+        ],
+        "antonyms": [
+          "Liability",
+          "hindrance"
+        ],
+        "source": "Synonyms & Antonyms 4"
+      },
+      "anchor_word": "hindrance"
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-416",
+        "category": "word",
+        "word": "hubris",
+        "meaning": "Pride, conceit, egotism",
+        "source": "Vocabulary List 13"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "W-298",
+        "category": "word",
+        "word": "Quaint",
+        "meaning": "Odd",
+        "source": "Vocabulary List 10"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-370",
+          "category": "word",
+          "word": "amalgamate",
+          "meaning": "Combine, blend, consolidate, fuse, merge, unite",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-411",
+          "category": "word",
+          "word": "nostalgia",
+          "meaning": "Reminiscence, recollection, longing",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-41",
+          "category": "word",
+          "word": "Famous",
+          "meaning": "Noted",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-181",
+          "category": "word",
+          "word": "Wrath",
+          "meaning": "Anger",
+          "source": "Vocabulary List 6"
+        },
+        {
+          "id": "W-451",
+          "category": "word",
+          "word": "palatable",
+          "meaning": "Delicious, delectable",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-294",
+          "category": "word",
+          "word": "condense",
+          "meaning": "Make smaller, turn back to water",
+          "source": "Vocabulary List 9"
+        }
+      ]
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "SA-67",
+        "category": "synant_row",
+        "synonyms": [
+          "Tactful",
+          "diplomatic",
+          "discreet"
+        ],
+        "antonyms": [
+          "Indiscreet",
+          "tactless",
+          "unwise"
+        ],
+        "source": "Synonyms & Antonyms 4"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-153",
+          "category": "word",
+          "word": "Conferred",
+          "meaning": "Discussed",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-374",
+          "category": "word",
+          "word": "instigate",
+          "meaning": "Start, activate, incite, prompt",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-195",
+          "category": "word",
+          "word": "Citizen",
+          "meaning": "Native of a nation or city",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-75",
+          "category": "word",
+          "word": "gyrate",
+          "meaning": "Turn, circle, revolve, spin, swivel",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-332",
+          "category": "word",
+          "word": "tyrant",
+          "meaning": "Despot, dictator, oppressor, autocrat",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-111",
+          "category": "word",
+          "word": "Lofty",
+          "meaning": "High",
+          "source": "Vocabulary List 4"
+        }
+      ]
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "SA-118",
+        "category": "synant_row",
+        "synonyms": [
+          "Oblivious",
+          "unaware"
+        ],
+        "antonyms": [
+          "Alert",
+          "heedful",
+          "vigilant"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "anchor_word": "unaware"
+    },
+    {
+      "question_type": "jumbled_word_synonym_antonym",
+      "entry": {
+        "id": "W-242",
+        "category": "word",
+        "word": "acquaint",
+        "meaning": "To get to know",
+        "source": "Vocabulary List 8"
+      },
+      "target_word": "acquaint",
+      "jumbled": "cqanuita",
+      "distractor_pool": [
+        {
+          "id": "W-188",
+          "category": "word",
+          "word": "Reduce",
+          "meaning": "Make less/smaller",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-197",
+          "category": "word",
+          "word": "Purchase",
+          "meaning": "To buy",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-191",
+          "category": "word",
+          "word": "Common",
+          "meaning": "Occurring often, general",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-30",
+          "category": "word",
+          "word": "Deceive",
+          "meaning": "Cheat",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-280",
+          "category": "word",
+          "word": "solemn",
+          "meaning": "Serious, grave",
+          "source": "Vocabulary List 9"
+        },
+        {
+          "id": "W-163",
+          "category": "word",
+          "word": "Curb",
+          "meaning": "To control, to restrain",
+          "source": "Vocabulary List 5"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-295",
+        "category": "word",
+        "word": "haughty",
+        "meaning": "Proud",
+        "source": "Vocabulary List 9"
+      }
+    },
+    {
+      "question_type": "spelling_misspelled",
+      "entry": {
+        "id": "W-364",
+        "category": "word",
+        "word": "curator",
+        "meaning": "Caretaker, custodian, warden",
+        "source": "Vocabulary List 12"
+      }
+    },
+    {
+      "question_type": "jumbled_sentence_extra_word",
+      "entry": {
+        "id": "W-41",
+        "category": "word",
+        "word": "Famous",
+        "meaning": "Noted",
+        "source": "Vocabulary List 1"
+      }
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "W-46",
+        "category": "word",
+        "word": "Gravely",
+        "meaning": "Sternly",
+        "source": "Vocabulary List 1"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-411",
+          "category": "word",
+          "word": "nostalgia",
+          "meaning": "Reminiscence, recollection, longing",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-153",
+          "category": "word",
+          "word": "Conferred",
+          "meaning": "Discussed",
+          "source": "Vocabulary List 5"
+        },
+        {
+          "id": "W-171",
+          "category": "word",
+          "word": "Thrust",
+          "meaning": "Pushed",
+          "source": "Vocabulary List 6"
+        },
+        {
+          "id": "W-312",
+          "category": "word",
+          "word": "Shrine",
+          "meaning": "Tomb",
+          "source": "Vocabulary List 10"
+        },
+        {
+          "id": "W-189",
+          "category": "word",
+          "word": "Custom",
+          "meaning": "something you regularly do",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-433",
+          "category": "word",
+          "word": "helix",
+          "meaning": "Spiral, coil, twist, whorl",
+          "source": "Vocabulary List 14"
+        }
+      ]
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "SA-58",
+        "category": "synant_row",
+        "synonyms": [
+          "Feeble",
+          "puny",
+          "weak"
+        ],
+        "antonyms": [
+          "Potent",
+          "mighty",
+          "dominant"
+        ],
+        "source": "Synonyms & Antonyms 3"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-441",
+          "category": "word",
+          "word": "nonchalant",
+          "meaning": "Blas\u00e9, careless, imperturbable",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-115",
+          "category": "word",
+          "word": "Margin",
+          "meaning": "Edge",
+          "source": "Vocabulary List 4"
+        },
+        {
+          "id": "W-199",
+          "category": "word",
+          "word": "Inhabitant",
+          "meaning": "Someone who lives there",
+          "source": "Vocabulary List 7"
+        },
+        {
+          "id": "W-351",
+          "category": "word",
+          "word": "apathy",
+          "meaning": "Indifference, nonchalance, passivity",
+          "source": "Vocabulary List 11"
+        },
+        {
+          "id": "W-55",
+          "category": "word",
+          "word": "derelict",
+          "meaning": "Neglected, dilapidated, deserted, ruined",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-99",
+          "category": "word",
+          "word": "kin",
+          "meaning": "Your family/relatives",
+          "source": "Vocabulary List 3"
+        }
+      ]
+    },
+    {
+      "question_type": "jumbled_word",
+      "entry": {
+        "id": "W-211",
+        "category": "word",
+        "word": "Weariness",
+        "meaning": "Tiredness/drowsiness",
+        "source": "Vocabulary List 7"
+      },
+      "jumbled": "aneewisrs"
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "SA-98",
+        "category": "synant_row",
+        "synonyms": [
+          "Delirious",
+          "mad",
+          "insane"
+        ],
+        "antonyms": [
+          "Coherent",
+          "logical",
+          "cogent",
+          "lucid"
+        ],
+        "source": "Synonyms & Antonyms 5"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-371",
+          "category": "word",
+          "word": "vivacious",
+          "meaning": "Lively, animated, ebullient, energetic, exuberant",
+          "source": "Vocabulary List 12"
+        },
+        {
+          "id": "W-393",
+          "category": "word",
+          "word": "covet",
+          "meaning": "Yearn, crave, desire, envy",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-432",
+          "category": "word",
+          "word": "inane",
+          "meaning": "Foolish, absurd, idiotic, vapid",
+          "source": "Vocabulary List 14"
+        },
+        {
+          "id": "W-398",
+          "category": "word",
+          "word": "chasm",
+          "meaning": "Abyss, gorge, ravine, rift",
+          "source": "Vocabulary List 13"
+        },
+        {
+          "id": "W-26",
+          "category": "word",
+          "word": "Courage",
+          "meaning": "Bravery",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-244",
+          "category": "word",
+          "word": "execute",
+          "meaning": "To carry out a task, kill in an official way",
+          "source": "Vocabulary List 8"
+        }
+      ]
+    },
+    {
+      "question_type": "understanding_synonym_antonym",
+      "entry": {
+        "id": "SA-50",
+        "category": "synant_row",
+        "synonyms": [
+          "Hovel",
+          "hut",
+          "shack"
+        ],
+        "antonyms": [
+          "mansion"
+        ],
+        "source": "Synonyms & Antonyms 3"
+      },
+      "distractor_pool": [
+        {
+          "id": "W-6",
+          "category": "word",
+          "word": "Adhere",
+          "meaning": "Stick",
+          "source": "Vocabulary List 1"
+        },
+        {
+          "id": "W-242",
+          "category": "word",
+          "word": "acquaint",
+          "meaning": "To get to know",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-252",
+          "category": "word",
+          "word": "proclaim",
+          "meaning": "To announce publicly",
+          "source": "Vocabulary List 8"
+        },
+        {
+          "id": "W-61",
+          "category": "word",
+          "word": "hamlet",
+          "meaning": "A small village",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-56",
+          "category": "word",
+          "word": "architect",
+          "meaning": "A person who designs buildings",
+          "source": "Vocabulary List 2"
+        },
+        {
+          "id": "W-358",
+          "category": "word",
+          "word": "conflagration",
+          "meaning": "Fire, inferno, blaze",
+          "source": "Vocabulary List 12"
+        }
+      ]
+    },
+    {
+      "question_type": "rhyming_synonym_antonym",
+      "entry": {
+        "id": "W-320",
+        "category": "word",
+        "word": "Sturdy",
+        "meaning": "Strong",
+        "source": "Vocabulary List 10"
+      },
+      "anchor_word": "Sturdy"
+    }
+  ]
+}

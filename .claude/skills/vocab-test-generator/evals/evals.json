@@ -1,0 +1,23 @@
+{
+  "skill_name": "vocab-test-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can you make a vocabulary test for Madhav using just Vocabulary List 1 from indata/vocab_01.md? He's working through that one this week.",
+      "expected_output": "A new outdata/batch_<timestamp>/ folder containing a small batch of test_NN.md files (roughly 1-2 tests, since Vocabulary List 1 has 55 words) and a combined answer_key.md. Every word from Vocabulary List 1 appears in at least one question across the batch. Questions cover a believable mix of the 8 required types (spelling, synonym/antonym understanding, jumbled word, jumbled pair with missing letter, jumbled word + synonym/antonym options, rhyming synonym/antonym, jumbled sentence with extra word) even though this scope has no confusable pairs or roots to draw on for the homophone/usage type. Each test reads like a real printable worksheet: numbered questions, name/date header, instructions.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Generate some practice tests focused on the Synonyms & Antonyms 1 section plus the Latin and Greek roots (both sets) — those are the ones he keeps getting wrong.",
+      "expected_output": "A new outdata/batch_<timestamp>/ folder with tests covering every synonym/antonym row from 'Synonyms & Antonyms 1' and every root from all four root tables (Latin Roots, Greek Roots, Latin Roots (Set 2), Greek Roots (Set 2)). Root entries should show up as sensible 'which word contains a root meaning X' style questions (via the understanding_synonym_antonym type), not forced into jumbled-word or spelling formats they don't fit. Synonym/antonym rows should produce genuinely different synonym vs antonym clue words, not just repeating the same word back. Answer key matches question numbering per test.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Make a batch of tests just from the Confusable Word Pairs and Compound Words sections of the vocab list.",
+      "expected_output": "A new outdata/batch_<timestamp>/ folder covering all 20 confusable word pairs (e.g. desert/dessert, its/it's, principal/principle) as usage_context questions that clearly test the distinction between the two spellings/meanings, and all 68 compound word halves as jumbled-word or spelling-clue questions built around the combined word (e.g. lime+rick=limerick). No confusable pair or compound word is skipped. Answer key present and correctly matched to each test's numbering.",
+      "files": []
+    }
+  ]
+}
