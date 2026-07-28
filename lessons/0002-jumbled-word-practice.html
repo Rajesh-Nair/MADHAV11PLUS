@@ -38,7 +38,7 @@ title to open it.
 JUMBLE_BATCHES.forEach(function (batch, i) {
   var host = document.getElementById("batches");
   var details = document.createElement("details");
-  details.open = (i === JUMBLE_BATCHES.length - 1);
+  details.open = false;
   var summary = document.createElement("summary");
   summary.innerHTML = "<strong>Batch " + (i + 1) + ":</strong> " + batch.title +
     " &mdash; " + batch.words.length + " words";

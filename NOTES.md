@@ -85,9 +85,21 @@ List 13 (done) → List 14 → Lists 11-12 (also advanced) → medium lists 7-10
 roots get folded in via interleaving once the plain-jumble format is
 comfortable, not necessarily after all 458 words are done.
 
-**Progress (2026-07-28):** 76 words live in `jumble-data.js` across 3 batches
-— `list1-part2` (8 words, rest of Vocabulary List 1), `list13` (34 words, all
-of Vocabulary List 13), and `list14` (34 words, all of Vocabulary List 14).
-Plus 3 words from Lesson 1 (CAUTION, ABODE, ENEMY) = 79 words total covered.
-Vocabulary Lists 13 and 14 (both the hardest of the 14 lists) are now fully
-done. Next batch to add: Vocabulary List 11, then List 12.
+**Progress (2026-07-28):** 178 words live in `jumble-data.js` across 6 batches
+— `list1-part2` (8), `list13` (34), `list14` (34), `list11` (34), `list12`
+(34), `list7` (34). Plus 3 words from Lesson 1 (CAUTION, ABODE, ENEMY) = 181
+words total covered. Vocabulary Lists 7, 11, 12, 13, 14 are fully done.
+**Efficiency note (2026-07-28):** for this large push, switched the default
+clue pair to Meaning + Letter-position (both fast to write and mechanically
+guaranteed correct) rather than always hunting for a chunk-spotting/rhyme
+clue — chunk-spotting is still used when one is quickly obvious (kept several
+per batch), just no longer forced for every word. This was a deliberate
+speed/quality trade-off per explicit user instruction to prioritize covering
+all remaining batches efficiently. Glossary entries for these batches also
+dropped the "Notes" column (word + meaning only) for the same reason.
+Remaining lists still to add, in list-number order (not yet reprioritized by
+difficulty within this remainder): List 8 (39), List 9 (39), List 10 (28),
+List 4 (33), List 5 (31), List 6 (14), List 2 (23), List 3 (28), List 1
+remainder (43 — includes AFFECTIONATE, AMAZEMENT, ASSEMBLE, ASTONISH,
+ASUNDER, BLANK, BRIGHT, BROAD and others never covered). That's 278 more
+words / 9 more batches to fully exhaust the 14 vocabulary lists.
