@@ -270,6 +270,40 @@ code {
   border-radius: 4px;
 }
 
+.progress-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  background: var(--bg-raised);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 0.9rem 1.2rem;
+  margin: 1.2rem 0;
+  font-size: 0.95rem;
+}
+.progress-summary .stat { color: var(--ink-soft); }
+.progress-summary .stat strong { color: var(--ink); }
+.progress-summary button.reset-progress {
+  font-size: 0.82rem;
+  padding: 0.4rem 0.8rem;
+  background: transparent;
+  color: var(--bad);
+  border-color: var(--bad);
+}
+
+.batch-done-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--good);
+  background: var(--good-bg);
+  border-radius: 999px;
+  padding: 0.1em 0.6em;
+  margin-left: 0.5em;
+}
+
 @media print {
   body { max-width: 100%; font-size: 12pt; color: #000; background: #fff; }
   button, .no-print { display: none !important; }

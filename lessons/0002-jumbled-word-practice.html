@@ -1,5 +1,6 @@
 <title>Jumbled Word Practice</title>
 <link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/progress.js"></script>
 <script src="../assets/reveal.js"></script>
 <script src="../assets/jumble-data.js"></script>
 
@@ -30,26 +31,72 @@ is tagged with the trick it's teaching. Full reminder:
 <div class="callout">
 This page can be long — work through any batch, in any order, across as many
 sittings as you like. Each batch below is collapsed by default; click its
-title to open it.
+title to open it. Your progress is saved in this browser automatically, so
+closing the page and coming back later picks up right where you left off.
 </div>
+
+<div class="progress-summary" id="progress-summary"></div>
 
 <div id="batches"></div>
 <script>
+var summaryEls = {}; // batch.id -> <summary> element, for live badge updates
+
+function renderProgressSummary() {
+  var stats = computeProgressStats(JUMBLE_BATCHES);
+
+  var host = document.getElementById("progress-summary");
+  host.innerHTML = "";
+  var statEl = document.createElement("div");
+  statEl.className = "stat";
+  statEl.innerHTML = "<strong>" + stats.attempted + " / " + stats.total +
+    "</strong> words attempted so far &middot; <strong>" + stats.correct +
+    "</strong> correct";
+  host.appendChild(statEl);
+
+  var resetBtn = document.createElement("button");
+  resetBtn.type = "button";
+  resetBtn.className = "reset-progress";
+  resetBtn.textContent = "Reset progress";
+  resetBtn.addEventListener("click", function () {
+    if (window.confirm("Clear all saved progress on this page? This can't be undone.")) {
+      ProgressStore.reset();
+      location.reload();
+    }
+  });
+  host.appendChild(resetBtn);
+
+  JUMBLE_BATCHES.forEach(function (batch, i) {
+    var b = stats.perBatch[batch.id];
+    var summary = summaryEls[batch.id];
+    if (!summary) return;
+    var badge = "";
+    if (b.attempted > 0) {
+      badge = ' <span class="batch-done-badge">' + b.attempted + "/" + b.total +
+        " done" + (b.correct > 0 ? ", " + b.correct + " correct" : "") + "</span>";
+    }
+    summary.innerHTML = "<strong>Batch " + (i + 1) + ":</strong> " + batch.title +
+      " &mdash; " + batch.words.length + " words" + badge;
+  });
+}
+
+window.onJumbleProgress = renderProgressSummary;
+
 JUMBLE_BATCHES.forEach(function (batch, i) {
   var host = document.getElementById("batches");
   var details = document.createElement("details");
   details.open = false;
   var summary = document.createElement("summary");
-  summary.innerHTML = "<strong>Batch " + (i + 1) + ":</strong> " + batch.title +
-    " &mdash; " + batch.words.length + " words";
+  summaryEls[batch.id] = summary;
   details.appendChild(summary);
   var div = document.createElement("div");
   div.id = "batch-" + batch.id;
   div.style.marginTop = "1rem";
   details.appendChild(div);
   host.appendChild(details);
-  initJumbleSet(div.id, batch.words);
+  initJumbleSet(div.id, batch.words, batch.id);
 });
+
+renderProgressSummary();
 </script>
 
 <div class="callout">

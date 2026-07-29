@@ -4,7 +4,7 @@
  * explanation. A free-text guess box gives immediate right/wrong feedback at
  * every stage so the child never has to wait for clues to know if they're right.
  *
- * Usage: call initJumbleWidget(containerEl, config) where config is:
+ * Usage: call initJumbleWidget(containerEl, config, progressKey) where config is:
  * {
  *   before: "The sailors were told to sound the ",   // text before the jumble
  *   jumbled: "NAUTICO",                                // the jumbled letters
@@ -14,8 +14,15 @@
  *   options: ["CAUTION", "CUSHION", "CANTION", "AUCTION"], // include the answer
  *   explanation: "CAUTION means care — ..."             // shown after reveal
  * }
+ * progressKey is optional: { batchId, index }. When given, the widget's
+ * exact state (clues shown, options revealed/picked, explanation shown,
+ * right-or-wrong) is saved via ProgressStore (assets/progress.js) after every
+ * change, and replayed on load so the child resumes exactly where they left
+ * off. Omit it for one-off widgets (e.g. Lesson 1's demo words) that don't
+ * need to be remembered.
  */
-function initJumpleGuessBox(root, config, feedbackEl) {
+function initJumpleGuessBox(root, config, feedbackEl, callbacks) {
+  callbacks = callbacks || {};
   const wrap = document.createElement("div");
   wrap.style.display = "flex";
   wrap.style.gap = "0.6rem";
@@ -41,10 +48,11 @@ function initJumpleGuessBox(root, config, feedbackEl) {
     if (val === config.answer.toUpperCase()) {
       feedbackEl.textContent = "Yes! That's it.";
       feedbackEl.className = "feedback good";
-      revealAll(root._stageApi);
+      if (callbacks.onCorrect) callbacks.onCorrect();
     } else {
       feedbackEl.textContent = "Not quite — try another clue below.";
       feedbackEl.className = "feedback bad";
+      if (callbacks.onWrong) callbacks.onWrong();
     }
   }
 
@@ -60,8 +68,10 @@ function revealAll(api) {
  * Renders a large batch of jumble widgets from a plain data array, each in its
  * own "Word N" block (no answer named). Used for big multi-word lesson pages.
  * items: array of the same config objects initJumbleWidget takes.
+ * batchId: optional — when given, each word's progress is saved/restored
+ * under "<batchId>:<index>" (see initJumbleWidget).
  */
-function initJumbleSet(containerId, items) {
+function initJumbleSet(containerId, items, batchId) {
   const host = document.getElementById(containerId);
   items.forEach((item, i) => {
     const h3 = document.createElement("h3");
@@ -70,13 +80,15 @@ function initJumbleSet(containerId, items) {
     const div = document.createElement("div");
     div.id = containerId + "-w" + (i + 1);
     host.appendChild(div);
-    initJumbleWidget(div, item);
+    initJumbleWidget(div, item, batchId ? { batchId: batchId, index: i } : null);
   });
 }
 
-function initJumbleWidget(container, config) {
+function initJumbleWidget(container, config, progressKey) {
   const root = typeof container === "string" ? document.getElementById(container) : container;
   root.innerHTML = "";
+
+  const saved = progressKey ? ProgressStore.getWord(progressKey.batchId, progressKey.index) : null;
 
   const sentence = document.createElement("div");
   sentence.className = "sentence";
@@ -86,15 +98,34 @@ function initJumbleWidget(container, config) {
   const feedback = document.createElement("div");
   feedback.className = "feedback";
 
-  initJumpleGuessBox(root, config, feedback);
+  let clueIndex = 0;
+  let optionsShown = false;
+  let revealed = false;
+  let selectedOption = null;
+  let correct = null;
+
+  function persist() {
+    if (!progressKey) return;
+    ProgressStore.setWord(progressKey.batchId, progressKey.index, {
+      clueIndex: clueIndex,
+      optionsShown: optionsShown,
+      revealed: revealed,
+      selectedOption: selectedOption,
+      correct: correct,
+      feedbackText: feedback.textContent,
+      feedbackClass: feedback.className.replace(/^feedback\s*/, ""),
+    });
+    if (window.onJumbleProgress) window.onJumbleProgress();
+  }
+
+  initJumpleGuessBox(root, config, feedback, {
+    onCorrect: () => { correct = true; revealAll(root._stageApi); },
+    onWrong: () => persist(),
+  });
   root.appendChild(feedback);
 
   const stagesHost = document.createElement("div");
   root.appendChild(stagesHost);
-
-  let clueIndex = 0;
-  let optionsShown = false;
-  let revealed = false;
 
   const nextBtn = document.createElement("button");
   nextBtn.type = "button";
@@ -117,35 +148,62 @@ function initJumbleWidget(container, config) {
     stagesHost.appendChild(div);
   }
 
-  function renderOptions() {
+  function showNextClue() {
+    renderClue(config.clues[clueIndex]);
+    clueIndex++;
+    if (clueIndex === config.clues.length) {
+      nextBtn.textContent = "Show " + config.options.length + " options";
+    }
+    persist();
+  }
+
+  function selectOption(opt, entries) {
+    entries.forEach((e) => (e.btn.disabled = true));
+    const isCorrect = opt.toUpperCase() === config.answer.toUpperCase();
+    const chosen = entries.find((e) => e.opt === opt);
+    if (isCorrect) {
+      chosen.btn.classList.add("correct");
+      feedback.textContent = "Correct!";
+      feedback.className = "feedback good";
+    } else {
+      chosen.btn.classList.add("incorrect");
+      feedback.textContent = `Not quite. The answer was ${config.answer}.`;
+      feedback.className = "feedback bad";
+      entries.forEach((e) => {
+        if (e.opt.toUpperCase() === config.answer.toUpperCase()) e.btn.classList.add("correct");
+      });
+    }
+    selectedOption = opt;
+    correct = isCorrect;
+    finish();
+  }
+
+  function renderOptions(preSelected) {
     const div = document.createElement("div");
     div.className = "options";
-    config.options.forEach((opt) => {
+    const entries = config.options.map((opt) => {
       const b = document.createElement("button");
       b.type = "button";
       b.textContent = opt;
-      b.addEventListener("click", () => {
-        [...div.children].forEach((c) => (c.disabled = true));
-        if (opt.toUpperCase() === config.answer.toUpperCase()) {
-          b.classList.add("correct");
-          feedback.textContent = "Correct!";
-          feedback.className = "feedback good";
-        } else {
-          b.classList.add("incorrect");
-          feedback.textContent = `Not quite. The answer was ${config.answer}.`;
-          feedback.className = "feedback bad";
-          [...div.children].forEach((c) => {
-            if (c.textContent.toUpperCase() === config.answer.toUpperCase()) c.classList.add("correct");
-          });
-        }
-        renderExplanation();
-      });
       div.appendChild(b);
+      return { btn: b, opt: opt };
+    });
+    entries.forEach((entry) => {
+      entry.btn.addEventListener("click", () => selectOption(entry.opt, entries));
     });
     stagesHost.appendChild(div);
+    if (preSelected) selectOption(preSelected, entries);
   }
 
-  function renderExplanation() {
+  function showOptions(preSelected) {
+    optionsShown = true;
+    renderOptions(preSelected || null);
+    nextBtn.textContent = "Reveal answer";
+    persist();
+  }
+
+  function finish() {
+    persist();
     if (revealed) return;
     revealed = true;
     const div = document.createElement("div");
@@ -153,30 +211,42 @@ function initJumbleWidget(container, config) {
     div.innerHTML = `<strong>${config.answer}</strong> — ${config.explanation}`;
     stagesHost.appendChild(div);
     nextBtn.remove();
+    persist();
   }
 
   nextBtn.addEventListener("click", () => {
     if (clueIndex < config.clues.length) {
-      renderClue(config.clues[clueIndex]);
-      clueIndex++;
-      if (clueIndex === config.clues.length) nextBtn.textContent = "Show 4 options";
+      showNextClue();
     } else if (!optionsShown) {
-      renderOptions();
-      optionsShown = true;
-      nextBtn.textContent = "Reveal answer";
+      showOptions(null);
     } else {
-      renderExplanation();
+      finish();
     }
   });
 
   root._stageApi = {
     revealAllRemaining() {
-      while (clueIndex < config.clues.length) {
-        renderClue(config.clues[clueIndex]);
-        clueIndex++;
-      }
-      if (!optionsShown) { renderOptions(); optionsShown = true; }
-      renderExplanation();
+      while (clueIndex < config.clues.length) showNextClue();
+      if (!optionsShown) showOptions(null);
+      finish();
     },
   };
+
+  // Replay any saved state so the widget looks exactly as it was left.
+  if (saved) {
+    // Seed correct/selectedOption up front: a word solved via the free-text
+    // guess box has correct=true but no selectedOption, so it can't rely on
+    // the options-replay below (selectOption) to set these.
+    correct = saved.correct;
+    selectedOption = saved.selectedOption || null;
+    for (let i = 0; i < saved.clueIndex && i < config.clues.length; i++) showNextClue();
+    if (saved.optionsShown) showOptions(saved.selectedOption || null);
+    if (saved.revealed && !revealed) finish();
+    // Reapply the exact saved feedback text/class last — it's authoritative
+    // regardless of which replay path above set (or didn't set) it.
+    if (saved.feedbackText) {
+      feedback.textContent = saved.feedbackText;
+      feedback.className = "feedback" + (saved.feedbackClass ? " " + saved.feedbackClass : "");
+    }
+  }
 }
