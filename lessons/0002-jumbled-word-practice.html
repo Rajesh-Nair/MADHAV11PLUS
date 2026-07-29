@@ -107,6 +107,20 @@ function renderProgressSummary() {
 
 window.onJumbleProgress = renderProgressSummary;
 
+function scrollToNextInBatch(batch, containerId) {
+  var all = ProgressStore.getAll();
+  var targetIndex = -1;
+  for (var i = 0; i < batch.words.length; i++) {
+    var rec = all[batch.id + ":" + i];
+    if (!rec || !rec.revealed) { targetIndex = i; break; }
+  }
+  // -1 means every word in this batch has already been attempted -- land on
+  // the last one instead of the first.
+  var wordNum = targetIndex === -1 ? batch.words.length : targetIndex + 1;
+  var el = document.getElementById(containerId + "-w" + wordNum);
+  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 JUMBLE_BATCHES.forEach(function (batch, i) {
   var host = document.getElementById("batches");
   var details = document.createElement("details");
@@ -120,6 +134,11 @@ JUMBLE_BATCHES.forEach(function (batch, i) {
   details.appendChild(div);
   host.appendChild(details);
   initJumbleSet(div.id, batch.words, batch.id);
+
+  details.addEventListener("toggle", function () {
+    if (!details.open) return;
+    requestAnimationFrame(function () { scrollToNextInBatch(batch, div.id); });
+  });
 });
 
 renderProgressSummary();
