@@ -181,6 +181,25 @@ input[type="text"] {
 .options button.correct { background: var(--good-bg); border-color: var(--good); color: var(--good); }
 .options button.incorrect { background: var(--bad-bg); border-color: var(--bad); color: var(--bad); }
 
+.option-chip {
+  background: var(--bg-raised);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  text-align: left;
+  padding: 0.7rem 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+}
+.option-chip-type {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
 .feedback { font-weight: 600; margin: 0.6rem 0; min-height: 1.4em; }
 .feedback.good { color: var(--good); }
 .feedback.bad { color: var(--bad); }
@@ -283,6 +302,7 @@ code {
   margin: 1.2rem 0;
   font-size: 0.95rem;
 }
+.progress-summary .summary-left { flex: 1 1 auto; min-width: 200px; }
 .progress-summary .stat { color: var(--ink-soft); }
 .progress-summary .stat strong { color: var(--ink); }
 .progress-summary button.reset-progress {
@@ -291,6 +311,33 @@ code {
   background: transparent;
   color: var(--bad);
   border-color: var(--bad);
+  flex: 0 0 auto;
+}
+
+.accuracy-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+.accuracy-bar {
+  flex: 1 1 auto;
+  max-width: 220px;
+  height: 0.5rem;
+  background: var(--rule);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.accuracy-bar-fill {
+  height: 100%;
+  background: var(--good);
+  border-radius: 999px;
+  transition: width 0.2s ease;
+}
+.accuracy-bar-label {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  white-space: nowrap;
 }
 
 .batch-done-badge {

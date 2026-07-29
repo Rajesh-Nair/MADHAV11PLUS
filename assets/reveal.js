@@ -1,8 +1,9 @@
 /*
  * Reusable "jumbled word decoder" widget.
- * Renders progressive clue stages, then multiple-choice options, then the
- * explanation. A free-text guess box gives immediate right/wrong feedback at
- * every stage so the child never has to wait for clues to know if they're right.
+ * Renders progressive clue stages, then a read-only list of labeled hint
+ * words, then the explanation. A free-text guess box gives immediate
+ * right/wrong feedback at every stage so the child never has to wait for
+ * clues to know if they're right.
  *
  * Usage: call initJumbleWidget(containerEl, config, progressKey) where config is:
  * {
@@ -11,7 +12,10 @@
  *   after: " and abandon ship.",                        // text after the jumble
  *   answer: "CAUTION",                                  // correct word (any case)
  *   clues: ["Starts with the letter C.", "It means the same as 'care'."],
- *   options: ["CAUTION", "CUSHION", "CANTION", "AUCTION"], // include the answer
+ *   hints: [                                            // shown read-only,
+ *     { word: "CARE", type: "synonym" },                // never clickable —
+ *     { word: "RECKLESSNESS", type: "antonym" },         // the answer itself
+ *   ],                                                  // is never one of these
  *   explanation: "CAUTION means care — ..."             // shown after reveal
  * }
  * progressKey is optional: { batchId, index }. When given, the widget's
@@ -101,7 +105,6 @@ function initJumbleWidget(container, config, progressKey) {
   let clueIndex = 0;
   let optionsShown = false;
   let revealed = false;
-  let selectedOption = null;
   let correct = null;
 
   function persist() {
@@ -110,7 +113,6 @@ function initJumbleWidget(container, config, progressKey) {
       clueIndex: clueIndex,
       optionsShown: optionsShown,
       revealed: revealed,
-      selectedOption: selectedOption,
       correct: correct,
       feedbackText: feedback.textContent,
       feedbackClass: feedback.className.replace(/^feedback\s*/, ""),
@@ -152,52 +154,32 @@ function initJumbleWidget(container, config, progressKey) {
     renderClue(config.clues[clueIndex]);
     clueIndex++;
     if (clueIndex === config.clues.length) {
-      nextBtn.textContent = "Show " + config.options.length + " options";
+      nextBtn.textContent = "Show " + config.hints.length + " hint words";
     }
     persist();
   }
 
-  function selectOption(opt, entries) {
-    entries.forEach((e) => (e.btn.disabled = true));
-    const isCorrect = opt.toUpperCase() === config.answer.toUpperCase();
-    const chosen = entries.find((e) => e.opt === opt);
-    if (isCorrect) {
-      chosen.btn.classList.add("correct");
-      feedback.textContent = "Correct!";
-      feedback.className = "feedback good";
-    } else {
-      chosen.btn.classList.add("incorrect");
-      feedback.textContent = `Not quite. The answer was ${config.answer}.`;
-      feedback.className = "feedback bad";
-      entries.forEach((e) => {
-        if (e.opt.toUpperCase() === config.answer.toUpperCase()) e.btn.classList.add("correct");
-      });
-    }
-    selectedOption = opt;
-    correct = isCorrect;
-    finish();
-  }
+  const TYPE_LABEL = { synonym: "synonym", antonym: "antonym", root: "root", related: "related word" };
 
-  function renderOptions(preSelected) {
+  function renderOptions() {
     const div = document.createElement("div");
-    div.className = "options";
-    const entries = config.options.map((opt) => {
-      const b = document.createElement("button");
-      b.type = "button";
-      b.textContent = opt;
-      div.appendChild(b);
-      return { btn: b, opt: opt };
-    });
-    entries.forEach((entry) => {
-      entry.btn.addEventListener("click", () => selectOption(entry.opt, entries));
+    div.className = "options options-readonly";
+    config.hints.forEach((hint) => {
+      const chip = document.createElement("div");
+      chip.className = "option-chip";
+      chip.textContent = hint.word;
+      const tag = document.createElement("span");
+      tag.className = "option-chip-type";
+      tag.textContent = "(" + (TYPE_LABEL[hint.type] || hint.type) + ")";
+      chip.appendChild(tag);
+      div.appendChild(chip);
     });
     stagesHost.appendChild(div);
-    if (preSelected) selectOption(preSelected, entries);
   }
 
-  function showOptions(preSelected) {
+  function showOptions() {
     optionsShown = true;
-    renderOptions(preSelected || null);
+    renderOptions();
     nextBtn.textContent = "Reveal answer";
     persist();
   }
@@ -218,7 +200,7 @@ function initJumbleWidget(container, config, progressKey) {
     if (clueIndex < config.clues.length) {
       showNextClue();
     } else if (!optionsShown) {
-      showOptions(null);
+      showOptions();
     } else {
       finish();
     }
@@ -227,20 +209,18 @@ function initJumbleWidget(container, config, progressKey) {
   root._stageApi = {
     revealAllRemaining() {
       while (clueIndex < config.clues.length) showNextClue();
-      if (!optionsShown) showOptions(null);
+      if (!optionsShown) showOptions();
       finish();
     },
   };
 
   // Replay any saved state so the widget looks exactly as it was left.
   if (saved) {
-    // Seed correct/selectedOption up front: a word solved via the free-text
-    // guess box has correct=true but no selectedOption, so it can't rely on
-    // the options-replay below (selectOption) to set these.
+    // Seed correct up front: a word solved via the free-text guess box has
+    // correct=true set before finish() ever runs.
     correct = saved.correct;
-    selectedOption = saved.selectedOption || null;
     for (let i = 0; i < saved.clueIndex && i < config.clues.length; i++) showNextClue();
-    if (saved.optionsShown) showOptions(saved.selectedOption || null);
+    if (saved.optionsShown) showOptions();
     if (saved.revealed && !revealed) finish();
     // Reapply the exact saved feedback text/class last — it's authoritative
     // regardless of which replay path above set (or didn't set) it.

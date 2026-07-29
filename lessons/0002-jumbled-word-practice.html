@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>Jumbled Word Practice</title>
 <link rel="stylesheet" href="../assets/style.css">
 <script src="../assets/progress.js"></script>
@@ -46,12 +47,37 @@ function renderProgressSummary() {
 
   var host = document.getElementById("progress-summary");
   host.innerHTML = "";
+
+  var left = document.createElement("div");
+  left.className = "summary-left";
+
   var statEl = document.createElement("div");
   statEl.className = "stat";
   statEl.innerHTML = "<strong>" + stats.attempted + " / " + stats.total +
     "</strong> words attempted so far &middot; <strong>" + stats.correct +
     "</strong> correct";
-  host.appendChild(statEl);
+  left.appendChild(statEl);
+
+  if (stats.attempted > 0) {
+    var pct = Math.round((stats.correct / stats.attempted) * 100);
+    var barRow = document.createElement("div");
+    barRow.className = "accuracy-bar-row";
+    var bar = document.createElement("div");
+    bar.className = "accuracy-bar";
+    bar.title = pct + "% correct (" + stats.correct + " of " + stats.attempted + " attempted)";
+    var barFill = document.createElement("div");
+    barFill.className = "accuracy-bar-fill";
+    barFill.style.width = pct + "%";
+    bar.appendChild(barFill);
+    var barLabel = document.createElement("span");
+    barLabel.className = "accuracy-bar-label";
+    barLabel.textContent = pct + "% correct";
+    barRow.appendChild(bar);
+    barRow.appendChild(barLabel);
+    left.appendChild(barRow);
+  }
+
+  host.appendChild(left);
 
   var resetBtn = document.createElement("button");
   resetBtn.type = "button";
