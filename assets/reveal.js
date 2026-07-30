@@ -106,6 +106,13 @@ function initJumbleWidget(container, config, progressKey) {
   let optionsShown = false;
   let revealed = false;
   let correct = null;
+  // 1.0 = guessed right with no help at all. Each clue shown (and the
+  // hint-words reveal, counted as one more step) knocks 10% off, down to a
+  // 50% floor -- getting it right after help is still a real win, just not a
+  // full one. Computed once at the moment of a correct guess and never
+  // recalculated, so revealAll()'s auto-reveal of the remaining stages
+  // afterward doesn't further penalize it.
+  let score = null;
 
   function persist() {
     if (!progressKey) return;
@@ -114,6 +121,7 @@ function initJumbleWidget(container, config, progressKey) {
       optionsShown: optionsShown,
       revealed: revealed,
       correct: correct,
+      score: score,
       feedbackText: feedback.textContent,
       feedbackClass: feedback.className.replace(/^feedback\s*/, ""),
     });
@@ -121,7 +129,16 @@ function initJumbleWidget(container, config, progressKey) {
   }
 
   initJumpleGuessBox(root, config, feedback, {
-    onCorrect: () => { correct = true; revealAll(root._stageApi); },
+    onCorrect: () => {
+      const helpSteps = clueIndex + (optionsShown ? 1 : 0);
+      score = Math.max(0.5, 1 - 0.1 * helpSteps);
+      if (score < 1) {
+        feedback.textContent += " (" + Math.round(score * 100) + "% — clue" +
+          (helpSteps === 1 ? "" : "s") + " used)";
+      }
+      correct = true;
+      revealAll(root._stageApi);
+    },
     onWrong: () => persist(),
   });
   root.appendChild(feedback);
@@ -216,9 +233,10 @@ function initJumbleWidget(container, config, progressKey) {
 
   // Replay any saved state so the widget looks exactly as it was left.
   if (saved) {
-    // Seed correct up front: a word solved via the free-text guess box has
-    // correct=true set before finish() ever runs.
+    // Seed correct/score up front: a word solved via the free-text guess box
+    // has both set before finish() ever runs.
     correct = saved.correct;
+    score = typeof saved.score === "number" ? saved.score : null;
     for (let i = 0; i < saved.clueIndex && i < config.clues.length; i++) showNextClue();
     if (saved.optionsShown) showOptions();
     if (saved.revealed && !revealed) finish();

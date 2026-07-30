@@ -80,10 +80,10 @@ const ProgressStore = (function () {
  */
 function computeProgressStats(batches) {
   const all = ProgressStore.getAll();
-  let total = 0, attempted = 0, correct = 0;
+  let total = 0, attempted = 0, correct = 0, scoreSum = 0;
   const perBatch = {};
   batches.forEach(function (batch) {
-    let bAttempted = 0, bCorrect = 0;
+    let bAttempted = 0, bCorrect = 0, bScoreSum = 0;
     batch.words.forEach(function (_, i) {
       total++;
       const rec = all[batch.id + ":" + i];
@@ -93,10 +93,15 @@ function computeProgressStats(batches) {
         if (rec.correct === true) {
           correct++;
           bCorrect++;
+          // Older saved records predate scoring and have no score field --
+          // treat those as a full 1.0 rather than punishing past progress.
+          const wordScore = typeof rec.score === "number" ? rec.score : 1;
+          scoreSum += wordScore;
+          bScoreSum += wordScore;
         }
       }
     });
-    perBatch[batch.id] = { total: batch.words.length, attempted: bAttempted, correct: bCorrect };
+    perBatch[batch.id] = { total: batch.words.length, attempted: bAttempted, correct: bCorrect, scoreSum: bScoreSum };
   });
-  return { total: total, attempted: attempted, correct: correct, perBatch: perBatch };
+  return { total: total, attempted: attempted, correct: correct, scoreSum: scoreSum, perBatch: perBatch };
 }

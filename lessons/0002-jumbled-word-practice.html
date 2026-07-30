@@ -59,19 +59,23 @@ function renderProgressSummary() {
   left.appendChild(statEl);
 
   if (stats.attempted > 0) {
-    var pct = Math.round((stats.correct / stats.attempted) * 100);
+    // Clue-adjusted: a correct guess that took clues counts for less than a
+    // clean one, so this can read below stats.correct/stats.attempted's raw
+    // percentage even though every "correct" word is still counted once.
+    var pct = Math.round((stats.scoreSum / stats.attempted) * 100);
     var barRow = document.createElement("div");
     barRow.className = "accuracy-bar-row";
     var bar = document.createElement("div");
     bar.className = "accuracy-bar";
-    bar.title = pct + "% correct (" + stats.correct + " of " + stats.attempted + " attempted)";
+    bar.title = pct + "% score (" + stats.correct + " of " + stats.attempted +
+      " attempted correct; using clues lowers a word's score, down to a 50% floor)";
     var barFill = document.createElement("div");
     barFill.className = "accuracy-bar-fill";
     barFill.style.width = pct + "%";
     bar.appendChild(barFill);
     var barLabel = document.createElement("span");
     barLabel.className = "accuracy-bar-label";
-    barLabel.textContent = pct + "% correct";
+    barLabel.textContent = pct + "% score";
     barRow.appendChild(bar);
     barRow.appendChild(barLabel);
     left.appendChild(barRow);
