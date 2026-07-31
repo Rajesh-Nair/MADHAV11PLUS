@@ -87,7 +87,11 @@ function computeProgressStats(batches) {
     batch.words.forEach(function (_, i) {
       total++;
       const rec = all[batch.id + ":" + i];
-      if (rec && rec.revealed) {
+      // A word counts as "answered" the moment a guess was submitted
+      // (rec.attempted), even if never fully revealed. Older saved records
+      // predate that flag and only have `revealed` -- honor those too so
+      // past progress isn't dropped.
+      if (rec && (rec.attempted || rec.revealed)) {
         attempted++;
         bAttempted++;
         if (rec.correct === true) {

@@ -106,6 +106,10 @@ function initJumbleWidget(container, config, progressKey) {
   let optionsShown = false;
   let revealed = false;
   let correct = null;
+  // True the moment the child submits any guess (right or wrong) -- this is
+  // what counts a word as "answered" in the progress tally, independent of
+  // whether they ever go on to fully reveal it (see `revealed`).
+  let attempted = false;
   // 1.0 = guessed right with no help at all. Each clue shown (and the
   // hint-words reveal, counted as one more step) knocks 10% off, down to a
   // 50% floor -- getting it right after help is still a real win, just not a
@@ -121,6 +125,7 @@ function initJumbleWidget(container, config, progressKey) {
       optionsShown: optionsShown,
       revealed: revealed,
       correct: correct,
+      attempted: attempted,
       score: score,
       feedbackText: feedback.textContent,
       feedbackClass: feedback.className.replace(/^feedback\s*/, ""),
@@ -130,6 +135,7 @@ function initJumbleWidget(container, config, progressKey) {
 
   initJumpleGuessBox(root, config, feedback, {
     onCorrect: () => {
+      attempted = true;
       const helpSteps = clueIndex + (optionsShown ? 1 : 0);
       score = Math.max(0.5, 1 - 0.1 * helpSteps);
       if (score < 1) {
@@ -139,7 +145,10 @@ function initJumbleWidget(container, config, progressKey) {
       correct = true;
       revealAll(root._stageApi);
     },
-    onWrong: () => persist(),
+    onWrong: () => {
+      attempted = true;
+      persist();
+    },
   });
   root.appendChild(feedback);
 
@@ -236,6 +245,7 @@ function initJumbleWidget(container, config, progressKey) {
     // Seed correct/score up front: a word solved via the free-text guess box
     // has both set before finish() ever runs.
     correct = saved.correct;
+    attempted = !!saved.attempted;
     score = typeof saved.score === "number" ? saved.score : null;
     for (let i = 0; i < saved.clueIndex && i < config.clues.length; i++) showNextClue();
     if (saved.optionsShown) showOptions();
