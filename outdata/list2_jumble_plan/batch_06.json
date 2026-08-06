@@ -1,0 +1,687 @@
+{
+  "batch_id": "list2-batch06",
+  "words": [
+    {
+      "word": "Labour",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "work",
+            "toil",
+            "effort",
+            "exertion",
+            "graft"
+          ],
+          "antonyms": [
+            "rest",
+            "leisure",
+            "idleness"
+          ],
+          "sentences": [
+            "Building the pyramids required the labour of thousands of workers."
+          ]
+        }
+      ],
+      "jumbled": "BULORA"
+    },
+    {
+      "word": "Benevolent",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "kind",
+            "generous",
+            "charitable",
+            "caring",
+            "compassionate"
+          ],
+          "antonyms": [
+            "unkind",
+            "malevolent",
+            "cruel",
+            "selfish"
+          ],
+          "sentences": [
+            "The benevolent old man donated most of his fortune to the local orphanage.",
+            "The story's benevolent giant only ever helped lost travellers find their way home."
+          ]
+        }
+      ],
+      "jumbled": "EENOLBETNV"
+    },
+    {
+      "word": "Incandescent",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "glowing",
+            "blazing",
+            "luminous",
+            "brilliant",
+            "radiant"
+          ],
+          "antonyms": [
+            "dark",
+            "dull",
+            "dim"
+          ],
+          "sentences": [
+            "The incandescent filament inside the old bulb glowed a warm orange."
+          ]
+        }
+      ],
+      "jumbled": "SCCIEETDNNNA"
+    },
+    {
+      "word": "Exhume",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "dig up",
+            "unearth",
+            "disinter"
+          ],
+          "antonyms": [
+            "bury",
+            "inter"
+          ],
+          "sentences": [
+            "Investigators were granted permission to exhume the body for further tests."
+          ]
+        }
+      ],
+      "jumbled": "XEUHEM"
+    },
+    {
+      "word": "Gaunt",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "thin",
+            "haggard",
+            "drawn",
+            "bony",
+            "emaciated"
+          ],
+          "antonyms": [
+            "plump",
+            "healthy",
+            "robust"
+          ],
+          "sentences": [
+            "After weeks at sea with little food, the sailors looked gaunt and exhausted."
+          ]
+        }
+      ],
+      "jumbled": "AUTGN"
+    },
+    {
+      "word": "Haggard",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "gaunt",
+            "drawn",
+            "worn out",
+            "exhausted",
+            "weary"
+          ],
+          "antonyms": [
+            "fresh",
+            "rested",
+            "healthy"
+          ],
+          "sentences": [
+            "After the sleepless night on watch, the sailor's face looked haggard in the morning light.",
+            "He hardly recognised his own haggard reflection in the mirror."
+          ]
+        }
+      ],
+      "jumbled": "GGDARAH"
+    },
+    {
+      "word": "Bushel",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "(a unit of measure for grain or fruit)"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The farmer sold his apples by the bushel at the autumn market."
+          ]
+        }
+      ],
+      "jumbled": "HULSEB"
+    },
+    {
+      "word": "Precocious",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "advanced",
+            "gifted",
+            "mature",
+            "forward"
+          ],
+          "antonyms": [
+            "backward",
+            "immature"
+          ],
+          "sentences": [
+            "The precocious six-year-old was already reading books meant for teenagers.",
+            "Her precocious talent for the piano amazed every adult who heard her play."
+          ]
+        }
+      ],
+      "jumbled": "USOPCEICOR"
+    },
+    {
+      "word": "Sprightly",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "lively",
+            "energetic",
+            "spry",
+            "nimble",
+            "brisk"
+          ],
+          "antonyms": [
+            "sluggish",
+            "lethargic",
+            "weary"
+          ],
+          "sentences": [
+            "Despite being ninety, my great-grandfather still takes a sprightly walk every morning.",
+            "He climbed the stairs with a sprightly step that put younger visitors to shame."
+          ]
+        }
+      ],
+      "jumbled": "YIPHLTSRG"
+    },
+    {
+      "word": "Shake",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "tremble",
+            "quiver",
+            "shiver",
+            "vibrate",
+            "rattle"
+          ],
+          "antonyms": [
+            "steady",
+            "stabilise"
+          ],
+          "sentences": [
+            "The whole house seemed to shake as the thunder crashed overhead."
+          ]
+        }
+      ],
+      "jumbled": "ESHAK"
+    },
+    {
+      "word": "Conscious",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "aware",
+            "awake",
+            "alert",
+            "mindful",
+            "sentient"
+          ],
+          "antonyms": [
+            "unconscious",
+            "unaware",
+            "oblivious"
+          ],
+          "sentences": [
+            "The patient remained conscious throughout the entire procedure.",
+            "She was suddenly conscious of everyone staring at her muddy shoes."
+          ]
+        }
+      ],
+      "jumbled": "NSSUOOCCI"
+    },
+    {
+      "word": "Deliberate",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "intentional",
+          "synonyms": [
+            "intentional",
+            "planned",
+            "calculated",
+            "purposeful"
+          ],
+          "antonyms": [
+            "accidental",
+            "unintentional",
+            "spontaneous"
+          ],
+          "sentences": [
+            "It was a deliberate act of vandalism, not an accident.",
+            "He spoke in a slow, deliberate voice so everyone could follow."
+          ]
+        },
+        {
+          "label": "to think over",
+          "synonyms": [
+            "consider",
+            "ponder",
+            "weigh up",
+            "mull over"
+          ],
+          "antonyms": [
+            "act rashly",
+            "decide instantly"
+          ],
+          "sentences": [
+            "The judges deliberated for over an hour before announcing the winner."
+          ]
+        }
+      ],
+      "jumbled": "ITDBLEREEA"
+    },
+    {
+      "word": "Impede",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "hinder",
+            "obstruct",
+            "hamper",
+            "block",
+            "delay"
+          ],
+          "antonyms": [
+            "help",
+            "assist",
+            "facilitate",
+            "aid"
+          ],
+          "sentences": [
+            "Fallen branches impeded the rescue team's progress through the forest.",
+            "Heavy snow impeded traffic across the whole region."
+          ]
+        }
+      ],
+      "jumbled": "MPEEID"
+    },
+    {
+      "word": "Parcel",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "package",
+            "box",
+            "bundle",
+            "package"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The postman left a large parcel on the doorstep."
+          ]
+        }
+      ],
+      "jumbled": "ALCPRE"
+    },
+    {
+      "word": "Vein",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "blood vessel",
+            "streak",
+            "seam",
+            "strand"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The doctor located a vein in his arm to take a blood sample.",
+            "A vein of gold ran through the grey rock."
+          ]
+        }
+      ],
+      "jumbled": "EVNI"
+    },
+    {
+      "word": "Vain",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "conceited",
+          "synonyms": [
+            "conceited",
+            "arrogant",
+            "self-important",
+            "vainglorious"
+          ],
+          "antonyms": [
+            "modest",
+            "humble"
+          ],
+          "sentences": [
+            "He was far too vain to be seen without his hair perfectly styled."
+          ]
+        },
+        {
+          "label": "useless (in vain)",
+          "synonyms": [
+            "useless",
+            "futile",
+            "fruitless",
+            "unsuccessful"
+          ],
+          "antonyms": [
+            "successful",
+            "fruitful",
+            "effective"
+          ],
+          "sentences": [
+            "They searched in vain for the missing ring; it was never found."
+          ]
+        }
+      ],
+      "jumbled": "IVNA"
+    },
+    {
+      "word": "Genial",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "friendly",
+            "warm",
+            "cordial",
+            "amiable",
+            "affable"
+          ],
+          "antonyms": [
+            "unfriendly",
+            "cold",
+            "hostile"
+          ],
+          "sentences": [
+            "Our genial host greeted every guest with a warm smile.",
+            "His genial manner put even the nervous new pupils at ease."
+          ]
+        }
+      ],
+      "jumbled": "AINGLE"
+    },
+    {
+      "word": "Substance",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "material",
+            "matter",
+            "stuff",
+            "content",
+            "meaning"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Scientists studied the strange substance found in the meteorite.",
+            "His speech sounded impressive but had very little substance to it."
+          ]
+        }
+      ],
+      "jumbled": "CUSSANEBT"
+    },
+    {
+      "word": "Unprecedented",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "unparalleled",
+            "unheard of",
+            "extraordinary",
+            "novel",
+            "exceptional"
+          ],
+          "antonyms": [
+            "common",
+            "usual",
+            "routine",
+            "ordinary"
+          ],
+          "sentences": [
+            "The floods caused unprecedented damage, worse than anything the town had seen before.",
+            "Ticket sales reached an unprecedented level this year."
+          ]
+        }
+      ],
+      "jumbled": "RETDEDENPUCNE"
+    },
+    {
+      "word": "Altruistic",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "selfless",
+            "generous",
+            "unselfish",
+            "charitable",
+            "philanthropic"
+          ],
+          "antonyms": [
+            "selfish",
+            "self-serving",
+            "greedy"
+          ],
+          "sentences": [
+            "Volunteering at the shelter every weekend was a truly altruistic thing to do, since she asked for nothing in return."
+          ]
+        }
+      ],
+      "jumbled": "CITTIRALSU"
+    },
+    {
+      "word": "Punctilious",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "meticulous",
+            "precise",
+            "careful",
+            "exacting",
+            "scrupulous"
+          ],
+          "antonyms": [
+            "careless",
+            "sloppy",
+            "negligent"
+          ],
+          "sentences": [
+            "The accountant was punctilious about checking every single figure twice before signing off the accounts."
+          ]
+        }
+      ],
+      "jumbled": "ISUONTIPCLU"
+    },
+    {
+      "word": "Resentful",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "bitter",
+            "aggrieved",
+            "indignant",
+            "embittered"
+          ],
+          "antonyms": [
+            "content",
+            "appreciative",
+            "grateful"
+          ],
+          "sentences": [
+            "He felt resentful that his younger sister got all the attention.",
+            "She gave a resentful glare at anyone who mentioned the missed promotion."
+          ]
+        }
+      ],
+      "jumbled": "UTNSRFLEE"
+    },
+    {
+      "word": "Galoshes",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "wellingtons",
+            "rubber boots",
+            "overshoes"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "She pulled on her galoshes before splashing through the muddy puddles."
+          ]
+        }
+      ],
+      "jumbled": "SHAGSOLE"
+    },
+    {
+      "word": "Boater",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "straw hat"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The cricketers wore smart straw boaters as part of their summer uniform."
+          ]
+        }
+      ],
+      "jumbled": "EOTBRA"
+    },
+    {
+      "word": "Course",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "route/direction",
+          "synonyms": [
+            "path",
+            "route",
+            "direction",
+            "way"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The ship changed course to avoid the storm."
+          ]
+        },
+        {
+          "label": "subject of study",
+          "synonyms": [
+            "class",
+            "programme",
+            "module",
+            "curriculum"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "She enrolled on a photography course at the local college."
+          ]
+        }
+      ],
+      "jumbled": "SCOEUR"
+    },
+    {
+      "word": "Resources",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "assets",
+            "supplies",
+            "materials",
+            "funds",
+            "means"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The school lacked the resources to buy new computers for every classroom."
+          ]
+        }
+      ],
+      "jumbled": "URSSREOCE"
+    },
+    {
+      "word": "Placid",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "calm",
+            "peaceful",
+            "tranquil",
+            "serene",
+            "unruffled"
+          ],
+          "antonyms": [
+            "turbulent",
+            "agitated",
+            "excitable"
+          ],
+          "sentences": [
+            "The placid lake reflected the mountains like a mirror.",
+            "Nothing ever seemed to upset her placid temperament."
+          ]
+        }
+      ],
+      "jumbled": "LIACDP"
+    }
+  ]
+}

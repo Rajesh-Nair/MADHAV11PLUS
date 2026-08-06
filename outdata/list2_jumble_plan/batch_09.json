@@ -1,0 +1,660 @@
+{
+  "batch_id": "list2-batch09",
+  "words": [
+    {
+      "word": "Summon",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "call",
+            "order",
+            "request",
+            "invoke",
+            "gather"
+          ],
+          "antonyms": [
+            "dismiss",
+            "banish"
+          ],
+          "sentences": [
+            "The headteacher summoned the two boys to her office after the fight.",
+            "It took all her courage to summon the nerve to speak in front of the class."
+          ]
+        }
+      ],
+      "jumbled": "OMNSMU"
+    },
+    {
+      "word": "Surmount",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "overcome",
+            "conquer",
+            "defeat",
+            "triumph over",
+            "master"
+          ],
+          "antonyms": [
+            "succumb to",
+            "surrender to"
+          ],
+          "sentences": [
+            "With patience and determination, she managed to surmount every obstacle in her way."
+          ]
+        }
+      ],
+      "jumbled": "MROSUTNU"
+    },
+    {
+      "word": "Content",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "satisfied",
+          "synonyms": [
+            "satisfied",
+            "happy",
+            "pleased",
+            "contented",
+            "at ease"
+          ],
+          "antonyms": [
+            "discontent",
+            "dissatisfied",
+            "unhappy"
+          ],
+          "sentences": [
+            "She seemed perfectly content curled up with a good book by the fire."
+          ]
+        },
+        {
+          "label": "contents/subject matter",
+          "synonyms": [
+            "contents",
+            "substance",
+            "material"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The teacher checked the content of each essay carefully before marking it."
+          ]
+        }
+      ],
+      "jumbled": "TNCTENO"
+    },
+    {
+      "word": "Substantial",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "considerable",
+            "sizeable",
+            "significant",
+            "large",
+            "ample"
+          ],
+          "antonyms": [
+            "minor",
+            "insignificant",
+            "negligible",
+            "small"
+          ],
+          "sentences": [
+            "They made substantial progress on the project over the summer."
+          ]
+        }
+      ],
+      "jumbled": "NTLSITSUABA"
+    },
+    {
+      "word": "Compassion",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sympathy",
+            "empathy",
+            "kindness",
+            "tenderness",
+            "mercy"
+          ],
+          "antonyms": [
+            "indifference",
+            "cruelty",
+            "callousness"
+          ],
+          "sentences": [
+            "The nurse treated every patient with great compassion."
+          ]
+        }
+      ],
+      "jumbled": "POMSOICSNA"
+    },
+    {
+      "word": "Nonchalant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "casual",
+            "relaxed",
+            "unconcerned",
+            "indifferent",
+            "cool"
+          ],
+          "antonyms": [
+            "anxious",
+            "concerned",
+            "worried"
+          ],
+          "sentences": [
+            "He gave a nonchalant shrug, as if losing the match didn't bother him at all."
+          ]
+        }
+      ],
+      "jumbled": "ATLACONNNH"
+    },
+    {
+      "word": "Blas\u00e9",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "indifferent",
+            "unimpressed",
+            "apathetic",
+            "jaded",
+            "offhand"
+          ],
+          "antonyms": [
+            "enthusiastic",
+            "excited",
+            "impressed"
+          ],
+          "sentences": [
+            "After her tenth flight that year, she felt completely blas\u00e9 about air travel."
+          ]
+        }
+      ],
+      "jumbled": "SA\u00c9LB"
+    },
+    {
+      "word": "Jaded",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "weary",
+            "worn out",
+            "cynical",
+            "tired",
+            "disillusioned"
+          ],
+          "antonyms": [
+            "enthusiastic",
+            "fresh",
+            "eager"
+          ],
+          "sentences": [
+            "Years of the same routine had left him feeling jaded about his job."
+          ]
+        }
+      ],
+      "jumbled": "ADJDE"
+    },
+    {
+      "word": "Impeach",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "charge",
+            "accuse",
+            "indict",
+            "prosecute"
+          ],
+          "antonyms": [
+            "exonerate",
+            "clear",
+            "acquit"
+          ],
+          "sentences": [
+            "The politician was impeached after evidence of corruption came to light."
+          ]
+        }
+      ],
+      "jumbled": "APEHIMC"
+    },
+    {
+      "word": "Groundsheet",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "tarpaulin",
+            "floor covering"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "They laid a plastic groundsheet inside the tent to keep out the damp."
+          ]
+        }
+      ],
+      "jumbled": "HSDOTREGUEN"
+    },
+    {
+      "word": "Groundless",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "unfounded",
+            "baseless",
+            "unsubstantiated",
+            "unwarranted"
+          ],
+          "antonyms": [
+            "justified",
+            "valid",
+            "well-founded"
+          ],
+          "sentences": [
+            "Her fears turned out to be entirely groundless, as the test results were fine."
+          ]
+        }
+      ],
+      "jumbled": "UERLNSSDGO"
+    },
+    {
+      "word": "Groundswell",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "surge",
+            "wave",
+            "upsurge",
+            "momentum"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "There was a groundswell of public support for the new recycling scheme."
+          ]
+        }
+      ],
+      "jumbled": "LEWGNOLSDUR"
+    },
+    {
+      "word": "Ground",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "surface of the earth",
+          "synonyms": [
+            "earth",
+            "land",
+            "soil",
+            "terrain"
+          ],
+          "antonyms": [
+            "sky",
+            "air"
+          ],
+          "sentences": [
+            "The apple fell from the tree and hit the ground with a thud."
+          ]
+        },
+        {
+          "label": "reason/basis",
+          "synonyms": [
+            "reason",
+            "basis",
+            "justification",
+            "cause"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "She had good grounds for complaint after waiting three hours for a reply."
+          ]
+        }
+      ],
+      "jumbled": "NRODUG"
+    },
+    {
+      "word": "Condone",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "overlook",
+            "excuse",
+            "tolerate",
+            "accept",
+            "forgive"
+          ],
+          "antonyms": [
+            "condemn",
+            "denounce",
+            "disapprove"
+          ],
+          "sentences": [
+            "The school will not condone any form of bullying."
+          ]
+        }
+      ],
+      "jumbled": "DEOCONN"
+    },
+    {
+      "word": "Smother",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "suffocate",
+            "stifle",
+            "choke",
+            "muffle",
+            "suppress"
+          ],
+          "antonyms": [
+            "expose",
+            "reveal"
+          ],
+          "sentences": [
+            "She smothered the campfire with sand before they left.",
+            "Grandma always smothers her toast in strawberry jam."
+          ]
+        }
+      ],
+      "jumbled": "OSMERHT"
+    },
+    {
+      "word": "Pseudonym",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "pen name",
+            "alias",
+            "false name",
+            "nom de plume"
+          ],
+          "antonyms": [
+            "real name"
+          ],
+          "sentences": [
+            "The author published her first novel under a pseudonym to keep her identity secret."
+          ]
+        }
+      ],
+      "jumbled": "SPMDONUYE"
+    },
+    {
+      "word": "Preview",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sneak peek",
+            "trailer",
+            "taster",
+            "sample"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The magazine printed an exclusive preview of the film before its official release."
+          ]
+        }
+      ],
+      "jumbled": "EWIVPER"
+    },
+    {
+      "word": "Review",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "critique",
+            "assessment",
+            "evaluation",
+            "appraisal"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The restaurant received a glowing review in the local newspaper.",
+            "The teacher asked us to review our answers before handing in the test."
+          ]
+        }
+      ],
+      "jumbled": "ERWEIV"
+    },
+    {
+      "word": "Nuptial",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "marital",
+            "wedding",
+            "matrimonial",
+            "bridal"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The gardens were beautifully decorated for the couple's nuptial celebrations."
+          ]
+        }
+      ],
+      "jumbled": "UNIAPLT"
+    },
+    {
+      "word": "Reservations",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "bookings",
+          "synonyms": [
+            "bookings",
+            "arrangements"
+          ],
+          "antonyms": [
+            "cancellations"
+          ],
+          "sentences": [
+            "We made reservations at our favourite restaurant for her birthday."
+          ]
+        },
+        {
+          "label": "doubts",
+          "synonyms": [
+            "doubts",
+            "hesitations",
+            "misgivings",
+            "second thoughts"
+          ],
+          "antonyms": [
+            "confidence",
+            "certainty"
+          ],
+          "sentences": [
+            "I have some reservations about the plan, since it seems very rushed."
+          ]
+        }
+      ],
+      "jumbled": "SOTRSARINVEE"
+    },
+    {
+      "word": "Empathise",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "understand",
+            "relate to",
+            "sympathise",
+            "identify with"
+          ],
+          "antonyms": [
+            "disregard",
+            "ignore"
+          ],
+          "sentences": [
+            "Having broken her own arm before, she could really empathise with his pain."
+          ]
+        }
+      ],
+      "jumbled": "IESPAMEHT"
+    },
+    {
+      "word": "Tirade",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "rant",
+            "outburst",
+            "diatribe",
+            "harangue"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The coach launched into a furious tirade after the team's careless mistakes."
+          ]
+        }
+      ],
+      "jumbled": "AETRID"
+    },
+    {
+      "word": "Slumber",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sleep",
+            "rest",
+            "doze",
+            "nap"
+          ],
+          "antonyms": [
+            "wakefulness"
+          ],
+          "sentences": [
+            "The baby fell into a peaceful slumber almost as soon as the car started moving."
+          ]
+        }
+      ],
+      "jumbled": "MSURBEL"
+    },
+    {
+      "word": "Vigilant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "watchful",
+            "alert",
+            "attentive",
+            "observant",
+            "wary"
+          ],
+          "antonyms": [
+            "careless",
+            "inattentive",
+            "negligent"
+          ],
+          "sentences": [
+            "Lifeguards must remain vigilant at all times in case a swimmer gets into trouble."
+          ]
+        }
+      ],
+      "jumbled": "AIGLIVTN"
+    },
+    {
+      "word": "Fortress",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "stronghold",
+            "castle",
+            "citadel",
+            "bastion"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The ancient fortress had withstood countless sieges over the centuries."
+          ]
+        }
+      ],
+      "jumbled": "TFSESORR"
+    },
+    {
+      "word": "Magical",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "enchanting",
+            "spellbinding",
+            "mystical",
+            "wondrous",
+            "charmed"
+          ],
+          "antonyms": [
+            "ordinary",
+            "mundane"
+          ],
+          "sentences": [
+            "The fireworks over the castle created a truly magical evening."
+          ]
+        }
+      ],
+      "jumbled": "CLGMAIA"
+    },
+    {
+      "word": "Pew",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "bench",
+            "seat"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The whole family squeezed into a single pew at the back of the church."
+          ]
+        }
+      ],
+      "jumbled": "PWE"
+    }
+  ]
+}

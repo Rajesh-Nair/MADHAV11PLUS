@@ -16,7 +16,8 @@
       "PowerShell(Invoke-Item *)",
       "Bash(node -e \"require\\('./assets/jumble-data.js'\\); console.log\\('OK, batches:', JUMBLE_BATCHES.length\\); let total=0; JUMBLE_BATCHES.forEach\\(b=>{total+=b.words.length; console.log\\(b.id, b.words.length\\)}\\); console.log\\('total words:', total\\);\")",
       "Bash(node --check assets/jumble-data.js)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(awk 'NR==1119,NR==1243' \"C:/Study/Myprojects/claudeprojects/Madhav11plus/assets/jumble-data.js\")"
     ]
   }
 }

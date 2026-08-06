@@ -1,0 +1,634 @@
+{
+  "batch_id": "list2-batch02",
+  "words": [
+    {
+      "word": "Girdle",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "belt",
+            "sash",
+            "band",
+            "waistband",
+            "corset"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "She wore an embroidered girdle around her waist to hold her cloak in place."
+          ]
+        }
+      ],
+      "jumbled": "EILRGD"
+    },
+    {
+      "word": "Beret",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "cap",
+            "hat"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The French artist wore a black beret tilted to one side."
+          ]
+        }
+      ],
+      "jumbled": "TEEBR"
+    },
+    {
+      "word": "Fez",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "cap",
+            "hat"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The old man wore a red fez with a black tassel, as was the local custom."
+          ]
+        }
+      ],
+      "jumbled": "EFZ"
+    },
+    {
+      "word": "Veal",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "(meat from a calf)"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The restaurant's special dish that evening was veal served with a creamy sauce."
+          ]
+        }
+      ],
+      "jumbled": "EVLA"
+    },
+    {
+      "word": "Colony",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "settlement",
+            "territory",
+            "outpost",
+            "community"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Thousands of ants worked together in the underground colony."
+          ]
+        }
+      ],
+      "jumbled": "LCYONO"
+    },
+    {
+      "word": "Pack",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "group",
+            "band",
+            "troop"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "A pack of wolves howled together in the distance as darkness fell."
+          ]
+        }
+      ],
+      "jumbled": "CAKP"
+    },
+    {
+      "word": "Pride",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "group",
+            "company"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "A pride of lions rested lazily in the shade of the acacia tree."
+          ]
+        }
+      ],
+      "jumbled": "EIDPR"
+    },
+    {
+      "word": "Herd",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "group",
+            "flock",
+            "drove",
+            "mob"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "A herd of elephants made its way slowly towards the waterhole."
+          ]
+        }
+      ],
+      "jumbled": "DERH"
+    },
+    {
+      "word": "Ailing",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sick",
+            "unwell",
+            "poorly",
+            "sickly",
+            "weak"
+          ],
+          "antonyms": [
+            "healthy",
+            "thriving",
+            "robust",
+            "well"
+          ],
+          "sentences": [
+            "The ailing king could no longer attend meetings of his council."
+          ]
+        }
+      ],
+      "jumbled": "IAGNIL"
+    },
+    {
+      "word": "Repose",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "rest",
+            "relaxation",
+            "calm",
+            "tranquillity",
+            "sleep"
+          ],
+          "antonyms": [
+            "activity",
+            "agitation",
+            "unrest"
+          ],
+          "sentences": [
+            "After the long journey, she was glad to find a moment of repose in the quiet garden."
+          ]
+        }
+      ],
+      "jumbled": "EOPESR"
+    },
+    {
+      "word": "Proximity",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "nearness",
+            "closeness",
+            "adjacency",
+            "vicinity"
+          ],
+          "antonyms": [
+            "distance",
+            "remoteness"
+          ],
+          "sentences": [
+            "The house's proximity to the school made the morning walk very short."
+          ]
+        }
+      ],
+      "jumbled": "IXTOPRMYI"
+    },
+    {
+      "word": "Callous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "heartless",
+            "unfeeling",
+            "uncaring",
+            "insensitive",
+            "cold"
+          ],
+          "antonyms": [
+            "caring",
+            "compassionate",
+            "kind",
+            "sympathetic"
+          ],
+          "sentences": [
+            "It was a callous remark to make to someone who had just lost their pet.",
+            "The callous driver didn't even stop to see if anyone was hurt."
+          ]
+        }
+      ],
+      "jumbled": "SAOLUCL"
+    },
+    {
+      "word": "Insipid",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "bland",
+            "tasteless",
+            "dull",
+            "flavourless",
+            "weak"
+          ],
+          "antonyms": [
+            "flavourful",
+            "tasty",
+            "vibrant",
+            "exciting"
+          ],
+          "sentences": [
+            "The soup was so insipid that she reached for the salt straight away."
+          ]
+        }
+      ],
+      "jumbled": "NPIDIIS"
+    },
+    {
+      "word": "Breach",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "violation",
+            "breaking",
+            "infringement",
+            "gap",
+            "rupture"
+          ],
+          "antonyms": [
+            "compliance",
+            "observance"
+          ],
+          "sentences": [
+            "The company was fined for its breach of the safety regulations."
+          ]
+        }
+      ],
+      "jumbled": "ECHRBA"
+    },
+    {
+      "word": "Deliberation",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "consideration",
+            "discussion",
+            "thought",
+            "reflection",
+            "debate"
+          ],
+          "antonyms": [
+            "impulsiveness",
+            "rashness"
+          ],
+          "sentences": [
+            "After much deliberation, the jury finally reached a verdict."
+          ]
+        }
+      ],
+      "jumbled": "IDORNBELAEIT"
+    },
+    {
+      "word": "Refuse",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "decline",
+          "synonyms": [
+            "reject",
+            "spurn",
+            "rebuff",
+            "veto",
+            "turn down"
+          ],
+          "antonyms": [
+            "accept",
+            "agree",
+            "consent",
+            "permit"
+          ],
+          "sentences": [
+            "She refused to apologise even though she knew she was wrong."
+          ]
+        },
+        {
+          "label": "rubbish",
+          "synonyms": [
+            "waste",
+            "garbage",
+            "litter",
+            "trash",
+            "junk"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The bins were overflowing with refuse after the street festival."
+          ]
+        }
+      ],
+      "jumbled": "FEESUR"
+    },
+    {
+      "word": "Envisage",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "imagine",
+            "foresee",
+            "picture",
+            "visualise",
+            "anticipate"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "It's hard to envisage how the empty plot will look once the new library is built."
+          ]
+        }
+      ],
+      "jumbled": "SVEEAGIN"
+    },
+    {
+      "word": "Foresee",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "predict",
+            "anticipate",
+            "envisage",
+            "foretell",
+            "expect"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Nobody could have foreseen how quickly the storm would arrive."
+          ]
+        }
+      ],
+      "jumbled": "REESFEO"
+    },
+    {
+      "word": "Couple",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "pair",
+            "duo",
+            "twosome",
+            "brace"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "A couple of swans glided side by side across the pond."
+          ]
+        }
+      ],
+      "jumbled": "OUEPCL"
+    },
+    {
+      "word": "Rigged",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "fixed",
+            "manipulated",
+            "staged",
+            "engineered",
+            "tampered with"
+          ],
+          "antonyms": [
+            "fair",
+            "genuine",
+            "honest"
+          ],
+          "sentences": [
+            "The players suspected the game had been rigged when the same person kept winning."
+          ]
+        }
+      ],
+      "jumbled": "GREDGI"
+    },
+    {
+      "word": "Complacent",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "smug",
+            "self-satisfied",
+            "unconcerned",
+            "contented",
+            "apathetic"
+          ],
+          "antonyms": [
+            "anxious",
+            "uneasy",
+            "vigilant",
+            "concerned"
+          ],
+          "sentences": [
+            "The champions became complacent and lost their final match to a weaker team.",
+            "Don't get complacent just because you passed the first test easily."
+          ]
+        }
+      ],
+      "jumbled": "TMPEAOCCNL"
+    },
+    {
+      "word": "Smugly",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "self-satisfiedly",
+            "conceitedly",
+            "proudly",
+            "complacently"
+          ],
+          "antonyms": [
+            "humbly",
+            "modestly"
+          ],
+          "sentences": [
+            "He smiled smugly after winning the argument."
+          ]
+        }
+      ],
+      "jumbled": "LMSYUG"
+    },
+    {
+      "word": "Adulation",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "admiration",
+            "praise",
+            "worship",
+            "flattery",
+            "idolisation"
+          ],
+          "antonyms": [
+            "criticism",
+            "scorn",
+            "contempt"
+          ],
+          "sentences": [
+            "The pop star was greeted with adulation from thousands of screaming fans."
+          ]
+        }
+      ],
+      "jumbled": "NULIAOATD"
+    },
+    {
+      "word": "Discontent",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "dissatisfaction",
+            "unhappiness",
+            "displeasure",
+            "resentment",
+            "disgruntlement"
+          ],
+          "antonyms": [
+            "satisfaction",
+            "contentment",
+            "happiness"
+          ],
+          "sentences": [
+            "Rising prices led to growing discontent among the villagers.",
+            "Muttered discontent spread through the classroom when the trip was cancelled."
+          ]
+        }
+      ],
+      "jumbled": "NTSNITOCED"
+    },
+    {
+      "word": "Dismantled",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "took apart",
+            "disassembled",
+            "demolished",
+            "broke down",
+            "deconstructed"
+          ],
+          "antonyms": [
+            "assembled",
+            "built",
+            "constructed",
+            "erected"
+          ],
+          "sentences": [
+            "The workers dismantled the old fairground ride piece by piece."
+          ]
+        }
+      ],
+      "jumbled": "EDSAIMLDNT"
+    },
+    {
+      "word": "Enthral",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "captivate",
+            "fascinate",
+            "mesmerise",
+            "spellbind",
+            "enchant"
+          ],
+          "antonyms": [
+            "bore",
+            "repel"
+          ],
+          "sentences": [
+            "The storyteller's tale of dragons and knights enthralled every child in the room."
+          ]
+        }
+      ],
+      "jumbled": "NETLHRA"
+    },
+    {
+      "word": "Horrendous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "dreadful",
+            "appalling",
+            "horrific",
+            "terrible",
+            "ghastly"
+          ],
+          "antonyms": [
+            "wonderful",
+            "delightful",
+            "pleasant"
+          ],
+          "sentences": [
+            "The traffic on the motorway this morning was horrendous."
+          ]
+        }
+      ],
+      "jumbled": "NSEDRRHUOO"
+    }
+  ]
+}

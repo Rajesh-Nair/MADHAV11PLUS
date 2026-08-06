@@ -1,0 +1,659 @@
+{
+  "batch_id": "list2-batch04",
+  "words": [
+    {
+      "word": "Attendant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "assistant",
+            "helper",
+            "steward",
+            "aide",
+            "usher"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "A flight attendant showed the passengers to their seats."
+          ]
+        }
+      ],
+      "jumbled": "TAEDNNTTA"
+    },
+    {
+      "word": "Annuals",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "plants",
+          "synonyms": [
+            "bedding plants",
+            "seasonal flowers"
+          ],
+          "antonyms": [
+            "perennials"
+          ],
+          "sentences": [
+            "The gardener planted bright annuals along the border every spring, knowing they would need replacing next year."
+          ]
+        },
+        {
+          "label": "yearbooks",
+          "synonyms": [
+            "yearbooks",
+            "annual publications",
+            "gift books"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Every Christmas, my uncle gave me a comic annual full of a whole year's best stories."
+          ]
+        }
+      ],
+      "jumbled": "ULSNAAN"
+    },
+    {
+      "word": "Extract",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "pull out",
+          "synonyms": [
+            "remove",
+            "draw out",
+            "extricate",
+            "withdraw"
+          ],
+          "antonyms": [
+            "insert",
+            "implant"
+          ],
+          "sentences": [
+            "The dentist had to extract the wobbly tooth carefully."
+          ]
+        },
+        {
+          "label": "excerpt",
+          "synonyms": [
+            "excerpt",
+            "passage",
+            "quotation",
+            "snippet"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Our teacher read us an extract from the novel before we chose it for our project."
+          ]
+        }
+      ],
+      "jumbled": "ATXETRC"
+    },
+    {
+      "word": "Examination",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "test",
+            "assessment",
+            "exam",
+            "inspection",
+            "scrutiny"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "She revised for weeks before her end-of-year examination."
+          ]
+        }
+      ],
+      "jumbled": "IMXATIAENNO"
+    },
+    {
+      "word": "Exact",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "precise",
+          "synonyms": [
+            "precise",
+            "accurate",
+            "correct",
+            "specific"
+          ],
+          "antonyms": [
+            "approximate",
+            "vague",
+            "inexact"
+          ],
+          "sentences": [
+            "I need the exact time the train departs so we aren't late."
+          ]
+        },
+        {
+          "label": "demand",
+          "synonyms": [
+            "demand",
+            "extract",
+            "exert",
+            "impose"
+          ],
+          "antonyms": [
+            "waive",
+            "forgo"
+          ],
+          "sentences": [
+            "The bullies would exact a small toll from younger children each morning."
+          ]
+        }
+      ],
+      "jumbled": "ATCXE"
+    },
+    {
+      "word": "Exist",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "be",
+            "live",
+            "survive",
+            "subsist"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Scientists still debate whether life could exist on other planets."
+          ]
+        }
+      ],
+      "jumbled": "TIEXS"
+    },
+    {
+      "word": "Expand",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "grow",
+            "enlarge",
+            "extend",
+            "increase",
+            "widen"
+          ],
+          "antonyms": [
+            "shrink",
+            "contract",
+            "decrease",
+            "reduce"
+          ],
+          "sentences": [
+            "Metal will expand slightly when it is heated."
+          ]
+        }
+      ],
+      "jumbled": "NPADXE"
+    },
+    {
+      "word": "Delicatessen",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "deli",
+            "food shop"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "We bought fresh olives and cured ham from the delicatessen on the corner."
+          ]
+        }
+      ],
+      "jumbled": "SCEAINTSLDEE"
+    },
+    {
+      "word": "Deerstalker",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "hunting cap"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "In the illustrations, Sherlock Holmes always wears a checked deerstalker hat."
+          ]
+        }
+      ],
+      "jumbled": "REEAESRKTLD"
+    },
+    {
+      "word": "Ignition",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "starting",
+            "firing",
+            "combustion"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "He turned the key in the ignition, and the engine roared to life."
+          ]
+        }
+      ],
+      "jumbled": "NITNOIIG"
+    },
+    {
+      "word": "Illumination",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "lighting",
+            "light",
+            "brightness",
+            "radiance"
+          ],
+          "antonyms": [
+            "darkness",
+            "gloom"
+          ],
+          "sentences": [
+            "Fairy lights provided a soft illumination throughout the garden party."
+          ]
+        }
+      ],
+      "jumbled": "NMILAIIONULT"
+    },
+    {
+      "word": "Integrity",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "honesty",
+            "honour",
+            "uprightness",
+            "morality",
+            "sincerity"
+          ],
+          "antonyms": [
+            "dishonesty",
+            "corruption",
+            "deceit"
+          ],
+          "sentences": [
+            "The judge was respected by everyone for her integrity and fairness.",
+            "He refused to cheat, even under pressure, because it would have compromised his integrity."
+          ]
+        }
+      ],
+      "jumbled": "ERITTNYGI"
+    },
+    {
+      "word": "Integrate",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "combine",
+            "merge",
+            "unite",
+            "incorporate",
+            "blend"
+          ],
+          "antonyms": [
+            "separate",
+            "segregate",
+            "isolate"
+          ],
+          "sentences": [
+            "The new student quickly integrated into her class and made lots of friends."
+          ]
+        }
+      ],
+      "jumbled": "TNARIEGET"
+    },
+    {
+      "word": "Integral",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "essential",
+            "fundamental",
+            "necessary",
+            "core",
+            "vital"
+          ],
+          "antonyms": [
+            "unnecessary",
+            "peripheral",
+            "optional"
+          ],
+          "sentences": [
+            "Teamwork is an integral part of every successful sports team."
+          ]
+        }
+      ],
+      "jumbled": "LATRNIGE"
+    },
+    {
+      "word": "Ominous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "threatening",
+            "foreboding",
+            "sinister",
+            "menacing",
+            "dark"
+          ],
+          "antonyms": [
+            "promising",
+            "reassuring",
+            "favourable"
+          ],
+          "sentences": [
+            "Dark clouds gathered on the horizon in an ominous sign of the storm to come.",
+            "An ominous silence fell over the house the moment the headmaster walked in."
+          ]
+        }
+      ],
+      "jumbled": "SNIOOUM"
+    },
+    {
+      "word": "Obliging",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "helpful",
+            "accommodating",
+            "considerate",
+            "cooperative",
+            "courteous"
+          ],
+          "antonyms": [
+            "unhelpful",
+            "obstinate",
+            "uncooperative"
+          ],
+          "sentences": [
+            "The obliging waiter brought us extra napkins without being asked."
+          ]
+        }
+      ],
+      "jumbled": "GBIGOILN"
+    },
+    {
+      "word": "Reconnaissance",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "scouting",
+            "surveillance",
+            "exploration",
+            "inspection"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The soldiers were sent ahead on a reconnaissance mission to check the enemy's position."
+          ]
+        }
+      ],
+      "jumbled": "EINORSECNAACSN"
+    },
+    {
+      "word": "Spectacles",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "glasses",
+            "eyeglasses"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Grandpa can't read the newspaper without his spectacles."
+          ]
+        }
+      ],
+      "jumbled": "CLACSPTESE"
+    },
+    {
+      "word": "Outrageous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "shocking",
+            "scandalous",
+            "appalling",
+            "extreme",
+            "disgraceful"
+          ],
+          "antonyms": [
+            "ordinary",
+            "acceptable",
+            "modest",
+            "reasonable"
+          ],
+          "sentences": [
+            "Charging that much for a single ice cream is outrageous!",
+            "Everyone gasped at his outrageous behaviour during the school assembly."
+          ]
+        }
+      ],
+      "jumbled": "ARUGUSTOEO"
+    },
+    {
+      "word": "Sympathise",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "empathise",
+            "understand",
+            "commiserate",
+            "feel for"
+          ],
+          "antonyms": [
+            "disregard",
+            "ignore"
+          ],
+          "sentences": [
+            "I sympathise with anyone who has to sit an exam this early in the morning."
+          ]
+        }
+      ],
+      "jumbled": "PEYAMTHSIS"
+    },
+    {
+      "word": "Perspire",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sweat",
+            "glisten"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "By the end of the marathon, every runner was perspiring heavily."
+          ]
+        }
+      ],
+      "jumbled": "SIERPERP"
+    },
+    {
+      "word": "Tantalise",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "tempt",
+            "tease",
+            "entice",
+            "torment",
+            "allure"
+          ],
+          "antonyms": [
+            "satisfy",
+            "fulfil"
+          ],
+          "sentences": [
+            "The smell of freshly baked bread tantalised us as we waited for the oven timer."
+          ]
+        }
+      ],
+      "jumbled": "LSAAEINTT"
+    },
+    {
+      "word": "Grievance",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "complaint",
+            "grumble",
+            "objection",
+            "protest"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The workers raised a formal grievance about their unsafe working conditions."
+          ]
+        }
+      ],
+      "jumbled": "EVCEGIRNA"
+    },
+    {
+      "word": "Housewife",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "homemaker"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "As a housewife, she managed the household budget and cooked every meal for the family."
+          ]
+        }
+      ],
+      "jumbled": "FESWEUOHI"
+    },
+    {
+      "word": "Appreciate",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "value",
+          "synonyms": [
+            "value",
+            "treasure",
+            "cherish",
+            "be grateful for"
+          ],
+          "antonyms": [
+            "undervalue",
+            "disregard",
+            "scorn"
+          ],
+          "sentences": [
+            "I really appreciate you helping me carry these heavy boxes."
+          ]
+        },
+        {
+          "label": "increase in value",
+          "synonyms": [
+            "rise",
+            "gain value",
+            "grow"
+          ],
+          "antonyms": [
+            "depreciate"
+          ],
+          "sentences": [
+            "Houses in this area have appreciated in value over the last ten years."
+          ]
+        }
+      ],
+      "jumbled": "CPRIEAETPA"
+    },
+    {
+      "word": "Dialogue",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "conversation",
+            "discussion",
+            "exchange",
+            "talk"
+          ],
+          "antonyms": [
+            "monologue",
+            "silence"
+          ],
+          "sentences": [
+            "The playwright is known for writing sharp, realistic dialogue between her characters."
+          ]
+        }
+      ],
+      "jumbled": "AOLEUGDI"
+    },
+    {
+      "word": "Eccentric",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "unconventional",
+            "quirky",
+            "odd",
+            "peculiar",
+            "unusual"
+          ],
+          "antonyms": [
+            "conventional",
+            "normal",
+            "ordinary"
+          ],
+          "sentences": [
+            "Our eccentric neighbour keeps three parrots and a pet tortoise called Napoleon.",
+            "He had the eccentric habit of wearing odd socks to every meeting."
+          ]
+        }
+      ],
+      "jumbled": "NCRIECCTE"
+    }
+  ]
+}

@@ -132,6 +132,23 @@ def split_sections(md_text):
     return sections
 
 
+def split_meaning_cell(cell):
+    """Split a table cell on '<br>' into (label, text) parts, stripping any
+    leading '**(N) label:**' or '**(N)**' homonym-sense marker. A cell with
+    no '<br>' and no marker yields a single ("", cell) part."""
+    parts = []
+    for chunk in cell.split("<br>"):
+        chunk = chunk.strip()
+        m = re.match(r"^\*\*\((\d+)\)\s*([^*]*)\*\*\s*(.*)$", chunk)
+        if m:
+            label = m.group(2).strip().rstrip(":").strip()
+            text = m.group(3).strip()
+        else:
+            label, text = "", chunk
+        parts.append((label, text))
+    return parts
+
+
 def parse_table_rows(lines):
     """Given lines of a markdown table, return list of row cell-lists, skipping the header + separator."""
     rows = []
@@ -168,15 +185,59 @@ def parse_vocab_file(path):
             for cells in rows:
                 if len(cells) < 2 or not cells[0]:
                     continue
-                word, meaning = cells[0], cells[1]
-                category = "word_dual_meaning" if re.search(r"\bOR\b", meaning) else "word"
-                entries.append({
-                    "id": next_id("W"),
-                    "category": category,
-                    "word": word,
-                    "meaning": meaning,
-                    "source": heading,
-                })
+                word = cells[0]
+
+                if len(cells) >= 4:
+                    # Rich format: word | synonyms | antonyms | sample sentence.
+                    # Cells may be homonym-split into several '<br>'-joined
+                    # "**(N) label:**"-marked senses, kept in sync across the
+                    # three columns.
+                    syn_parts = split_meaning_cell(cells[1])
+                    ant_parts = split_meaning_cell(cells[2])
+                    sent_parts = split_meaning_cell(cells[3])
+                    n_senses = max(len(syn_parts), len(ant_parts), len(sent_parts), 1)
+
+                    def clean_list(text):
+                        return [t.strip() for t in text.split(",") if t.strip() and t.strip() != "—"]
+
+                    meanings = []
+                    for i in range(n_senses):
+                        label, syn_text = syn_parts[i] if i < len(syn_parts) else ("", "")
+                        _, ant_text = ant_parts[i] if i < len(ant_parts) else ("", "")
+                        _, sent_text = sent_parts[i] if i < len(sent_parts) else ("", "")
+                        meanings.append({
+                            "label": label,
+                            "synonyms": clean_list(syn_text),
+                            "antonyms": clean_list(ant_text),
+                            "sentence": sent_text.strip(),
+                        })
+
+                    dual = len(meanings) > 1
+
+                    def meaning_str(m):
+                        label = f"{m['label']}: " if m["label"] else ""
+                        return (label + ", ".join(m["synonyms"])).strip(": ").strip()
+
+                    meaning = " OR ".join(meaning_str(m) for m in meanings) if dual else meaning_str(meanings[0])
+
+                    entries.append({
+                        "id": next_id("W"),
+                        "category": "word_dual_meaning" if dual else "word",
+                        "word": word,
+                        "meaning": meaning,
+                        "meanings_detail": meanings,
+                        "source": heading,
+                    })
+                else:
+                    meaning = cells[1]
+                    category = "word_dual_meaning" if re.search(r"\bOR\b", meaning) else "word"
+                    entries.append({
+                        "id": next_id("W"),
+                        "category": category,
+                        "word": word,
+                        "meaning": meaning,
+                        "source": heading,
+                    })
 
         elif heading.lower().startswith("synonyms & antonyms"):
             for cells in rows:

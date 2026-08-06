@@ -11,10 +11,15 @@
   can span multiple sittings.
 - Current jumbled-word approach going in: no strategy, guesses randomly. First
   priority is teaching a repeatable decoding strategy, not just vocab recall.
-- Vocabulary source is strictly `indata/vocab_01.md`. The `vocab-test-generator`
-  skill already produces printable tests from this same list (see
-  `outdata/batch_20260728_180605/`) — that's the *testing* side. This `/teach`
-  workspace is the *learning* side; keep the two complementary, not duplicated.
+- Vocabulary source was originally strictly `indata/vocab_01.md`; a second,
+  independent list `indata/vocab_02.md` (262 words) was added 2026-08-06, kept
+  on its own growing practice page (`lessons/0003-vocabulary-list-2-practice.html`
+  + `assets/jumble-data-list2.js`) rather than merged into the first, since the
+  two are separate sources with separate progress tracking (see Architecture
+  below). The `vocab-test-generator` skill already produces printable tests
+  from `vocab_01.md`'s format (see `outdata/batch_20260728_180605/`) — that's
+  the *testing* side. This `/teach` workspace is the *learning* side; keep the
+  two complementary, not duplicated.
 - `task02.md` defines 3 target jumbled-word question types: (1) plain jumbled word
   in sentence context, (2) jumbled word pair with missing letters, (3) jumbled word
   with synonym/antonym options to choose from. Only type (1) is built so far.
@@ -48,6 +53,24 @@ Two prior standalone lesson files (`0002-list-1-batch-two.html`,
 `0003-hardest-words-batch-one.html`) were merged into this system and deleted
 — their 8 + 34 words became the first two entries in `jumble-data.js`
 (`list1-part2`, `list13`). No content was lost, only the file structure changed.
+
+**Second source, second page (added 2026-08-06):** `indata/vocab_02.md` (262
+words after dedup, reference table with synonyms/antonyms/example sentences at
+`indata/vocab_02_reference_table.md`) is a distinct list from `vocab_01.md`,
+so it got its own data file (`assets/jumble-data-list2.js`, array
+`JUMBLE_BATCHES_LIST2`) and its own growing page
+(`lessons/0003-vocabulary-list-2-practice.html`) — same "one growing page,
+append batches, never a new file per batch" rule as Lesson 2, just scoped to
+this second source instead of merging into the first (batch ids would
+otherwise collide and the two lists' difficulty ordering isn't comparable).
+Progress tracking still shares one `ProgressStore`/localStorage key, safely,
+because batch ids are prefixed differently (`list2-batchNN` vs `listN` /
+`list1-part2` etc.) — no changes needed to `progress.js`.
+`indata/vocab_02_reference_table.md` has 18 words with two distinct meanings
+(true homonyms, not just related senses); those get a dedicated "Homonym" clue
+stage and a hint chip typed `"homonym"` (renders as "(homonym)" via
+`reveal.js`'s untyped-hint fallback — no `reveal.js` code change needed for
+this new type).
 
 **Jumble-generation method that scales reliably:** reverse the word's letters,
 then swap one adjacent pair (or two) to break the obvious "read it backwards"
@@ -112,3 +135,43 @@ Words (68 words), Latin/Greek Roots (42 roots), Confusable Word Pairs (20
 pairs) — these map to task02's other two question types (missing-letter
 pairs; synonym/antonym-option jumbles) and haven't been built yet. Next
 natural step if continuing this course.
+
+## Vocabulary List 2 (added 2026-08-06)
+
+**COMPLETE:** All 262 words in `indata/vocab_02.md` (deduped from 276 raw
+entries) are covered in `lessons/0003-vocabulary-list-2-practice.html` — 10
+batches in `assets/jumble-data-list2.js` (`list2-batch01` .. `list2-batch10`,
+27 words each except the last which has 19). Built via a deterministic prep
+script (`scripts/build_list2_jumble_plan.py`, parses
+`indata/vocab_02_reference_table.md` and generates verified, well-scrambled
+jumbles — full random shuffle, retried until different from both the original
+and its plain reversal, at least half the letters displaced, and the first/last
+letter changed for words of 4+ letters) plus 5 parallel subagents that wrote
+the actual before/after sentences, clues, hints, and explanations from the
+plan's structured data (reusing the reference table's own synonyms, antonyms,
+and example sentences rather than inventing new ones).
+
+18 words have two genuinely distinct meanings (true homonyms, not just related
+senses): Obscure, Refuse, Annuals, Extract, Exact, Appreciate, Refrain, Habit,
+Deliberate, Vain, Course, Conduct, Converse, Desert, Content, Ground,
+Reservations, Darn. Each gets a third clue tagged "Homonym" naming both senses
+plainly, plus a hint chip typed `"homonym"` pointing at the other meaning's
+synonym — a deliberate custom type, not in `reveal.js`'s `TYPE_LABEL` map, so
+it renders via the existing untyped-hint fallback as "(homonym)" with no
+`reveal.js` changes needed.
+
+**Caught and fixed during review:** several of the "Homonym" clues initially
+named the answer word itself (or an inflected form, e.g. "conducting an
+experiment" for CONDUCT, "grounds for complaint" for GROUND) while explaining
+the second sense — technically true to the word but a real pre-reveal leak
+under the standing "never name answer words outside reveal/explanation" rule.
+Antonym hint chips that happen to contain the base word as a prefix/suffix
+(INCOMPETENT, INVALID, MISCONDUCT, DISCONTENT) were judged acceptable and left
+alone — those are the standard, expected antonym form for those words, not a
+giveaway.
+
+`indata/vocab_02_reference_table.md` also has a matching entry in the
+`vocab-test-generator` skill: `plan_batch.py` was extended to auto-detect this
+4-column (word/synonyms/antonyms/sentence) table shape under the same
+`## Vocabulary List N` heading convention, so printable tests can be generated
+from it too (separately from this jumbled-word page).

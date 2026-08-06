@@ -1,0 +1,639 @@
+{
+  "batch_id": "list2-batch03",
+  "words": [
+    {
+      "word": "Melancholy",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sad",
+            "gloomy",
+            "sorrowful",
+            "mournful",
+            "wistful"
+          ],
+          "antonyms": [
+            "cheerful",
+            "happy",
+            "joyful",
+            "upbeat"
+          ],
+          "sentences": [
+            "A melancholy tune drifted from the old piano in the empty hall."
+          ]
+        }
+      ],
+      "jumbled": "NMHYLECLAO"
+    },
+    {
+      "word": "Reciprocate",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "return",
+            "repay",
+            "respond",
+            "requite",
+            "exchange"
+          ],
+          "antonyms": [
+            "withhold",
+            "ignore"
+          ],
+          "sentences": [
+            "She smiled at him, but he did not reciprocate the gesture.",
+            "He gave her a present, and she reciprocated with a thoughtful card the next day."
+          ]
+        }
+      ],
+      "jumbled": "ACTECREPOIR"
+    },
+    {
+      "word": "Transpire",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "happen",
+            "occur",
+            "take place",
+            "come about",
+            "emerge"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Nobody knew exactly what had transpired during the meeting behind closed doors."
+          ]
+        }
+      ],
+      "jumbled": "RISRPATEN"
+    },
+    {
+      "word": "Treacherous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "dangerous",
+            "hazardous",
+            "unstable",
+            "perilous",
+            "disloyal"
+          ],
+          "antonyms": [
+            "safe",
+            "reliable",
+            "loyal",
+            "trustworthy"
+          ],
+          "sentences": [
+            "The icy mountain path was treacherous after the overnight snowfall.",
+            "His own treacherous advisor had been secretly working for the enemy all along."
+          ]
+        }
+      ],
+      "jumbled": "HEUOEARTSRC"
+    },
+    {
+      "word": "Treachery",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "betrayal",
+            "disloyalty",
+            "deceit",
+            "backstabbing",
+            "treason"
+          ],
+          "antonyms": [
+            "loyalty",
+            "faithfulness",
+            "allegiance"
+          ],
+          "sentences": [
+            "The general never forgave the treachery of the soldier who had sold his plans to the enemy."
+          ]
+        }
+      ],
+      "jumbled": "ATEYCREHR"
+    },
+    {
+      "word": "Vital",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "essential",
+            "crucial",
+            "critical",
+            "indispensable",
+            "necessary"
+          ],
+          "antonyms": [
+            "unimportant",
+            "trivial",
+            "inessential",
+            "optional"
+          ],
+          "sentences": [
+            "Clean water is vital for every living creature."
+          ]
+        }
+      ],
+      "jumbled": "TIALV"
+    },
+    {
+      "word": "Vitality",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "energy",
+            "liveliness",
+            "vigour",
+            "dynamism",
+            "exuberance"
+          ],
+          "antonyms": [
+            "lethargy",
+            "weariness",
+            "sluggishness"
+          ],
+          "sentences": [
+            "Despite her age, my grandmother is full of vitality and never stops moving."
+          ]
+        }
+      ],
+      "jumbled": "YTIITVLA"
+    },
+    {
+      "word": "Vitally",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "crucially",
+            "essentially",
+            "critically",
+            "urgently"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "It is vitally important that you wear a helmet when cycling."
+          ]
+        }
+      ],
+      "jumbled": "LVYAILT"
+    },
+    {
+      "word": "Vivacious",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "lively",
+            "animated",
+            "spirited",
+            "bubbly",
+            "energetic"
+          ],
+          "antonyms": [
+            "dull",
+            "listless",
+            "lifeless"
+          ],
+          "sentences": [
+            "The vivacious new student made friends with everyone on her first day."
+          ]
+        }
+      ],
+      "jumbled": "SIUVCVOIA"
+    },
+    {
+      "word": "Vivid",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "bright",
+            "brilliant",
+            "colourful",
+            "striking",
+            "intense"
+          ],
+          "antonyms": [
+            "dull",
+            "faded",
+            "pale",
+            "drab"
+          ],
+          "sentences": [
+            "The sunset painted the sky in vivid shades of orange and pink."
+          ]
+        }
+      ],
+      "jumbled": "DVIVI"
+    },
+    {
+      "word": "Vitreous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "glassy",
+            "glass-like",
+            "transparent",
+            "crystalline"
+          ],
+          "antonyms": [
+            "opaque",
+            "cloudy"
+          ],
+          "sentences": [
+            "The pot was glazed with a smooth, vitreous coating that sparkled in the light."
+          ]
+        }
+      ],
+      "jumbled": "SUOETRVI"
+    },
+    {
+      "word": "Conflagration",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "fire",
+            "blaze",
+            "inferno",
+            "wildfire"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The dry summer winds turned a small spark into a raging conflagration."
+          ]
+        }
+      ],
+      "jumbled": "TRALNONGFAIOC"
+    },
+    {
+      "word": "Eerie",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "spooky",
+            "ghostly",
+            "uncanny",
+            "unsettling",
+            "creepy"
+          ],
+          "antonyms": [
+            "comforting",
+            "ordinary",
+            "reassuring"
+          ],
+          "sentences": [
+            "An eerie silence fell over the abandoned house as the sun went down."
+          ]
+        }
+      ],
+      "jumbled": "REEEI"
+    },
+    {
+      "word": "Precipitation",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "rainfall",
+            "rain",
+            "downpour",
+            "moisture"
+          ],
+          "antonyms": [
+            "drought"
+          ],
+          "sentences": [
+            "The weather forecast predicted heavy precipitation for the whole weekend."
+          ]
+        }
+      ],
+      "jumbled": "IITPPRTNIACOE"
+    },
+    {
+      "word": "Endorsement",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "approval",
+            "support",
+            "backing",
+            "sanction",
+            "recommendation"
+          ],
+          "antonyms": [
+            "rejection",
+            "opposition",
+            "disapproval"
+          ],
+          "sentences": [
+            "The charity was grateful for the celebrity's public endorsement."
+          ]
+        }
+      ],
+      "jumbled": "OENETDNRSME"
+    },
+    {
+      "word": "Panorama",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "view",
+            "vista",
+            "outlook",
+            "landscape",
+            "sweep"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "From the top of the hill, we could see a magnificent panorama of the whole valley."
+          ]
+        }
+      ],
+      "jumbled": "RNAAOPAM"
+    },
+    {
+      "word": "Competent",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "capable",
+            "skilled",
+            "proficient",
+            "able",
+            "adept"
+          ],
+          "antonyms": [
+            "incompetent",
+            "unskilled",
+            "inept"
+          ],
+          "sentences": [
+            "The competent electrician fixed the fault within minutes.",
+            "She felt competent enough to sail the boat alone after months of lessons."
+          ]
+        }
+      ],
+      "jumbled": "ECETPMOTN"
+    },
+    {
+      "word": "Curator",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "custodian",
+            "keeper",
+            "conservator",
+            "caretaker"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The museum's curator carefully arranged the ancient pottery for the new exhibition."
+          ]
+        }
+      ],
+      "jumbled": "TCRORAU"
+    },
+    {
+      "word": "Bereft",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "deprived",
+            "lacking",
+            "devoid",
+            "robbed",
+            "stripped"
+          ],
+          "antonyms": [
+            "full",
+            "provided",
+            "endowed"
+          ],
+          "sentences": [
+            "After the fire, the family was bereft of everything they owned.",
+            "He felt utterly bereft after his best friend moved away to another country."
+          ]
+        }
+      ],
+      "jumbled": "TREBFE"
+    },
+    {
+      "word": "Bund wall",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "embankment",
+            "levee",
+            "sea wall",
+            "flood barrier"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The bund wall was built along the riverbank to stop the town flooding each monsoon."
+          ]
+        }
+      ],
+      "jumbled": "WBLN ULAD"
+    },
+    {
+      "word": "Endure",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "withstand",
+            "tolerate",
+            "bear",
+            "survive",
+            "put up with"
+          ],
+          "antonyms": [
+            "surrender",
+            "succumb",
+            "give up"
+          ],
+          "sentences": [
+            "The old lighthouse has endured a hundred years of fierce Atlantic storms."
+          ]
+        }
+      ],
+      "jumbled": "DUEREN"
+    },
+    {
+      "word": "Detain",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "hold",
+            "delay",
+            "arrest",
+            "confine",
+            "keep back"
+          ],
+          "antonyms": [
+            "release",
+            "free",
+            "discharge"
+          ],
+          "sentences": [
+            "The police detained the suspect for questioning at the station."
+          ]
+        }
+      ],
+      "jumbled": "NIADTE"
+    },
+    {
+      "word": "Procure",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "obtain",
+            "acquire",
+            "secure",
+            "get hold of",
+            "source"
+          ],
+          "antonyms": [
+            "relinquish",
+            "lose",
+            "forfeit"
+          ],
+          "sentences": [
+            "The chef managed to procure fresh lobster for the evening's menu."
+          ]
+        }
+      ],
+      "jumbled": "EPUROCR"
+    },
+    {
+      "word": "Retain",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "keep",
+            "hold onto",
+            "preserve",
+            "maintain"
+          ],
+          "antonyms": [
+            "release",
+            "discard",
+            "relinquish"
+          ],
+          "sentences": [
+            "Despite the renovation, the cottage retained its original charm."
+          ]
+        }
+      ],
+      "jumbled": "ATIRNE"
+    },
+    {
+      "word": "Hawser",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "rope",
+            "cable",
+            "line",
+            "mooring rope"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The sailors tied the thick hawser around the bollard to secure the ship to the dock."
+          ]
+        }
+      ],
+      "jumbled": "WSRAEH"
+    },
+    {
+      "word": "Capstan",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "winch",
+            "windlass"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The crew turned the capstan to haul the heavy anchor up from the seabed."
+          ]
+        }
+      ],
+      "jumbled": "TNCAPSA"
+    },
+    {
+      "word": "Exercise",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "workout",
+            "training",
+            "activity",
+            "drill"
+          ],
+          "antonyms": [
+            "rest",
+            "inactivity"
+          ],
+          "sentences": [
+            "Daily exercise, such as swimming or running, keeps your heart healthy."
+          ]
+        }
+      ],
+      "jumbled": "SECIREEX"
+    }
+  ]
+}

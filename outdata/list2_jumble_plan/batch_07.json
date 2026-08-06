@@ -1,0 +1,663 @@
+{
+  "batch_id": "list2-batch07",
+  "words": [
+    {
+      "word": "Conduct",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "behaviour",
+          "synonyms": [
+            "behaviour",
+            "manner",
+            "actions"
+          ],
+          "antonyms": [
+            "misconduct"
+          ],
+          "sentences": [
+            "The teacher praised the class for their excellent conduct on the trip."
+          ]
+        },
+        {
+          "label": "to lead",
+          "synonyms": [
+            "lead",
+            "direct",
+            "manage",
+            "run",
+            "carry out"
+          ],
+          "antonyms": [
+            "mismanage",
+            "neglect"
+          ],
+          "sentences": [
+            "The scientist will conduct several experiments before publishing her results."
+          ]
+        }
+      ],
+      "jumbled": "UTCCNOD"
+    },
+    {
+      "word": "Sentimental",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "nostalgic",
+            "emotional",
+            "tender",
+            "sappy",
+            "romantic"
+          ],
+          "antonyms": [
+            "unsentimental",
+            "unemotional",
+            "practical"
+          ],
+          "sentences": [
+            "The old photograph had great sentimental value, even though it was worth nothing.",
+            "He kept the ticket stub for sentimental reasons."
+          ]
+        }
+      ],
+      "jumbled": "TNAIENTLMES"
+    },
+    {
+      "word": "Tan",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "brown",
+            "bronzed",
+            "sunburnt"
+          ],
+          "antonyms": [
+            "pale"
+          ],
+          "sentences": [
+            "After two weeks on the beach, her skin had turned a deep golden tan."
+          ]
+        }
+      ],
+      "jumbled": "NTA"
+    },
+    {
+      "word": "Tamagotchi",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "(a small digital pet toy",
+            "a brand name)"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "In the 1990s, children carried their Tamagotchi everywhere so their virtual pet wouldn't 'die' of neglect."
+          ]
+        }
+      ],
+      "jumbled": "OTTGCAIMAH"
+    },
+    {
+      "word": "Alleviate",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "ease",
+            "relieve",
+            "reduce",
+            "lessen",
+            "soothe"
+          ],
+          "antonyms": [
+            "worsen",
+            "aggravate",
+            "intensify"
+          ],
+          "sentences": [
+            "The medicine helped alleviate the pain in her ankle.",
+            "Opening the windows alleviated the stuffiness in the classroom."
+          ]
+        }
+      ],
+      "jumbled": "TALLEIAEV"
+    },
+    {
+      "word": "Alluring",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "attractive",
+            "tempting",
+            "enticing",
+            "appealing",
+            "seductive"
+          ],
+          "antonyms": [
+            "repellent",
+            "unattractive",
+            "off-putting"
+          ],
+          "sentences": [
+            "The alluring smell of chocolate cake drew everyone into the kitchen."
+          ]
+        }
+      ],
+      "jumbled": "IARGLUNL"
+    },
+    {
+      "word": "Principle",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "rule",
+            "standard",
+            "belief",
+            "doctrine",
+            "value"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "She refused to lie, as a matter of principle.",
+            "The scientist explained the basic principle behind how a rainbow forms."
+          ]
+        }
+      ],
+      "jumbled": "CERPPINLI"
+    },
+    {
+      "word": "Truancy",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "absenteeism",
+            "skiving"
+          ],
+          "antonyms": [
+            "attendance"
+          ],
+          "sentences": [
+            "The school introduced a new system to reduce truancy among older pupils."
+          ]
+        }
+      ],
+      "jumbled": "AUYTCNR"
+    },
+    {
+      "word": "Indispensable",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "essential",
+            "vital",
+            "crucial",
+            "necessary",
+            "invaluable"
+          ],
+          "antonyms": [
+            "dispensable",
+            "unnecessary",
+            "expendable"
+          ],
+          "sentences": [
+            "A good pair of walking boots is indispensable on a mountain expedition."
+          ]
+        }
+      ],
+      "jumbled": "DSPSBNEIELIAN"
+    },
+    {
+      "word": "Eke",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "scrape",
+            "stretch",
+            "supplement"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The fishermen managed to eke out a living from the small, shrinking lake."
+          ]
+        }
+      ],
+      "jumbled": "KEE"
+    },
+    {
+      "word": "Influx",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "inflow",
+            "arrival",
+            "flood",
+            "surge",
+            "wave"
+          ],
+          "antonyms": [
+            "outflow",
+            "exodus",
+            "departure"
+          ],
+          "sentences": [
+            "The seaside town sees a huge influx of tourists every summer."
+          ]
+        }
+      ],
+      "jumbled": "LXNUIF"
+    },
+    {
+      "word": "Frivolous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "silly",
+            "trivial",
+            "flippant",
+            "superficial",
+            "foolish"
+          ],
+          "antonyms": [
+            "serious",
+            "sensible",
+            "important"
+          ],
+          "sentences": [
+            "The judge dismissed the case as a frivolous waste of the court's time.",
+            "She spent her allowance on frivolous things like glitter pens and stickers."
+          ]
+        }
+      ],
+      "jumbled": "UVRSIOFLO"
+    },
+    {
+      "word": "Meticulously",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "carefully",
+            "precisely",
+            "thoroughly",
+            "painstakingly",
+            "scrupulously"
+          ],
+          "antonyms": [
+            "carelessly",
+            "sloppily",
+            "haphazardly"
+          ],
+          "sentences": [
+            "She meticulously checked every stitch before entering the quilt into the competition."
+          ]
+        }
+      ],
+      "jumbled": "ECTLSUYOUMLI"
+    },
+    {
+      "word": "Converse",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "to talk",
+          "synonyms": [
+            "talk",
+            "chat",
+            "communicate",
+            "speak"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The two old friends conversed for hours over tea."
+          ]
+        },
+        {
+          "label": "opposite",
+          "synonyms": [
+            "opposite",
+            "reverse",
+            "inverse"
+          ],
+          "antonyms": [
+            "same",
+            "identical"
+          ],
+          "sentences": [
+            "If honesty is valued, then the converse \u2014 dishonesty \u2014 is clearly discouraged."
+          ]
+        }
+      ],
+      "jumbled": "VSNCREEO"
+    },
+    {
+      "word": "Expedition",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "journey",
+            "voyage",
+            "trek",
+            "exploration",
+            "quest"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The explorers prepared for months before their expedition to the South Pole."
+          ]
+        }
+      ],
+      "jumbled": "ITDOEXPNEI"
+    },
+    {
+      "word": "Indignant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "outraged",
+            "offended",
+            "annoyed",
+            "aggrieved",
+            "resentful"
+          ],
+          "antonyms": [
+            "pleased",
+            "content",
+            "calm"
+          ],
+          "sentences": [
+            "She was indignant when accused of cheating, since she had worked so hard on her own."
+          ]
+        }
+      ],
+      "jumbled": "TINNAGIND"
+    },
+    {
+      "word": "Ornate",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "elaborate",
+            "decorative",
+            "fancy",
+            "embellished",
+            "intricate"
+          ],
+          "antonyms": [
+            "plain",
+            "simple",
+            "unadorned"
+          ],
+          "sentences": [
+            "The cathedral ceiling was covered in ornate carvings of angels and saints."
+          ]
+        }
+      ],
+      "jumbled": "AOTERN"
+    },
+    {
+      "word": "Sentiment",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "feeling",
+            "emotion",
+            "opinion",
+            "view",
+            "attitude"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Her speech captured the sentiment of everyone who had worked so hard that year."
+          ]
+        }
+      ],
+      "jumbled": "TNINMTSEE"
+    },
+    {
+      "word": "Triumphant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "victorious",
+            "successful",
+            "jubilant",
+            "winning",
+            "celebratory"
+          ],
+          "antonyms": [
+            "defeated",
+            "unsuccessful",
+            "despondent"
+          ],
+          "sentences": [
+            "The triumphant team paraded the trophy through the streets."
+          ]
+        }
+      ],
+      "jumbled": "MRUHTPNATI"
+    },
+    {
+      "word": "Urban",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "city",
+            "metropolitan",
+            "built-up",
+            "municipal"
+          ],
+          "antonyms": [
+            "rural",
+            "countryside"
+          ],
+          "sentences": [
+            "The charity focuses on improving green spaces in urban areas."
+          ]
+        }
+      ],
+      "jumbled": "NARUB"
+    },
+    {
+      "word": "Paltry",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "meagre",
+            "trivial",
+            "insignificant",
+            "measly",
+            "negligible"
+          ],
+          "antonyms": [
+            "substantial",
+            "generous",
+            "considerable"
+          ],
+          "sentences": [
+            "He was furious about receiving such a paltry pay rise after years of hard work."
+          ]
+        }
+      ],
+      "jumbled": "ARTLYP"
+    },
+    {
+      "word": "Shambolic",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "chaotic",
+            "disorganised",
+            "messy",
+            "haphazard",
+            "muddled"
+          ],
+          "antonyms": [
+            "organised",
+            "orderly",
+            "systematic"
+          ],
+          "sentences": [
+            "The school play was shambolic, with actors forgetting their lines and scenery falling over."
+          ]
+        }
+      ],
+      "jumbled": "IHCBSAMLO"
+    },
+    {
+      "word": "Supersede",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "replace",
+            "supplant",
+            "overtake",
+            "succeed"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The new safety regulations supersede all the rules published last year."
+          ]
+        }
+      ],
+      "jumbled": "RSEEUDSEP"
+    },
+    {
+      "word": "Dissolve",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "melt",
+            "disperse",
+            "dissipate",
+            "disband",
+            "terminate"
+          ],
+          "antonyms": [
+            "form",
+            "solidify",
+            "congeal"
+          ],
+          "sentences": [
+            "Stir the mixture until the sugar completely dissolves.",
+            "Parliament was dissolved ahead of the general election."
+          ]
+        }
+      ],
+      "jumbled": "ESVIDLSO"
+    },
+    {
+      "word": "Waspish",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "irritable",
+            "snappish",
+            "sharp-tongued",
+            "spiteful",
+            "testy"
+          ],
+          "antonyms": [
+            "gentle",
+            "mild",
+            "good-natured"
+          ],
+          "sentences": [
+            "His waspish comments about her cooking left her rather hurt."
+          ]
+        }
+      ],
+      "jumbled": "AWSSHIP"
+    },
+    {
+      "word": "Zany",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "wacky",
+            "quirky",
+            "eccentric",
+            "madcap",
+            "comical"
+          ],
+          "antonyms": [
+            "serious",
+            "conventional",
+            "dull"
+          ],
+          "sentences": [
+            "The clown's zany antics had the whole audience laughing."
+          ]
+        }
+      ],
+      "jumbled": "NZYA"
+    },
+    {
+      "word": "Bouts",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "spells",
+            "episodes",
+            "periods",
+            "attacks",
+            "rounds"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "He suffered from occasional bouts of hay fever every summer."
+          ]
+        }
+      ],
+      "jumbled": "UTOSB"
+    }
+  ]
+}

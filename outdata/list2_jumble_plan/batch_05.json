@@ -1,0 +1,664 @@
+{
+  "batch_id": "list2-batch05",
+  "words": [
+    {
+      "word": "Inadvertent",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "accidental",
+            "unintentional",
+            "unplanned",
+            "careless"
+          ],
+          "antonyms": [
+            "deliberate",
+            "intentional",
+            "planned"
+          ],
+          "sentences": [
+            "It was an inadvertent mistake \u2014 she never meant to press send so early.",
+            "His inadvertent comment about the surprise party gave the whole plan away."
+          ]
+        }
+      ],
+      "jumbled": "DITEVRNAETN"
+    },
+    {
+      "word": "Juvenile",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "young",
+            "youthful",
+            "childish",
+            "immature"
+          ],
+          "antonyms": [
+            "mature",
+            "adult",
+            "grown-up"
+          ],
+          "sentences": [
+            "The judge decided the case should be heard in the juvenile court because the offender was only fifteen."
+          ]
+        }
+      ],
+      "jumbled": "LUJVEEIN"
+    },
+    {
+      "word": "Satisfactory",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "adequate",
+            "acceptable",
+            "sufficient",
+            "passable",
+            "fine"
+          ],
+          "antonyms": [
+            "unsatisfactory",
+            "inadequate",
+            "poor"
+          ],
+          "sentences": [
+            "His report described the standard of work as satisfactory but said there was room for improvement."
+          ]
+        }
+      ],
+      "jumbled": "ASARITYFCOST"
+    },
+    {
+      "word": "Conventional",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "traditional",
+            "standard",
+            "orthodox",
+            "usual",
+            "normal"
+          ],
+          "antonyms": [
+            "unconventional",
+            "unusual",
+            "original",
+            "radical"
+          ],
+          "sentences": [
+            "Instead of a conventional wedding, they chose to marry on a mountaintop.",
+            "He preferred conventional methods of teaching over the school's new digital approach."
+          ]
+        }
+      ],
+      "jumbled": "TAVNCNLNEOOI"
+    },
+    {
+      "word": "Pleasure",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "enjoyment",
+            "delight",
+            "happiness",
+            "satisfaction",
+            "joy"
+          ],
+          "antonyms": [
+            "displeasure",
+            "pain",
+            "misery"
+          ],
+          "sentences": [
+            "Reading by the fire on a rainy afternoon is one of my greatest pleasures."
+          ]
+        }
+      ],
+      "jumbled": "LAESUPER"
+    },
+    {
+      "word": "Gradual",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "slow",
+            "steady",
+            "progressive",
+            "gentle",
+            "incremental"
+          ],
+          "antonyms": [
+            "sudden",
+            "abrupt",
+            "immediate",
+            "rapid"
+          ],
+          "sentences": [
+            "There was a gradual improvement in her handwriting over the school year.",
+            "The path took a gradual slope down towards the beach rather than a steep drop."
+          ]
+        }
+      ],
+      "jumbled": "ADLGURA"
+    },
+    {
+      "word": "Institute",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "establish",
+            "found",
+            "set up",
+            "introduce",
+            "initiate"
+          ],
+          "antonyms": [
+            "abolish",
+            "end",
+            "terminate"
+          ],
+          "sentences": [
+            "The head teacher decided to institute a new rule about mobile phones in class."
+          ]
+        }
+      ],
+      "jumbled": "TSINIUETT"
+    },
+    {
+      "word": "Mature",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "adult",
+            "grown-up",
+            "developed",
+            "sensible",
+            "ripe"
+          ],
+          "antonyms": [
+            "immature",
+            "childish",
+            "undeveloped"
+          ],
+          "sentences": [
+            "For someone so young, he showed a remarkably mature attitude towards the setback."
+          ]
+        }
+      ],
+      "jumbled": "RTAEUM"
+    },
+    {
+      "word": "Gory",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "bloody",
+            "graphic",
+            "gruesome",
+            "grisly"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The film was far too gory for younger viewers, with blood in almost every scene."
+          ]
+        }
+      ],
+      "jumbled": "OYGR"
+    },
+    {
+      "word": "Grisly",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "gruesome",
+            "horrific",
+            "macabre",
+            "ghastly",
+            "gory"
+          ],
+          "antonyms": [
+            "pleasant",
+            "delightful"
+          ],
+          "sentences": [
+            "Detectives were called to investigate the grisly scene at the abandoned warehouse."
+          ]
+        }
+      ],
+      "jumbled": "YISLRG"
+    },
+    {
+      "word": "Waft",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "drift",
+            "float",
+            "blow",
+            "wisp"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The smell of freshly cut grass wafted through the open window."
+          ]
+        }
+      ],
+      "jumbled": "TFWA"
+    },
+    {
+      "word": "Catchphrase",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "slogan",
+            "tagline",
+            "motto",
+            "saying"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The comedian's catchphrase became so popular that people repeated it in the playground."
+          ]
+        }
+      ],
+      "jumbled": "EHSPHARACCT"
+    },
+    {
+      "word": "Refrain",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "abstain",
+          "synonyms": [
+            "abstain",
+            "hold back",
+            "avoid",
+            "resist"
+          ],
+          "antonyms": [
+            "indulge",
+            "proceed"
+          ],
+          "sentences": [
+            "Please refrain from talking during the performance."
+          ]
+        },
+        {
+          "label": "chorus",
+          "synonyms": [
+            "chorus",
+            "hook",
+            "repeated line"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The audience joined in loudly every time the song reached its refrain."
+          ]
+        }
+      ],
+      "jumbled": "ARFENRI"
+    },
+    {
+      "word": "Commit",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "carry out",
+            "perform",
+            "pledge",
+            "dedicate",
+            "undertake"
+          ],
+          "antonyms": [
+            "abandon",
+            "abstain"
+          ],
+          "sentences": [
+            "He committed himself to training every morning before school."
+          ]
+        }
+      ],
+      "jumbled": "ITMMCO"
+    },
+    {
+      "word": "Quirk",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "peculiarity",
+            "idiosyncrasy",
+            "oddity",
+            "trait",
+            "habit"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "One of her little quirks is that she always ties her left shoelace first."
+          ]
+        }
+      ],
+      "jumbled": "UQKIR"
+    },
+    {
+      "word": "Irrefutable",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "undeniable",
+            "indisputable",
+            "incontestable",
+            "conclusive"
+          ],
+          "antonyms": [
+            "doubtful",
+            "questionable",
+            "disputable"
+          ],
+          "sentences": [
+            "The fingerprints on the glass were irrefutable proof that he had been in the room.",
+            "Faced with irrefutable evidence, she finally admitted she had broken the vase."
+          ]
+        }
+      ],
+      "jumbled": "TEUFIRRBAEL"
+    },
+    {
+      "word": "Enthuse",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "rave",
+            "gush",
+            "be excited",
+            "wax lyrical"
+          ],
+          "antonyms": [
+            "complain",
+            "criticise"
+          ],
+          "sentences": [
+            "She couldn't stop enthusing about her holiday to the mountains."
+          ]
+        }
+      ],
+      "jumbled": "NEESTUH"
+    },
+    {
+      "word": "Morbid",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "gruesome",
+            "ghoulish",
+            "grim",
+            "macabre",
+            "unhealthy"
+          ],
+          "antonyms": [
+            "cheerful",
+            "healthy",
+            "wholesome"
+          ],
+          "sentences": [
+            "He had a rather morbid fascination with stories about haunted houses."
+          ]
+        }
+      ],
+      "jumbled": "DBRMIO"
+    },
+    {
+      "word": "Assailable",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "vulnerable",
+            "exposed",
+            "open to attack"
+          ],
+          "antonyms": [
+            "unassailable",
+            "secure",
+            "impregnable"
+          ],
+          "sentences": [
+            "The castle's weak eastern wall left it assailable to attack from that side."
+          ]
+        }
+      ],
+      "jumbled": "SLBAAAESLI"
+    },
+    {
+      "word": "Accessible",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "reachable",
+            "available",
+            "obtainable",
+            "approachable"
+          ],
+          "antonyms": [
+            "inaccessible",
+            "unreachable",
+            "unavailable"
+          ],
+          "sentences": [
+            "The new ramp made the library accessible to wheelchair users for the first time.",
+            "The teacher explained the topic in simple, accessible language everyone could follow."
+          ]
+        }
+      ],
+      "jumbled": "CAIECSBESL"
+    },
+    {
+      "word": "Contain",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "hold",
+            "include",
+            "comprise",
+            "enclose"
+          ],
+          "antonyms": [
+            "exclude",
+            "release"
+          ],
+          "sentences": [
+            "The box was labelled to show that it contained fragile glassware."
+          ]
+        }
+      ],
+      "jumbled": "TNIOCNA"
+    },
+    {
+      "word": "Consist",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "comprise",
+            "be made up of",
+            "be composed of"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The test will consist of three sections: reading, writing and listening."
+          ]
+        }
+      ],
+      "jumbled": "TONISCS"
+    },
+    {
+      "word": "Abolished",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "ended",
+            "banned",
+            "eliminated",
+            "scrapped",
+            "outlawed"
+          ],
+          "antonyms": [
+            "established",
+            "introduced",
+            "instituted"
+          ],
+          "sentences": [
+            "Slavery was formally abolished in Britain in 1833."
+          ]
+        }
+      ],
+      "jumbled": "OAEHSLBDI"
+    },
+    {
+      "word": "Terminated",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "ended",
+            "stopped",
+            "ceased",
+            "concluded",
+            "halted"
+          ],
+          "antonyms": [
+            "started",
+            "began",
+            "initiated",
+            "commenced"
+          ],
+          "sentences": [
+            "The bus service to the village was terminated after years of low passenger numbers."
+          ]
+        }
+      ],
+      "jumbled": "ENTTMRAIDE"
+    },
+    {
+      "word": "Gulf",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "bay",
+            "inlet",
+            "divide",
+            "gap",
+            "chasm"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "There was a huge gulf in understanding between the two negotiating teams."
+          ]
+        }
+      ],
+      "jumbled": "FGLU"
+    },
+    {
+      "word": "Sober",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "not drunk",
+            "serious",
+            "sensible",
+            "level-headed",
+            "clear-headed"
+          ],
+          "antonyms": [
+            "drunk",
+            "intoxicated",
+            "frivolous"
+          ],
+          "sentences": [
+            "After the accident, everyone at the party fell into a sober silence."
+          ]
+        }
+      ],
+      "jumbled": "ESROB"
+    },
+    {
+      "word": "Habit",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "routine",
+          "synonyms": [
+            "custom",
+            "practice",
+            "tendency",
+            "pattern"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Brushing your teeth twice a day is a habit worth keeping for life."
+          ]
+        },
+        {
+          "label": "garment",
+          "synonyms": [
+            "robe",
+            "gown",
+            "vestment"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The nun wore a plain black habit with a white collar."
+          ]
+        }
+      ],
+      "jumbled": "BITAH"
+    }
+  ]
+}

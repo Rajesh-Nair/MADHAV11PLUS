@@ -1,0 +1,463 @@
+{
+  "batch_id": "list2-batch10",
+  "words": [
+    {
+      "word": "Chair",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "seat",
+            "stool",
+            "armchair"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "He pulled up a chair and sat down beside the fire."
+          ]
+        }
+      ],
+      "jumbled": "ACRHI"
+    },
+    {
+      "word": "Esoteric",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "obscure",
+            "arcane",
+            "cryptic",
+            "abstruse",
+            "mysterious"
+          ],
+          "antonyms": [
+            "mainstream",
+            "well-known",
+            "accessible"
+          ],
+          "sentences": [
+            "The old professor's lecture was full of esoteric references that only a handful of students understood."
+          ]
+        }
+      ],
+      "jumbled": "IEOCERST"
+    },
+    {
+      "word": "Cryptic",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "mysterious",
+            "puzzling",
+            "enigmatic",
+            "obscure",
+            "ambiguous"
+          ],
+          "antonyms": [
+            "clear",
+            "obvious",
+            "straightforward"
+          ],
+          "sentences": [
+            "He left a cryptic note that nobody could quite work out."
+          ]
+        }
+      ],
+      "jumbled": "PYCICTR"
+    },
+    {
+      "word": "Exoteric",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "accessible",
+            "mainstream",
+            "popular",
+            "straightforward"
+          ],
+          "antonyms": [
+            "esoteric",
+            "obscure",
+            "arcane"
+          ],
+          "sentences": [
+            "Unlike the wizard's secret spellbooks, the village storyteller's tales were exoteric \u2014 simple enough for anyone to enjoy."
+          ]
+        }
+      ],
+      "jumbled": "XTEIOCER"
+    },
+    {
+      "word": "Neophyte",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "beginner",
+            "novice",
+            "newcomer",
+            "apprentice",
+            "trainee"
+          ],
+          "antonyms": [
+            "expert",
+            "veteran",
+            "master"
+          ],
+          "sentences": [
+            "As a neophyte in the wizarding school, he could barely light a candle with his wand."
+          ]
+        }
+      ],
+      "jumbled": "ETOEHYNP"
+    },
+    {
+      "word": "Grimoire",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "spellbook",
+            "book of spells"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The ancient grimoire was said to contain spells no living wizard dared to read aloud."
+          ]
+        }
+      ],
+      "jumbled": "REMROIIG"
+    },
+    {
+      "word": "Warlock",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sorcerer",
+            "wizard",
+            "magician"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The villagers whispered that a warlock lived alone in the tower on the hill."
+          ]
+        }
+      ],
+      "jumbled": "OWALKRC"
+    },
+    {
+      "word": "Munificent",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "generous",
+            "lavish",
+            "bountiful",
+            "charitable",
+            "liberal"
+          ],
+          "antonyms": [
+            "stingy",
+            "mean",
+            "miserly"
+          ],
+          "sentences": [
+            "The munificent donor paid for the entire new school library."
+          ]
+        }
+      ],
+      "jumbled": "INUFECTNMI"
+    },
+    {
+      "word": "Obfuscate",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "confuse",
+            "obscure",
+            "muddle",
+            "blur",
+            "complicate"
+          ],
+          "antonyms": [
+            "clarify",
+            "simplify",
+            "illuminate"
+          ],
+          "sentences": [
+            "The report seemed deliberately written to obfuscate the real cost of the project."
+          ]
+        }
+      ],
+      "jumbled": "EUATFCOSB"
+    },
+    {
+      "word": "Ephemeral",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "fleeting",
+            "transient",
+            "temporary",
+            "short-lived",
+            "momentary"
+          ],
+          "antonyms": [
+            "permanent",
+            "lasting",
+            "enduring"
+          ],
+          "sentences": [
+            "The beauty of the cherry blossoms is ephemeral, lasting only a week or two each spring."
+          ]
+        }
+      ],
+      "jumbled": "AMELERHPE"
+    },
+    {
+      "word": "Lagoon",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "lake",
+            "pool",
+            "cove"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The clear turquoise lagoon was perfect for snorkelling."
+          ]
+        }
+      ],
+      "jumbled": "ALGNOO"
+    },
+    {
+      "word": "Emphatic",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "forceful",
+            "firm",
+            "decisive",
+            "resounding",
+            "definite"
+          ],
+          "antonyms": [
+            "weak",
+            "hesitant",
+            "half-hearted"
+          ],
+          "sentences": [
+            "He gave an emphatic 'no' when asked if he wanted to go bungee jumping."
+          ]
+        }
+      ],
+      "jumbled": "TCIMPEHA"
+    },
+    {
+      "word": "Equivocal",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "ambiguous",
+            "vague",
+            "unclear",
+            "evasive",
+            "uncertain"
+          ],
+          "antonyms": [
+            "clear",
+            "definite",
+            "unambiguous",
+            "direct"
+          ],
+          "sentences": [
+            "Her equivocal answer left us none the wiser about whether she was coming or not."
+          ]
+        }
+      ],
+      "jumbled": "UOLVEICQA"
+    },
+    {
+      "word": "Pare",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "peel",
+            "trim",
+            "cut down",
+            "reduce",
+            "whittle"
+          ],
+          "antonyms": [
+            "expand",
+            "add to"
+          ],
+          "sentences": [
+            "She pared the apple carefully in one long, unbroken strip of peel.",
+            "The committee decided to pare down the guest list to save money."
+          ]
+        }
+      ],
+      "jumbled": "AEPR"
+    },
+    {
+      "word": "Bemoan",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "lament",
+            "regret",
+            "complain about",
+            "bewail",
+            "mourn"
+          ],
+          "antonyms": [
+            "celebrate",
+            "welcome"
+          ],
+          "sentences": [
+            "The farmers bemoaned the lack of rain throughout the dry summer."
+          ]
+        }
+      ],
+      "jumbled": "MNEBAO"
+    },
+    {
+      "word": "Hale",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "healthy",
+            "robust",
+            "fit",
+            "vigorous",
+            "sound"
+          ],
+          "antonyms": [
+            "sickly",
+            "frail",
+            "ailing"
+          ],
+          "sentences": [
+            "Even at ninety, he remained remarkably hale and hearty."
+          ]
+        }
+      ],
+      "jumbled": "EALH"
+    },
+    {
+      "word": "Proscribe",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "forbid",
+            "ban",
+            "prohibit",
+            "outlaw",
+            "bar"
+          ],
+          "antonyms": [
+            "permit",
+            "allow",
+            "sanction"
+          ],
+          "sentences": [
+            "The ancient law proscribed hunting in the royal forests."
+          ]
+        }
+      ],
+      "jumbled": "OBERSIRPC"
+    },
+    {
+      "word": "Darn",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "exclamation",
+          "synonyms": [
+            "darn it",
+            "blast",
+            "drat",
+            "bother"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "\"Darn it!\" she cried, when she dropped her ice cream on the pavement."
+          ]
+        },
+        {
+          "label": "to mend",
+          "synonyms": [
+            "mend",
+            "sew",
+            "patch",
+            "repair",
+            "stitch"
+          ],
+          "antonyms": [
+            "unpick",
+            "tear"
+          ],
+          "sentences": [
+            "Grandma taught me how to darn the hole in my woolly sock."
+          ]
+        }
+      ],
+      "jumbled": "ARND"
+    },
+    {
+      "word": "Gird",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "brace",
+            "prepare",
+            "steel",
+            "ready",
+            "fortify"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The knights girded themselves for battle at dawn.",
+            "She girded her courage before walking into the interview."
+          ]
+        }
+      ],
+      "jumbled": "IDGR"
+    }
+  ]
+}

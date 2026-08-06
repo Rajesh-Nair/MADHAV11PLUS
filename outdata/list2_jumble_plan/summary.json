@@ -1,0 +1,78 @@
+{
+  "total_words": 262,
+  "n_batches": 10,
+  "batch_size": 27,
+  "dual_meaning_count": 18,
+  "dual_meaning_words": [
+    "Obscure",
+    "Refuse",
+    "Annuals",
+    "Extract",
+    "Exact",
+    "Appreciate",
+    "Refrain",
+    "Habit",
+    "Deliberate",
+    "Vain",
+    "Course",
+    "Conduct",
+    "Converse",
+    "Desert",
+    "Content",
+    "Ground",
+    "Reservations",
+    "Darn"
+  ],
+  "batches": [
+    {
+      "batch_id": "list2-batch01",
+      "file": "batch_01.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch02",
+      "file": "batch_02.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch03",
+      "file": "batch_03.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch04",
+      "file": "batch_04.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch05",
+      "file": "batch_05.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch06",
+      "file": "batch_06.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch07",
+      "file": "batch_07.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch08",
+      "file": "batch_08.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch09",
+      "file": "batch_09.json",
+      "count": 27
+    },
+    {
+      "batch_id": "list2-batch10",
+      "file": "batch_10.json",
+      "count": 19
+    }
+  ]
+}

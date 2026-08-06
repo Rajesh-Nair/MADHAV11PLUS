@@ -1,36 +1,43 @@
 <meta charset="utf-8">
-<title>Jumbled Word Practice</title>
+<title>Vocabulary List 2 Practice</title>
 <link rel="stylesheet" href="../assets/style.css">
 <script src="../assets/progress.js"></script>
 <script src="../assets/reveal.js"></script>
-<script src="../assets/jumble-data.js"></script>
+<script src="../assets/jumble-data-list2.js"></script>
 
 <nav class="pagenav top">
   <span class="home"><a href="../index.html">&#127968; Home</a></span>
-  <span class="prev"><a href="0001-decode-your-first-jumbled-word.html">&larr; Lesson 1</a></span>
-  <span class="next"><a href="0003-vocabulary-list-2-practice.html">Lesson 3: Vocabulary List 2 &rarr;</a></span>
+  <span class="prev"><a href="0002-jumbled-word-practice.html">&larr; Lesson 2</a></span>
+  <span class="next"></span>
 </nav>
 
-<div class="eyebrow">Lesson 2 of the 11+ vocabulary course &middot; grows over time</div>
-<h1>Jumbled Word Practice</h1>
+<div class="eyebrow">Lesson 3 of the 11+ vocabulary course &middot; grows over time</div>
+<h1>Vocabulary List 2 Practice</h1>
 
 <p>
-This one page holds every jumbled-word batch, newest at the bottom. It keeps
-growing as new words are added — no new page needed each time. Vocabulary is
-tackled hardest-first rather than in list order, so the earliest batches are
-already some of the toughest words in the whole list.
+This page holds the jumbled-word batches built from <code>indata/vocab_02.md</code>
+(Vocabulary List 2) &mdash; a separate word list from Lesson 2's, kept on its own
+growing page so the two sources don't mix. It keeps growing as new words are
+added, newest at the bottom &mdash; no new page needed each time.
 </p>
 
 <p>
-Same rule as always: no peeking. Try C.L.U.E. first — <strong>C</strong>ontext,
+Same rule as always: no peeking. Try C.L.U.E. first &mdash; <strong>C</strong>ontext,
 <strong>L</strong>etter chunks, <strong>U</strong>n-jumble by writing,
-<strong>E</strong>rrand-check — and only open a clue if you're stuck. Each clue
+<strong>E</strong>rrand-check &mdash; and only open a clue if you're stuck. Each clue
 is tagged with the trick it's teaching. Full reminder:
 <a href="../reference/jumbled-word-strategy.html">C.L.U.E. reference card</a>.
 </p>
 
 <div class="callout">
-This page can be long — work through any batch, in any order, across as many
+Some words in this list have <strong>two different meanings</strong> (homonyms) &mdash;
+those get an extra "Homonym" clue and a hint chip marked <em>(homonym)</em> that
+points at the other meaning. Read both before you answer; the sentence only
+uses one of them at a time.
+</div>
+
+<div class="callout">
+This page can be long &mdash; work through any batch, in any order, across as many
 sittings as you like. Each batch below is collapsed by default; click its
 title to open it. Your progress is saved in this browser automatically, so
 closing the page and coming back later picks up right where you left off.
@@ -43,7 +50,7 @@ closing the page and coming back later picks up right where you left off.
 var summaryEls = {}; // batch.id -> <summary> element, for live badge updates
 
 function renderProgressSummary() {
-  var stats = computeProgressStats(JUMBLE_BATCHES);
+  var stats = computeProgressStats(JUMBLE_BATCHES_LIST2);
 
   var host = document.getElementById("progress-summary");
   host.innerHTML = "";
@@ -95,7 +102,7 @@ function renderProgressSummary() {
   });
   host.appendChild(resetBtn);
 
-  JUMBLE_BATCHES.forEach(function (batch, i) {
+  JUMBLE_BATCHES_LIST2.forEach(function (batch, i) {
     var b = stats.perBatch[batch.id];
     var summary = summaryEls[batch.id];
     if (!summary) return;
@@ -125,7 +132,7 @@ function scrollToNextInBatch(batch, containerId) {
   if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-JUMBLE_BATCHES.forEach(function (batch, i) {
+JUMBLE_BATCHES_LIST2.forEach(function (batch, i) {
   var host = document.getElementById("batches");
   var details = document.createElement("details");
   details.open = false;
@@ -150,7 +157,7 @@ renderProgressSummary();
 
 <div class="callout">
 Questions about why an answer is right, or want to go over a word again? Just
-ask your teacher — that's what follow-up questions are for.
+ask your teacher &mdash; that's what follow-up questions are for.
 </div>
 
 <p>
@@ -166,6 +173,6 @@ word's meaning once you've had a go.
 
 <nav class="pagenav bottom">
   <span class="home"><a href="../index.html">&#127968; Home</a></span>
-  <span class="prev"><a href="0001-decode-your-first-jumbled-word.html">&larr; Lesson 1</a></span>
-  <span class="next"><a href="0003-vocabulary-list-2-practice.html">Lesson 3: Vocabulary List 2 &rarr;</a></span>
+  <span class="prev"><a href="0002-jumbled-word-practice.html">&larr; Lesson 2</a></span>
+  <span class="next"></span>
 </nav>

@@ -1,0 +1,644 @@
+{
+  "batch_id": "list2-batch08",
+  "words": [
+    {
+      "word": "Scruffy",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "untidy",
+            "shabby",
+            "unkempt",
+            "messy",
+            "dishevelled"
+          ],
+          "antonyms": [
+            "smart",
+            "tidy",
+            "neat",
+            "well-groomed"
+          ],
+          "sentences": [
+            "The scruffy stray dog wandered the streets looking for scraps."
+          ]
+        }
+      ],
+      "jumbled": "URYFCFS"
+    },
+    {
+      "word": "Carefree",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "relaxed",
+            "easy-going",
+            "untroubled",
+            "light-hearted",
+            "breezy"
+          ],
+          "antonyms": [
+            "anxious",
+            "worried",
+            "troubled"
+          ],
+          "sentences": [
+            "The summer holidays were a time of carefree fun before secondary school began."
+          ]
+        }
+      ],
+      "jumbled": "ERAECFER"
+    },
+    {
+      "word": "Careless",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sloppy",
+            "negligent",
+            "thoughtless",
+            "hasty",
+            "reckless"
+          ],
+          "antonyms": [
+            "careful",
+            "cautious",
+            "meticulous"
+          ],
+          "sentences": [
+            "A careless mistake in his working lost him several marks in the exam."
+          ]
+        }
+      ],
+      "jumbled": "EALESSRC"
+    },
+    {
+      "word": "Blanket",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "cover",
+            "throw",
+            "quilt",
+            "wrap"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "She wrapped a warm blanket around her shoulders as she watched the fireworks."
+          ]
+        }
+      ],
+      "jumbled": "ETABNKL"
+    },
+    {
+      "word": "Quell",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "suppress",
+            "subdue",
+            "crush",
+            "calm",
+            "extinguish"
+          ],
+          "antonyms": [
+            "incite",
+            "provoke",
+            "stir up"
+          ],
+          "sentences": [
+            "The extra police officers were sent in to quell the riot.",
+            "A cup of warm milk helped quell his nerves before the exam."
+          ]
+        }
+      ],
+      "jumbled": "ULLQE"
+    },
+    {
+      "word": "Eiderdown",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "quilt",
+            "duvet",
+            "comforter"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Grandma still sleeps under a thick feather eiderdown even in summer."
+          ]
+        }
+      ],
+      "jumbled": "DWEIODNRE"
+    },
+    {
+      "word": "Covetous",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "envious",
+            "greedy",
+            "grasping",
+            "jealous",
+            "acquisitive"
+          ],
+          "antonyms": [
+            "generous",
+            "content",
+            "satisfied"
+          ],
+          "sentences": [
+            "He cast a covetous eye over his neighbour's brand-new bicycle."
+          ]
+        }
+      ],
+      "jumbled": "UOTSVCEO"
+    },
+    {
+      "word": "Bather",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "swimmer"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "A lone bather waded slowly into the cold morning sea."
+          ]
+        }
+      ],
+      "jumbled": "AERBTH"
+    },
+    {
+      "word": "Tombstone",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "gravestone",
+            "headstone",
+            "memorial"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Moss had grown thick over the old tombstone at the edge of the churchyard."
+          ]
+        }
+      ],
+      "jumbled": "EOOTBMNTS"
+    },
+    {
+      "word": "Coda",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "conclusion",
+            "ending",
+            "finale",
+            "epilogue"
+          ],
+          "antonyms": [
+            "introduction",
+            "prelude",
+            "overture"
+          ],
+          "sentences": [
+            "The quiet final chapter served as a fitting coda to the whole trilogy."
+          ]
+        }
+      ],
+      "jumbled": "DCAO"
+    },
+    {
+      "word": "Flak",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "criticism",
+            "backlash",
+            "disapproval",
+            "condemnation"
+          ],
+          "antonyms": [
+            "praise",
+            "approval"
+          ],
+          "sentences": [
+            "The mayor received a lot of flak for cancelling the town's fireworks display."
+          ]
+        }
+      ],
+      "jumbled": "LAKF"
+    },
+    {
+      "word": "Urn",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "vase",
+            "vessel",
+            "container"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The ashes were kept in a bronze urn on the mantelpiece."
+          ]
+        }
+      ],
+      "jumbled": "RNU"
+    },
+    {
+      "word": "Tamp",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "pack down",
+            "press",
+            "compress",
+            "flatten"
+          ],
+          "antonyms": [
+            "loosen"
+          ],
+          "sentences": [
+            "He used the back of a spoon to tamp down the soil around the seedling."
+          ]
+        }
+      ],
+      "jumbled": "MTPA"
+    },
+    {
+      "word": "Whet",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sharpen",
+            "hone",
+            "stimulate",
+            "arouse"
+          ],
+          "antonyms": [
+            "dull",
+            "blunt"
+          ],
+          "sentences": [
+            "The trailer was enough to whet everyone's appetite for the new film."
+          ]
+        }
+      ],
+      "jumbled": "TEWH"
+    },
+    {
+      "word": "Desert",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "arid land",
+          "synonyms": [
+            "wasteland",
+            "wilderness",
+            "dunes"
+          ],
+          "antonyms": [
+            "oasis",
+            "jungle",
+            "forest"
+          ],
+          "sentences": [
+            "The camel train crossed miles of empty desert without seeing another soul."
+          ]
+        },
+        {
+          "label": "to abandon",
+          "synonyms": [
+            "abandon",
+            "forsake",
+            "leave",
+            "ditch",
+            "abscond"
+          ],
+          "antonyms": [
+            "stay",
+            "support",
+            "remain loyal"
+          ],
+          "sentences": [
+            "The soldier was court-martialled after he deserted his post during the battle."
+          ]
+        }
+      ],
+      "jumbled": "TEERSD"
+    },
+    {
+      "word": "Exultant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "jubilant",
+            "triumphant",
+            "elated",
+            "overjoyed",
+            "ecstatic"
+          ],
+          "antonyms": [
+            "dejected",
+            "miserable",
+            "despondent"
+          ],
+          "sentences": [
+            "The exultant crowd cheered as the final whistle blew."
+          ]
+        }
+      ],
+      "jumbled": "TXELATNU"
+    },
+    {
+      "word": "Secluded",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "isolated",
+            "remote",
+            "hidden",
+            "private",
+            "sheltered"
+          ],
+          "antonyms": [
+            "crowded",
+            "public",
+            "exposed"
+          ],
+          "sentences": [
+            "They found a secluded cove where they could swim without another tourist in sight."
+          ]
+        }
+      ],
+      "jumbled": "DLEUEDCS"
+    },
+    {
+      "word": "Anticipate",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "expect",
+            "foresee",
+            "predict",
+            "await",
+            "look forward to"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "We anticipate a busy weekend, so please book your table in advance."
+          ]
+        }
+      ],
+      "jumbled": "NTAIEIATCP"
+    },
+    {
+      "word": "Vibrant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "vivid",
+            "colourful",
+            "lively",
+            "bright",
+            "energetic"
+          ],
+          "antonyms": [
+            "dull",
+            "drab",
+            "lifeless"
+          ],
+          "sentences": [
+            "The market was filled with the vibrant colours of spices and fabric."
+          ]
+        }
+      ],
+      "jumbled": "ARTNVBI"
+    },
+    {
+      "word": "Valid",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "legitimate",
+            "genuine",
+            "sound",
+            "reasonable",
+            "acceptable"
+          ],
+          "antonyms": [
+            "invalid",
+            "void",
+            "unfounded"
+          ],
+          "sentences": [
+            "Your bus ticket is only valid until the end of the month."
+          ]
+        }
+      ],
+      "jumbled": "IADLV"
+    },
+    {
+      "word": "Belittle",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "demean",
+            "disparage",
+            "deride",
+            "put down",
+            "undervalue"
+          ],
+          "antonyms": [
+            "praise",
+            "compliment",
+            "esteem"
+          ],
+          "sentences": [
+            "It was unkind of him to belittle her efforts in front of the whole class."
+          ]
+        }
+      ],
+      "jumbled": "TLTBIEEL"
+    },
+    {
+      "word": "Facade",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "front",
+            "frontage",
+            "exterior",
+            "pretence",
+            "veneer"
+          ],
+          "antonyms": [
+            "reality",
+            "substance"
+          ],
+          "sentences": [
+            "The grand facade of the old theatre hid a crumbling, neglected interior.",
+            "Behind her cheerful facade, she was actually very worried."
+          ]
+        }
+      ],
+      "jumbled": "AACDEF"
+    },
+    {
+      "word": "Irrepressible",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "unstoppable",
+            "uncontainable",
+            "buoyant",
+            "exuberant",
+            "boundless"
+          ],
+          "antonyms": [
+            "subdued",
+            "restrained",
+            "suppressed"
+          ],
+          "sentences": [
+            "Her irrepressible enthusiasm made even the dullest lesson feel exciting."
+          ]
+        }
+      ],
+      "jumbled": "BSRIERLREEIPS"
+    },
+    {
+      "word": "Sparse",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "scant",
+            "meagre",
+            "thin",
+            "scattered",
+            "sporadic"
+          ],
+          "antonyms": [
+            "dense",
+            "abundant",
+            "plentiful",
+            "thick"
+          ],
+          "sentences": [
+            "Only sparse patches of grass grew on the rocky hillside."
+          ]
+        }
+      ],
+      "jumbled": "ESSRAP"
+    },
+    {
+      "word": "Dreadful",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "terrible",
+            "awful",
+            "horrendous",
+            "appalling",
+            "atrocious"
+          ],
+          "antonyms": [
+            "wonderful",
+            "delightful",
+            "excellent"
+          ],
+          "sentences": [
+            "The weather was so dreadful that the picnic had to be cancelled."
+          ]
+        }
+      ],
+      "jumbled": "LUADRFED"
+    },
+    {
+      "word": "Vale",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "valley",
+            "dale",
+            "glen"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The little village nestled quietly in a green vale between two hills."
+          ]
+        }
+      ],
+      "jumbled": "AELV"
+    },
+    {
+      "word": "Headdress",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "headpiece",
+            "headgear",
+            "crown"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The dancer wore an elaborate feathered headdress for the festival."
+          ]
+        }
+      ],
+      "jumbled": "ERDHDSESA"
+    }
+  ]
+}

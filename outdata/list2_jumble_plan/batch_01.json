@@ -1,0 +1,706 @@
+{
+  "batch_id": "list2-batch01",
+  "words": [
+    {
+      "word": "Alleged",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "supposed",
+            "claimed",
+            "purported",
+            "reputed",
+            "so-called"
+          ],
+          "antonyms": [
+            "proven",
+            "confirmed",
+            "verified",
+            "established"
+          ],
+          "sentences": [
+            "The alleged thief was released because the police had no real evidence against him."
+          ]
+        }
+      ],
+      "jumbled": "LGAEEDL"
+    },
+    {
+      "word": "Contradict",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "deny",
+            "oppose",
+            "dispute",
+            "refute",
+            "counter"
+          ],
+          "antonyms": [
+            "confirm",
+            "agree",
+            "support",
+            "endorse"
+          ],
+          "sentences": [
+            "Her story seemed to contradict what the other witness had said.",
+            "The two newspaper reports contradicted each other on almost every detail."
+          ]
+        }
+      ],
+      "jumbled": "AOTCNCTDRI"
+    },
+    {
+      "word": "Decipher",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "decode",
+            "interpret",
+            "unravel",
+            "work out",
+            "translate"
+          ],
+          "antonyms": [
+            "encode",
+            "obscure",
+            "muddle"
+          ],
+          "sentences": [
+            "It took the historian weeks to decipher the ancient, faded handwriting."
+          ]
+        }
+      ],
+      "jumbled": "RHEDPEIC"
+    },
+    {
+      "word": "Dehumanise",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "degrade",
+            "demean",
+            "debase",
+            "brutalise",
+            "objectify"
+          ],
+          "antonyms": [
+            "humanise",
+            "dignify",
+            "respect",
+            "honour"
+          ],
+          "sentences": [
+            "The harsh prison conditions seemed designed to dehumanise the inmates."
+          ]
+        }
+      ],
+      "jumbled": "MSIEUHNEAD"
+    },
+    {
+      "word": "Demoralising",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "disheartening",
+            "discouraging",
+            "dispiriting",
+            "deflating",
+            "depressing"
+          ],
+          "antonyms": [
+            "encouraging",
+            "uplifting",
+            "inspiring",
+            "heartening"
+          ],
+          "sentences": [
+            "Losing every match of the season was demoralising for the young team.",
+            "It was demoralising to see how little effect all their hard work had had."
+          ]
+        }
+      ],
+      "jumbled": "GRDIIEANOLSM"
+    },
+    {
+      "word": "Eventually",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "finally",
+            "ultimately",
+            "in the end",
+            "at last",
+            "sooner or later"
+          ],
+          "antonyms": [
+            "immediately",
+            "instantly",
+            "never"
+          ],
+          "sentences": [
+            "After hours of searching, they eventually found the missing dog asleep under the porch."
+          ]
+        }
+      ],
+      "jumbled": "ALENULVYTE"
+    },
+    {
+      "word": "Obscure",
+      "dual_meaning": true,
+      "meanings": [
+        {
+          "label": "unclear",
+          "synonyms": [
+            "vague",
+            "ambiguous",
+            "cryptic",
+            "unfamiliar",
+            "little-known"
+          ],
+          "antonyms": [
+            "clear",
+            "obvious",
+            "well-known",
+            "famous",
+            "plain"
+          ],
+          "sentences": [
+            "The meaning of the old proverb was so obscure that nobody in class could explain it."
+          ]
+        },
+        {
+          "label": "to hide",
+          "synonyms": [
+            "conceal",
+            "mask",
+            "block",
+            "veil",
+            "shroud"
+          ],
+          "antonyms": [
+            "reveal",
+            "expose",
+            "uncover",
+            "display"
+          ],
+          "sentences": [
+            "Thick grey clouds began to obscure the mountain peak."
+          ]
+        }
+      ],
+      "jumbled": "BORUCES"
+    },
+    {
+      "word": "Phenomenal",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "remarkable",
+            "extraordinary",
+            "exceptional",
+            "outstanding",
+            "astonishing"
+          ],
+          "antonyms": [
+            "ordinary",
+            "unremarkable",
+            "mediocre",
+            "average"
+          ],
+          "sentences": [
+            "The gymnast's phenomenal performance earned her a perfect score."
+          ]
+        }
+      ],
+      "jumbled": "MNOPALENHE"
+    },
+    {
+      "word": "Scenic",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "picturesque",
+            "beautiful",
+            "panoramic",
+            "spectacular",
+            "attractive"
+          ],
+          "antonyms": [
+            "unattractive",
+            "ugly",
+            "drab",
+            "dull"
+          ],
+          "sentences": [
+            "We took the scenic route along the coast instead of the motorway."
+          ]
+        }
+      ],
+      "jumbled": "CSCEIN"
+    },
+    {
+      "word": "Tedious",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "boring",
+            "monotonous",
+            "dull",
+            "tiresome",
+            "wearisome"
+          ],
+          "antonyms": [
+            "exciting",
+            "interesting",
+            "engaging",
+            "thrilling"
+          ],
+          "sentences": [
+            "Copying out the whole textbook by hand was a tedious task."
+          ]
+        }
+      ],
+      "jumbled": "UTSDOEI"
+    },
+    {
+      "word": "Agitate",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "stir",
+            "shake",
+            "disturb",
+            "unsettle",
+            "trouble"
+          ],
+          "antonyms": [
+            "calm",
+            "soothe",
+            "settle",
+            "pacify"
+          ],
+          "sentences": [
+            "The strong wind began to agitate the surface of the lake."
+          ]
+        }
+      ],
+      "jumbled": "TAGEATI"
+    },
+    {
+      "word": "Exalted",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "elevated",
+            "lofty",
+            "noble",
+            "honoured",
+            "esteemed"
+          ],
+          "antonyms": [
+            "lowly",
+            "humble",
+            "base",
+            "degraded"
+          ],
+          "sentences": [
+            "As headteacher, she held an exalted position within the school."
+          ]
+        }
+      ],
+      "jumbled": "TXDELEA"
+    },
+    {
+      "word": "Ecstatic",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "overjoyed",
+            "elated",
+            "thrilled",
+            "delighted",
+            "euphoric"
+          ],
+          "antonyms": [
+            "miserable",
+            "devastated",
+            "dejected",
+            "unhappy"
+          ],
+          "sentences": [
+            "The fans were ecstatic when their team scored in the final minute."
+          ]
+        }
+      ],
+      "jumbled": "ACIETCST"
+    },
+    {
+      "word": "Conscript",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "recruit",
+            "enlist",
+            "enrol",
+            "call up",
+            "draft"
+          ],
+          "antonyms": [
+            "volunteer",
+            "discharge",
+            "exempt"
+          ],
+          "sentences": [
+            "During the war, every eighteen-year-old man was liable to be conscripted into the army."
+          ]
+        }
+      ],
+      "jumbled": "STICOPNRC"
+    },
+    {
+      "word": "Decant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "pour",
+            "transfer",
+            "tip",
+            "siphon",
+            "empty out"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The waiter carefully decanted the red wine into a glass jug before serving it."
+          ]
+        }
+      ],
+      "jumbled": "ETANDC"
+    },
+    {
+      "word": "Petulant",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "sulky",
+            "irritable",
+            "peevish",
+            "cross",
+            "childish"
+          ],
+          "antonyms": [
+            "good-natured",
+            "patient",
+            "amiable",
+            "easy-going"
+          ],
+          "sentences": [
+            "The petulant toddler threw his toys across the room when told it was bedtime."
+          ]
+        }
+      ],
+      "jumbled": "TLETNPAU"
+    },
+    {
+      "word": "Fractious",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "irritable",
+            "quarrelsome",
+            "cranky",
+            "bad-tempered",
+            "unruly"
+          ],
+          "antonyms": [
+            "calm",
+            "agreeable",
+            "easy-going",
+            "placid"
+          ],
+          "sentences": [
+            "The fractious committee meeting ended with members refusing to speak to one another."
+          ]
+        }
+      ],
+      "jumbled": "RSOTUAICF"
+    },
+    {
+      "word": "Besotted",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "infatuated",
+            "smitten",
+            "enamoured",
+            "devoted",
+            "obsessed"
+          ],
+          "antonyms": [
+            "indifferent",
+            "unmoved",
+            "disenchanted"
+          ],
+          "sentences": [
+            "He was so besotted with his new puppy that he carried a photograph of it everywhere."
+          ]
+        }
+      ],
+      "jumbled": "EDESTOTB"
+    },
+    {
+      "word": "Deem",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "consider",
+            "judge",
+            "regard",
+            "believe",
+            "view"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "The referee deemed the tackle too dangerous and awarded a penalty."
+          ]
+        }
+      ],
+      "jumbled": "MDEE"
+    },
+    {
+      "word": "Diminishing",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "decreasing",
+            "dwindling",
+            "shrinking",
+            "lessening",
+            "declining"
+          ],
+          "antonyms": [
+            "increasing",
+            "growing",
+            "expanding",
+            "rising"
+          ],
+          "sentences": [
+            "With diminishing daylight each evening, they knew winter was approaching."
+          ]
+        }
+      ],
+      "jumbled": "GDINNIIHSIM"
+    },
+    {
+      "word": "Precarious",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "unstable",
+            "risky",
+            "unsafe",
+            "shaky",
+            "insecure"
+          ],
+          "antonyms": [
+            "stable",
+            "secure",
+            "safe",
+            "steady"
+          ],
+          "sentences": [
+            "The climber balanced in a precarious position on the narrow ledge.",
+            "The company's finances were left in a precarious state after the factory closed."
+          ]
+        }
+      ],
+      "jumbled": "RUOSEICPAR"
+    },
+    {
+      "word": "Fanatical",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "zealous",
+            "obsessive",
+            "extreme",
+            "fervent",
+            "passionate"
+          ],
+          "antonyms": [
+            "indifferent",
+            "apathetic",
+            "moderate"
+          ],
+          "sentences": [
+            "He was fanatical about football, never missing a single match."
+          ]
+        }
+      ],
+      "jumbled": "ACNATIFLA"
+    },
+    {
+      "word": "Vengeance",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "revenge",
+            "retaliation",
+            "retribution",
+            "vindictiveness",
+            "reprisal"
+          ],
+          "antonyms": [
+            "forgiveness",
+            "mercy",
+            "pardon"
+          ],
+          "sentences": [
+            "The wronged knight swore vengeance on the men who had destroyed his village."
+          ]
+        }
+      ],
+      "jumbled": "CEVGENAEN"
+    },
+    {
+      "word": "Glide",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "slide",
+            "drift",
+            "float",
+            "sail",
+            "soar"
+          ],
+          "antonyms": [
+            "stumble",
+            "crash",
+            "plummet"
+          ],
+          "sentences": [
+            "The swan seemed to glide effortlessly across the still lake."
+          ]
+        }
+      ],
+      "jumbled": "EDGIL"
+    },
+    {
+      "word": "Wharves",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "docks",
+            "piers",
+            "quays",
+            "jetties",
+            "landings"
+          ],
+          "antonyms": [],
+          "sentences": [
+            "Ships unloaded their cargo along the busy wharves of the old harbour."
+          ]
+        }
+      ],
+      "jumbled": "ERSWHVA"
+    },
+    {
+      "word": "Shrieking",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "screaming",
+            "screeching",
+            "yelling",
+            "wailing",
+            "howling"
+          ],
+          "antonyms": [
+            "whispering",
+            "murmuring"
+          ],
+          "sentences": [
+            "The children came shrieking with delight down the water slide."
+          ]
+        }
+      ],
+      "jumbled": "IENKSIGHR"
+    },
+    {
+      "word": "Guile",
+      "dual_meaning": false,
+      "meanings": [
+        {
+          "label": "",
+          "synonyms": [
+            "cunning",
+            "deceit",
+            "trickery",
+            "craftiness",
+            "artfulness"
+          ],
+          "antonyms": [
+            "honesty",
+            "openness",
+            "sincerity",
+            "frankness"
+          ],
+          "sentences": [
+            "The fox used guile rather than speed to catch the unsuspecting hen."
+          ]
+        }
+      ],
+      "jumbled": "LIEUG"
+    }
+  ]
+}
